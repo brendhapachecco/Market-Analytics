@@ -1,0 +1,618 @@
+posting_id,source,source_url,job_title,job_title_standardized,professional_area,company,city,region,experience_level,work_mode,salary_min,salary_max,salary_disclosed,posted_date,collected_date
+1,SEPE,https://example-sepe.es/oferta/1,Data Scientist,Data Scientist,Dados,Telefónica,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,56000.0,58000.0,True,2026-03-27,2026-04-01
+2,SEPE,https://example-sepe.es/oferta/2,Data Analyst,Data Analyst,Dados,Indra,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-07-18,2026-07-21
+3,EURES,https://example-eures.es/oferta/3,Backend Developer,Backend Developer,Engenharia de Software,Zara (Inditex),Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,44000.0,52000.0,True,2026-06-06,2026-06-06
+4,EURES,https://example-eures.es/oferta/4,Científico de Datos,Data Scientist,Dados,NTT Data,Barcelona,Cataluña,3-5 años,Híbrido,27000.0,34000.0,True,2026-08-17,2026-08-18
+5,EURES,https://example-eures.es/oferta/5,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Zara (Inditex),Madrid,Comunidad de Madrid,5+ años,Híbrido,32000.0,39000.0,True,2026-08-13,2026-08-13
+6,EURES,https://example-eures.es/oferta/6,Data Analyst,Data Analyst,Dados,Startup Local S.L.,Valencia,Comunidad Valenciana,3-5 años,Presencial,,,False,2026-05-20,2026-05-23
+7,SEPE,https://example-sepe.es/oferta/7,DevOps Engineer,DevOps Engineer,Engenharia de Software,Startup Local S.L.,Barcelona,Cataluña,5+ años,Híbrido,,,False,2026-07-22,2026-07-26
+8,SEPE,https://example-sepe.es/oferta/8,Data Engineer,Data Engineer,Dados,NTT Data,A Coruna,Galicia,5+ años,Remoto,49000.0,51000.0,True,2026-08-08,2026-08-09
+9,SEPE,https://example-sepe.es/oferta/9,Software Engineer,Software Engineer,Engenharia de Software,Seat,A Coruna,Galicia,5+ años,Presencial,,,False,2026-08-12,2026-08-14
+10,EURES,https://example-eures.es/oferta/10,Backend Developer,Backend Developer,Engenharia de Software,Factorial,A Coruna,Galicia,Sin experiencia,Remoto,31000.0,42000.0,True,2026-08-11,2026-08-15
+11,SEPE,https://example-sepe.es/oferta/11,Ingeniero de Software,Software Engineer,Engenharia de Software,BBVA,Barcelona,Cataluña,1-2 años,Presencial,,,False,2026-07-24,2026-07-24
+12,SEPE,https://example-sepe.es/oferta/12,Backend Developer,Backend Developer,Engenharia de Software,Typeform,A Coruna,Galicia,5+ años,Presencial,47000.0,58000.0,True,2026-08-24,2026-08-25
+13,EURES,https://example-eures.es/oferta/13,Científico de Datos,Data Scientist,Dados,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-04-28,2026-05-02
+14,SEPE,https://example-sepe.es/oferta/14,Analista de Datos,Data Analyst,Dados,Glovo,Malaga,Andalucía,5+ años,Híbrido,,,False,2026-04-24,2026-04-28
+15,EURES,https://example-eures.es/oferta/15,BI Analyst,BI Analyst,Dados,NTT Data,Madrid,Comunidad de Madrid,3-5 años,Presencial,63000.0,66000.0,True,2026-03-14,2026-03-19
+16,EURES,https://example-eures.es/oferta/16,Machine Learning Engineer,Machine Learning Engineer,Dados,Factorial,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,57000.0,60000.0,True,2026-05-03,2026-05-03
+17,SEPE,https://example-sepe.es/oferta/17,Analista BI,BI Analyst,Dados,Everis,Madrid,Comunidad de Madrid,5+ años,Presencial,38000.0,52000.0,True,2026-06-06,2026-06-06
+18,EURES,https://example-eures.es/oferta/18,Data Analyst,Data Analyst,Dados,Typeform,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,54000.0,59000.0,True,2026-03-15,2026-03-15
+19,SEPE,https://example-sepe.es/oferta/19,Ingeniero de Datos,Data Engineer,Dados,Cabify,Barcelona,Cataluña,1-2 años,Remoto,,,False,2026-03-11,2026-03-15
+20,EURES,https://example-eures.es/oferta/20,Full Stack Developer,Full Stack Developer,Engenharia de Software,Factorial,Madrid,Comunidad de Madrid,1-2 años,Remoto,58000.0,61000.0,True,2026-03-19,2026-03-19
+21,EURES,https://example-eures.es/oferta/21,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Factorial,Madrid,Comunidad de Madrid,3-5 años,Remoto,56000.0,65000.0,True,2026-05-12,2026-05-13
+22,EURES,https://example-eures.es/oferta/22,Data Engineer,Data Engineer,Dados,Iberdrola,A Coruna,Galicia,1-2 años,Remoto,,,False,2026-04-09,2026-04-11
+23,SEPE,https://example-sepe.es/oferta/23,Frontend Developer,Frontend Developer,Engenharia de Software,Amadeus,Barcelona,Cataluña,3-5 años,Presencial,,,False,2026-06-17,2026-06-19
+24,SEPE,https://example-sepe.es/oferta/24,Full Stack Developer,Full Stack Developer,Engenharia de Software,Amadeus,Barcelona,Cataluña,Sin experiencia,Híbrido,45000.0,49000.0,True,2026-08-24,2026-08-25
+25,EURES,https://example-eures.es/oferta/25,Software Engineer,Software Engineer,Engenharia de Software,Seat,Malaga,Andalucía,1-2 años,Híbrido,48000.0,52000.0,True,2026-03-27,2026-03-29
+26,EURES,https://example-eures.es/oferta/26,Científico de Datos,Data Scientist,Dados,Wallapop,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-04-10,2026-04-15
+27,EURES,https://example-eures.es/oferta/27,Desarrollador Backend,Backend Developer,Engenharia de Software,Cabify,Madrid,Comunidad de Madrid,3-5 años,Remoto,,,False,2026-06-11,2026-06-13
+28,SEPE,https://example-sepe.es/oferta/28,QA Engineer,QA Engineer,Engenharia de Software,Accenture España,Barcelona,Cataluña,3-5 años,Híbrido,,,False,2026-07-27,2026-07-29
+29,SEPE,https://example-sepe.es/oferta/29,Ingeniero de Datos,Data Engineer,Dados,Everis,Barcelona,Cataluña,Sin experiencia,Remoto,64000.0,70000.0,True,2026-07-12,2026-07-16
+30,EURES,https://example-eures.es/oferta/30,Ingeniero de Software,Software Engineer,Engenharia de Software,Mango,Barcelona,Cataluña,5+ años,Remoto,,,False,2026-06-12,2026-06-17
+31,SEPE,https://example-sepe.es/oferta/31,Backend Developer,Backend Developer,Engenharia de Software,Zara (Inditex),Barcelona,Cataluña,5+ años,Híbrido,,,False,2026-05-17,2026-05-19
+32,SEPE,https://example-sepe.es/oferta/32,Data Engineer,Data Engineer,Dados,Glovo,Barcelona,Cataluña,1-2 años,Presencial,27000.0,34000.0,True,2026-08-17,2026-08-22
+33,SEPE,https://example-sepe.es/oferta/33,Analista BI,BI Analyst,Dados,Wallapop,Madrid,Comunidad de Madrid,5+ años,Presencial,,,False,2026-08-09,2026-08-13
+34,EURES,https://example-eures.es/oferta/34,Data Analyst,Data Analyst,Dados,Factorial,Barcelona,Cataluña,1-2 años,Presencial,55000.0,69000.0,True,2026-04-26,2026-04-27
+35,EURES,https://example-eures.es/oferta/35,DevOps Engineer,DevOps Engineer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,5+ años,Híbrido,57000.0,71000.0,True,2026-07-08,2026-07-11
+36,SEPE,https://example-sepe.es/oferta/36,Data Scientist,Data Scientist,Dados,Iberdrola,Malaga,Andalucía,Sin experiencia,Presencial,,,False,2026-08-30,2026-09-01
+37,SEPE,https://example-sepe.es/oferta/37,Data Engineer,Data Engineer,Dados,NTT Data,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,25000.0,31000.0,True,2026-05-24,2026-05-28
+38,SEPE,https://example-sepe.es/oferta/38,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Glovo,Barcelona,Cataluña,3-5 años,Híbrido,60000.0,67000.0,True,2026-07-16,2026-07-21
+39,EURES,https://example-eures.es/oferta/39,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Everis,Madrid,Comunidad de Madrid,1-2 años,Híbrido,59000.0,59000.0,True,2026-07-15,2026-07-15
+40,EURES,https://example-eures.es/oferta/40,BI Analyst,BI Analyst,Dados,Wallapop,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,48000.0,56000.0,True,2026-06-06,2026-06-08
+41,EURES,https://example-eures.es/oferta/41,Científico de Datos,Data Scientist,Dados,Amadeus,A Coruna,Galicia,1-2 años,Presencial,37000.0,43000.0,True,2026-08-14,2026-08-14
+42,SEPE,https://example-sepe.es/oferta/42,Ingeniero QA,QA Engineer,Engenharia de Software,CaixaBank,Barcelona,Cataluña,Sin experiencia,Híbrido,29000.0,34000.0,True,2026-06-03,2026-06-04
+43,EURES,https://example-eures.es/oferta/43,Desarrollador Backend,Backend Developer,Engenharia de Software,Accenture España,Barcelona,Cataluña,5+ años,Remoto,60000.0,63000.0,True,2026-08-26,2026-08-28
+44,EURES,https://example-eures.es/oferta/44,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Everis,Madrid,Comunidad de Madrid,1-2 años,Remoto,45000.0,59000.0,True,2026-07-04,2026-07-04
+45,SEPE,https://example-sepe.es/oferta/45,QA Engineer,QA Engineer,Engenharia de Software,Glovo,Barcelona,Cataluña,5+ años,Remoto,27000.0,35000.0,True,2026-05-08,2026-05-10
+46,SEPE,https://example-sepe.es/oferta/46,DevOps Engineer,DevOps Engineer,Engenharia de Software,Factorial,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,,,False,2026-05-06,2026-05-08
+47,SEPE,https://example-sepe.es/oferta/47,BI Analyst,BI Analyst,Dados,Glovo,Madrid,Comunidad de Madrid,5+ años,Remoto,23000.0,25000.0,True,2026-08-13,2026-08-18
+48,SEPE,https://example-sepe.es/oferta/48,Científico de Datos,Data Scientist,Dados,Glovo,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,39000.0,48000.0,True,2026-05-24,2026-05-26
+49,EURES,https://example-eures.es/oferta/49,Machine Learning Engineer,Machine Learning Engineer,Dados,Mango,Madrid,Comunidad de Madrid,3-5 años,Presencial,55000.0,64000.0,True,2026-07-02,2026-07-04
+50,EURES,https://example-eures.es/oferta/50,Software Engineer,Software Engineer,Engenharia de Software,Indra,Madrid,Comunidad de Madrid,3-5 años,Híbrido,30000.0,45000.0,True,2026-07-20,2026-07-22
+51,EURES,https://example-eures.es/oferta/51,Backend Developer,Backend Developer,Engenharia de Software,Startup Local S.L.,Barcelona,Cataluña,Sin experiencia,Presencial,47000.0,62000.0,True,2026-07-01,2026-07-01
+52,SEPE,https://example-sepe.es/oferta/52,Data Scientist,Data Scientist,Dados,Zara (Inditex),Valencia,Comunidad Valenciana,5+ años,Híbrido,61000.0,68000.0,True,2026-07-21,2026-07-24
+53,EURES,https://example-eures.es/oferta/53,Ingeniero QA,QA Engineer,Engenharia de Software,Seat,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-04-23,2026-04-28
+54,EURES,https://example-eures.es/oferta/54,BI Analyst,BI Analyst,Dados,Cabify,Madrid,Comunidad de Madrid,1-2 años,Híbrido,51000.0,53000.0,True,2026-04-29,2026-05-01
+55,SEPE,https://example-sepe.es/oferta/55,Data Engineer,Data Engineer,Dados,CaixaBank,Barcelona,Cataluña,5+ años,Remoto,58000.0,67000.0,True,2026-04-12,2026-04-14
+56,EURES,https://example-eures.es/oferta/56,Frontend Developer,Frontend Developer,Engenharia de Software,Glovo,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,,,False,2026-05-22,2026-05-26
+57,SEPE,https://example-sepe.es/oferta/57,Backend Developer,Backend Developer,Engenharia de Software,Everis,Barcelona,Cataluña,3-5 años,Híbrido,27000.0,42000.0,True,2026-06-20,2026-06-25
+58,SEPE,https://example-sepe.es/oferta/58,Científico de Datos,Data Scientist,Dados,CaixaBank,Malaga,Andalucía,5+ años,Remoto,42000.0,50000.0,True,2026-07-19,2026-07-19
+59,SEPE,https://example-sepe.es/oferta/59,Machine Learning Engineer,Machine Learning Engineer,Dados,Factorial,Barcelona,Cataluña,1-2 años,Híbrido,25000.0,31000.0,True,2026-08-07,2026-08-10
+60,SEPE,https://example-sepe.es/oferta/60,DevOps Engineer,DevOps Engineer,Engenharia de Software,BBVA,Malaga,Andalucía,1-2 años,Presencial,41000.0,41000.0,True,2026-08-03,2026-08-04
+61,EURES,https://example-eures.es/oferta/61,Backend Developer,Backend Developer,Engenharia de Software,NTT Data,A Coruna,Galicia,1-2 años,Remoto,,,False,2026-07-02,2026-07-05
+62,SEPE,https://example-sepe.es/oferta/62,Data Scientist,Data Scientist,Dados,Amadeus,Malaga,Andalucía,5+ años,Remoto,,,False,2026-05-12,2026-05-17
+63,SEPE,https://example-sepe.es/oferta/63,QA Engineer,QA Engineer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,5+ años,Híbrido,48000.0,49000.0,True,2026-05-01,2026-05-05
+64,SEPE,https://example-sepe.es/oferta/64,Data Analyst,Data Analyst,Dados,Indra,Barcelona,Cataluña,1-2 años,Híbrido,,,False,2026-03-26,2026-03-29
+65,SEPE,https://example-sepe.es/oferta/65,Data Scientist,Data Scientist,Dados,Wallapop,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,56000.0,68000.0,True,2026-03-21,2026-03-23
+66,EURES,https://example-eures.es/oferta/66,Data Scientist,Data Scientist,Dados,Naturgy,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,28000.0,42000.0,True,2026-03-26,2026-03-31
+67,EURES,https://example-eures.es/oferta/67,Frontend Developer,Frontend Developer,Engenharia de Software,BBVA,Valencia,Comunidad Valenciana,5+ años,Remoto,33000.0,38000.0,True,2026-07-14,2026-07-17
+68,EURES,https://example-eures.es/oferta/68,Data Engineer,Data Engineer,Dados,BBVA,Barcelona,Cataluña,5+ años,Híbrido,51000.0,60000.0,True,2026-06-26,2026-06-28
+69,SEPE,https://example-sepe.es/oferta/69,Full Stack Developer,Full Stack Developer,Engenharia de Software,Startup Local S.L.,Barcelona,Cataluña,3-5 años,Remoto,,,False,2026-06-07,2026-06-10
+70,SEPE,https://example-sepe.es/oferta/70,Frontend Developer,Frontend Developer,Engenharia de Software,Glovo,A Coruna,Galicia,3-5 años,Presencial,25000.0,40000.0,True,2026-03-03,2026-03-07
+71,SEPE,https://example-sepe.es/oferta/71,Data Engineer,Data Engineer,Dados,Amadeus,Barcelona,Cataluña,Sin experiencia,Híbrido,50000.0,51000.0,True,2026-08-13,2026-08-13
+72,SEPE,https://example-sepe.es/oferta/72,Backend Developer,Backend Developer,Engenharia de Software,Wallapop,Valencia,Comunidad Valenciana,3-5 años,Remoto,39000.0,44000.0,True,2026-06-02,2026-06-06
+73,EURES,https://example-eures.es/oferta/73,DevOps Engineer,DevOps Engineer,Engenharia de Software,NTT Data,Valencia,Comunidad Valenciana,Sin experiencia,Híbrido,47000.0,58000.0,True,2026-04-27,2026-05-02
+74,SEPE,https://example-sepe.es/oferta/74,Data Scientist,Data Scientist,Dados,Glovo,Barcelona,Cataluña,Sin experiencia,Remoto,,,False,2026-04-29,2026-05-02
+75,EURES,https://example-eures.es/oferta/75,Frontend Developer,Frontend Developer,Engenharia de Software,NTT Data,Malaga,Andalucía,5+ años,Híbrido,,,False,2026-07-05,2026-07-05
+76,SEPE,https://example-sepe.es/oferta/76,Backend Developer,Backend Developer,Engenharia de Software,Glovo,Barcelona,Cataluña,3-5 años,Presencial,35000.0,49000.0,True,2026-05-11,2026-05-11
+77,EURES,https://example-eures.es/oferta/77,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Indra,Barcelona,Cataluña,Sin experiencia,Híbrido,51000.0,53000.0,True,2026-04-18,2026-04-18
+78,EURES,https://example-eures.es/oferta/78,Ingeniero de Datos,Data Engineer,Dados,Indra,A Coruna,Galicia,3-5 años,Presencial,36000.0,46000.0,True,2026-07-20,2026-07-21
+79,EURES,https://example-eures.es/oferta/79,Data Engineer,Data Engineer,Dados,Startup Local S.L.,Barcelona,Cataluña,3-5 años,Presencial,,,False,2026-03-07,2026-03-08
+80,EURES,https://example-eures.es/oferta/80,Data Engineer,Data Engineer,Dados,Telefónica,Madrid,Comunidad de Madrid,3-5 años,Híbrido,28000.0,42000.0,True,2026-06-23,2026-06-25
+81,EURES,https://example-eures.es/oferta/81,Analista BI,BI Analyst,Dados,Cabify,Madrid,Comunidad de Madrid,3-5 años,Híbrido,31000.0,33000.0,True,2026-03-19,2026-03-19
+82,SEPE,https://example-sepe.es/oferta/82,Ingeniero QA,QA Engineer,Engenharia de Software,Glovo,Barcelona,Cataluña,5+ años,Híbrido,35000.0,48000.0,True,2026-08-14,2026-08-18
+83,EURES,https://example-eures.es/oferta/83,Ingeniero de Software,Software Engineer,Engenharia de Software,BBVA,Barcelona,Cataluña,Sin experiencia,Híbrido,52000.0,54000.0,True,2026-06-04,2026-06-05
+84,SEPE,https://example-sepe.es/oferta/84,Científico de Datos,Data Scientist,Dados,Everis,Valencia,Comunidad Valenciana,Sin experiencia,Híbrido,29000.0,42000.0,True,2026-07-22,2026-07-26
+85,EURES,https://example-eures.es/oferta/85,Ingeniero QA,QA Engineer,Engenharia de Software,Cabify,Madrid,Comunidad de Madrid,1-2 años,Híbrido,57000.0,68000.0,True,2026-04-27,2026-04-27
+86,EURES,https://example-eures.es/oferta/86,Data Scientist,Data Scientist,Dados,Amadeus,Barcelona,Cataluña,5+ años,Presencial,44000.0,44000.0,True,2026-08-27,2026-08-29
+87,SEPE,https://example-sepe.es/oferta/87,Data Analyst,Data Analyst,Dados,Naturgy,Valencia,Comunidad Valenciana,3-5 años,Remoto,43000.0,48000.0,True,2026-04-25,2026-04-28
+88,SEPE,https://example-sepe.es/oferta/88,Data Engineer,Data Engineer,Dados,Wallapop,Malaga,Andalucía,5+ años,Híbrido,,,False,2026-08-20,2026-08-20
+89,SEPE,https://example-sepe.es/oferta/89,QA Engineer,QA Engineer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Híbrido,59000.0,74000.0,True,2026-03-29,2026-03-31
+90,SEPE,https://example-sepe.es/oferta/90,Data Scientist,Data Scientist,Dados,Seat,Madrid,Comunidad de Madrid,1-2 años,Híbrido,22000.0,37000.0,True,2026-05-05,2026-05-07
+91,EURES,https://example-eures.es/oferta/91,Científico de Datos,Data Scientist,Dados,Iberdrola,Barcelona,Cataluña,5+ años,Remoto,,,False,2026-03-11,2026-03-14
+92,SEPE,https://example-sepe.es/oferta/92,Full Stack Developer,Full Stack Developer,Engenharia de Software,CaixaBank,Valencia,Comunidad Valenciana,1-2 años,Híbrido,45000.0,47000.0,True,2026-04-13,2026-04-17
+93,SEPE,https://example-sepe.es/oferta/93,Full Stack Developer,Full Stack Developer,Engenharia de Software,Accenture España,Barcelona,Cataluña,1-2 años,Presencial,29000.0,35000.0,True,2026-04-13,2026-04-13
+94,SEPE,https://example-sepe.es/oferta/94,Ingeniero de Datos,Data Engineer,Dados,Zara (Inditex),Madrid,Comunidad de Madrid,5+ años,Remoto,,,False,2026-08-15,2026-08-15
+95,SEPE,https://example-sepe.es/oferta/95,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Typeform,Malaga,Andalucía,Sin experiencia,Híbrido,39000.0,40000.0,True,2026-06-22,2026-06-27
+96,SEPE,https://example-sepe.es/oferta/96,Software Engineer,Software Engineer,Engenharia de Software,Startup Local S.L.,Barcelona,Cataluña,1-2 años,Híbrido,51000.0,52000.0,True,2026-08-05,2026-08-09
+97,SEPE,https://example-sepe.es/oferta/97,Software Engineer,Software Engineer,Engenharia de Software,Zara (Inditex),Barcelona,Cataluña,1-2 años,Híbrido,24000.0,31000.0,True,2026-03-22,2026-03-26
+98,EURES,https://example-eures.es/oferta/98,Full Stack Developer,Full Stack Developer,Engenharia de Software,Factorial,Malaga,Andalucía,5+ años,Híbrido,,,False,2026-08-13,2026-08-15
+99,EURES,https://example-eures.es/oferta/99,Ingeniero QA,QA Engineer,Engenharia de Software,BBVA,Valencia,Comunidad Valenciana,3-5 años,Remoto,41000.0,53000.0,True,2026-08-17,2026-08-18
+100,EURES,https://example-eures.es/oferta/100,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Mango,Barcelona,Cataluña,3-5 años,Híbrido,45000.0,54000.0,True,2026-06-17,2026-06-21
+101,SEPE,https://example-sepe.es/oferta/101,Data Engineer,Data Engineer,Dados,Amadeus,Madrid,Comunidad de Madrid,5+ años,Presencial,55000.0,56000.0,True,2026-03-26,2026-03-30
+102,SEPE,https://example-sepe.es/oferta/102,Data Engineer,Data Engineer,Dados,Glovo,Madrid,Comunidad de Madrid,1-2 años,Híbrido,,,False,2026-06-22,2026-06-26
+103,EURES,https://example-eures.es/oferta/103,Desarrollador Backend,Backend Developer,Engenharia de Software,Cabify,Malaga,Andalucía,Sin experiencia,Remoto,32000.0,38000.0,True,2026-06-06,2026-06-10
+104,EURES,https://example-eures.es/oferta/104,QA Engineer,QA Engineer,Engenharia de Software,Everis,Malaga,Andalucía,Sin experiencia,Presencial,,,False,2026-03-22,2026-03-23
+105,EURES,https://example-eures.es/oferta/105,Software Engineer,Software Engineer,Engenharia de Software,Iberdrola,Malaga,Andalucía,1-2 años,Presencial,23000.0,33000.0,True,2026-06-07,2026-06-07
+106,EURES,https://example-eures.es/oferta/106,Analista BI,BI Analyst,Dados,Indra,Madrid,Comunidad de Madrid,3-5 años,Presencial,,,False,2026-06-23,2026-06-27
+107,SEPE,https://example-sepe.es/oferta/107,Machine Learning Engineer,Machine Learning Engineer,Dados,BBVA,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-04-01,2026-04-01
+108,SEPE,https://example-sepe.es/oferta/108,Ingeniero de Datos,Data Engineer,Dados,Seat,Barcelona,Cataluña,Sin experiencia,Remoto,,,False,2026-08-05,2026-08-07
+109,EURES,https://example-eures.es/oferta/109,QA Engineer,QA Engineer,Engenharia de Software,Accenture España,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,45000.0,53000.0,True,2026-06-29,2026-06-29
+110,SEPE,https://example-sepe.es/oferta/110,Analista de Datos,Data Analyst,Dados,Wallapop,Valencia,Comunidad Valenciana,1-2 años,Presencial,,,False,2026-05-26,2026-05-31
+111,SEPE,https://example-sepe.es/oferta/111,Analista BI,BI Analyst,Dados,Factorial,Valencia,Comunidad Valenciana,5+ años,Híbrido,42000.0,51000.0,True,2026-03-12,2026-03-13
+112,SEPE,https://example-sepe.es/oferta/112,Ingeniero de Datos,Data Engineer,Dados,Everis,Valencia,Comunidad Valenciana,5+ años,Remoto,,,False,2026-08-15,2026-08-17
+113,EURES,https://example-eures.es/oferta/113,Full Stack Developer,Full Stack Developer,Engenharia de Software,Everis,Malaga,Andalucía,Sin experiencia,Híbrido,,,False,2026-06-03,2026-06-07
+114,EURES,https://example-eures.es/oferta/114,Científico de Datos,Data Scientist,Dados,Zara (Inditex),Barcelona,Cataluña,3-5 años,Híbrido,60000.0,73000.0,True,2026-08-17,2026-08-19
+115,EURES,https://example-eures.es/oferta/115,Científico de Datos,Data Scientist,Dados,Amadeus,Valencia,Comunidad Valenciana,5+ años,Presencial,54000.0,59000.0,True,2026-08-19,2026-08-24
+116,SEPE,https://example-sepe.es/oferta/116,Científico de Datos,Data Scientist,Dados,BBVA,Madrid,Comunidad de Madrid,1-2 años,Remoto,45000.0,56000.0,True,2026-04-09,2026-04-14
+117,SEPE,https://example-sepe.es/oferta/117,Frontend Developer,Frontend Developer,Engenharia de Software,Cabify,Barcelona,Cataluña,5+ años,Presencial,57000.0,60000.0,True,2026-04-17,2026-04-20
+118,SEPE,https://example-sepe.es/oferta/118,DevOps Engineer,DevOps Engineer,Engenharia de Software,BBVA,Valencia,Comunidad Valenciana,3-5 años,Remoto,,,False,2026-03-19,2026-03-22
+119,EURES,https://example-eures.es/oferta/119,QA Engineer,QA Engineer,Engenharia de Software,Mango,Valencia,Comunidad Valenciana,1-2 años,Presencial,45000.0,52000.0,True,2026-08-29,2026-09-03
+120,SEPE,https://example-sepe.es/oferta/120,QA Engineer,QA Engineer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,5+ años,Híbrido,,,False,2026-08-04,2026-08-04
+121,EURES,https://example-eures.es/oferta/121,Científico de Datos,Data Scientist,Dados,Everis,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,57000.0,62000.0,True,2026-08-22,2026-08-26
+122,SEPE,https://example-sepe.es/oferta/122,Data Engineer,Data Engineer,Dados,Amadeus,Madrid,Comunidad de Madrid,3-5 años,Remoto,38000.0,44000.0,True,2026-07-11,2026-07-13
+123,EURES,https://example-eures.es/oferta/123,Data Engineer,Data Engineer,Dados,BBVA,Barcelona,Cataluña,Sin experiencia,Remoto,58000.0,59000.0,True,2026-08-02,2026-08-04
+124,SEPE,https://example-sepe.es/oferta/124,Ingeniero QA,QA Engineer,Engenharia de Software,Zara (Inditex),Barcelona,Cataluña,Sin experiencia,Remoto,65000.0,77000.0,True,2026-08-12,2026-08-14
+125,EURES,https://example-eures.es/oferta/125,BI Analyst,BI Analyst,Dados,Accenture España,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,44000.0,56000.0,True,2026-05-20,2026-05-25
+126,SEPE,https://example-sepe.es/oferta/126,Data Scientist,Data Scientist,Dados,Mango,Barcelona,Cataluña,1-2 años,Híbrido,32000.0,42000.0,True,2026-06-07,2026-06-11
+127,SEPE,https://example-sepe.es/oferta/127,Frontend Developer,Frontend Developer,Engenharia de Software,Wallapop,Barcelona,Cataluña,5+ años,Híbrido,25000.0,26000.0,True,2026-05-01,2026-05-02
+128,EURES,https://example-eures.es/oferta/128,BI Analyst,BI Analyst,Dados,Accenture España,Malaga,Andalucía,3-5 años,Presencial,47000.0,48000.0,True,2026-06-02,2026-06-05
+129,EURES,https://example-eures.es/oferta/129,QA Engineer,QA Engineer,Engenharia de Software,Typeform,Barcelona,Cataluña,5+ años,Remoto,45000.0,49000.0,True,2026-06-04,2026-06-06
+130,SEPE,https://example-sepe.es/oferta/130,Data Engineer,Data Engineer,Dados,Seat,Madrid,Comunidad de Madrid,5+ años,Remoto,30000.0,40000.0,True,2026-04-08,2026-04-12
+131,SEPE,https://example-sepe.es/oferta/131,QA Engineer,QA Engineer,Engenharia de Software,Startup Local S.L.,Barcelona,Cataluña,3-5 años,Remoto,,,False,2026-05-24,2026-05-29
+132,EURES,https://example-eures.es/oferta/132,Data Scientist,Data Scientist,Dados,Glovo,Barcelona,Cataluña,Sin experiencia,Remoto,61000.0,73000.0,True,2026-07-01,2026-07-02
+133,EURES,https://example-eures.es/oferta/133,Analista BI,BI Analyst,Dados,Amadeus,Madrid,Comunidad de Madrid,1-2 años,Remoto,61000.0,76000.0,True,2026-04-22,2026-04-25
+134,SEPE,https://example-sepe.es/oferta/134,DevOps Engineer,DevOps Engineer,Engenharia de Software,Mango,A Coruna,Galicia,1-2 años,Híbrido,65000.0,73000.0,True,2026-07-18,2026-07-20
+135,EURES,https://example-eures.es/oferta/135,Frontend Developer,Frontend Developer,Engenharia de Software,Startup Local S.L.,Madrid,Comunidad de Madrid,5+ años,Híbrido,39000.0,48000.0,True,2026-05-21,2026-05-24
+136,EURES,https://example-eures.es/oferta/136,Backend Developer,Backend Developer,Engenharia de Software,Factorial,A Coruna,Galicia,3-5 años,Remoto,52000.0,58000.0,True,2026-05-28,2026-05-31
+137,SEPE,https://example-sepe.es/oferta/137,Ingeniero QA,QA Engineer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,5+ años,Presencial,25000.0,28000.0,True,2026-07-14,2026-07-15
+138,SEPE,https://example-sepe.es/oferta/138,Machine Learning Engineer,Machine Learning Engineer,Dados,Iberdrola,Madrid,Comunidad de Madrid,3-5 años,Remoto,,,False,2026-07-01,2026-07-06
+139,SEPE,https://example-sepe.es/oferta/139,Analista de Datos,Data Analyst,Dados,Wallapop,Malaga,Andalucía,1-2 años,Remoto,33000.0,34000.0,True,2026-03-10,2026-03-11
+140,SEPE,https://example-sepe.es/oferta/140,Software Engineer,Software Engineer,Engenharia de Software,Cabify,Malaga,Andalucía,1-2 años,Presencial,53000.0,57000.0,True,2026-06-25,2026-06-30
+141,SEPE,https://example-sepe.es/oferta/141,DevOps Engineer,DevOps Engineer,Engenharia de Software,Everis,Madrid,Comunidad de Madrid,3-5 años,Presencial,34000.0,39000.0,True,2026-05-15,2026-05-19
+142,SEPE,https://example-sepe.es/oferta/142,Backend Developer,Backend Developer,Engenharia de Software,Naturgy,Barcelona,Cataluña,Sin experiencia,Híbrido,50000.0,58000.0,True,2026-03-02,2026-03-04
+143,SEPE,https://example-sepe.es/oferta/143,Software Engineer,Software Engineer,Engenharia de Software,Accenture España,Valencia,Comunidad Valenciana,1-2 años,Presencial,41000.0,44000.0,True,2026-04-10,2026-04-13
+144,SEPE,https://example-sepe.es/oferta/144,Analista BI,BI Analyst,Dados,Typeform,Barcelona,Cataluña,3-5 años,Presencial,37000.0,39000.0,True,2026-07-16,2026-07-21
+145,EURES,https://example-eures.es/oferta/145,Machine Learning Engineer,Machine Learning Engineer,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,5+ años,Presencial,50000.0,53000.0,True,2026-04-12,2026-04-14
+146,SEPE,https://example-sepe.es/oferta/146,DevOps Engineer,DevOps Engineer,Engenharia de Software,Cabify,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,41000.0,41000.0,True,2026-03-15,2026-03-19
+147,SEPE,https://example-sepe.es/oferta/147,Data Analyst,Data Analyst,Dados,Seat,Barcelona,Cataluña,1-2 años,Remoto,,,False,2026-03-18,2026-03-21
+148,EURES,https://example-eures.es/oferta/148,Full Stack Developer,Full Stack Developer,Engenharia de Software,Factorial,Madrid,Comunidad de Madrid,5+ años,Remoto,44000.0,47000.0,True,2026-07-17,2026-07-18
+149,SEPE,https://example-sepe.es/oferta/149,Ingeniero de Datos,Data Engineer,Dados,Glovo,Valencia,Comunidad Valenciana,1-2 años,Híbrido,56000.0,69000.0,True,2026-05-16,2026-05-19
+150,EURES,https://example-eures.es/oferta/150,Desarrollador Backend,Backend Developer,Engenharia de Software,BBVA,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,23000.0,30000.0,True,2026-08-17,2026-08-20
+151,SEPE,https://example-sepe.es/oferta/151,Data Analyst,Data Analyst,Dados,Glovo,Barcelona,Cataluña,3-5 años,Remoto,25000.0,29000.0,True,2026-06-21,2026-06-22
+152,SEPE,https://example-sepe.es/oferta/152,Backend Developer,Backend Developer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,3-5 años,Remoto,33000.0,46000.0,True,2026-03-16,2026-03-20
+153,EURES,https://example-eures.es/oferta/153,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Naturgy,Valencia,Comunidad Valenciana,1-2 años,Híbrido,,,False,2026-07-16,2026-07-19
+154,EURES,https://example-eures.es/oferta/154,BI Analyst,BI Analyst,Dados,Factorial,Barcelona,Cataluña,1-2 años,Presencial,50000.0,61000.0,True,2026-04-22,2026-04-24
+155,EURES,https://example-eures.es/oferta/155,Ingeniero QA,QA Engineer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,3-5 años,Presencial,35000.0,50000.0,True,2026-07-29,2026-08-03
+156,SEPE,https://example-sepe.es/oferta/156,Analista de Datos,Data Analyst,Dados,Factorial,A Coruna,Galicia,3-5 años,Híbrido,40000.0,52000.0,True,2026-06-10,2026-06-11
+157,EURES,https://example-eures.es/oferta/157,DevOps Engineer,DevOps Engineer,Engenharia de Software,Indra,Madrid,Comunidad de Madrid,3-5 años,Remoto,24000.0,31000.0,True,2026-04-22,2026-04-24
+158,SEPE,https://example-sepe.es/oferta/158,Desarrollador Backend,Backend Developer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,5+ años,Híbrido,65000.0,75000.0,True,2026-07-06,2026-07-10
+159,EURES,https://example-eures.es/oferta/159,Científico de Datos,Data Scientist,Dados,BBVA,Valencia,Comunidad Valenciana,Sin experiencia,Presencial,56000.0,57000.0,True,2026-07-04,2026-07-05
+160,SEPE,https://example-sepe.es/oferta/160,Desarrollador Backend,Backend Developer,Engenharia de Software,Indra,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,25000.0,40000.0,True,2026-04-25,2026-04-29
+161,EURES,https://example-eures.es/oferta/161,QA Engineer,QA Engineer,Engenharia de Software,Typeform,Madrid,Comunidad de Madrid,1-2 años,Presencial,33000.0,36000.0,True,2026-08-20,2026-08-23
+162,SEPE,https://example-sepe.es/oferta/162,Data Scientist,Data Scientist,Dados,BBVA,Barcelona,Cataluña,Sin experiencia,Presencial,37000.0,44000.0,True,2026-06-04,2026-06-07
+163,EURES,https://example-eures.es/oferta/163,QA Engineer,QA Engineer,Engenharia de Software,Typeform,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,63000.0,73000.0,True,2026-03-22,2026-03-25
+164,EURES,https://example-eures.es/oferta/164,Analista BI,BI Analyst,Dados,Mango,Malaga,Andalucía,1-2 años,Remoto,33000.0,43000.0,True,2026-07-18,2026-07-22
+165,EURES,https://example-eures.es/oferta/165,Frontend Developer,Frontend Developer,Engenharia de Software,BBVA,Malaga,Andalucía,3-5 años,Presencial,43000.0,55000.0,True,2026-06-08,2026-06-13
+166,SEPE,https://example-sepe.es/oferta/166,Analista de Datos,Data Analyst,Dados,Zara (Inditex),Barcelona,Cataluña,5+ años,Presencial,,,False,2026-06-10,2026-06-12
+167,EURES,https://example-eures.es/oferta/167,Full Stack Developer,Full Stack Developer,Engenharia de Software,BBVA,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-03-22,2026-03-26
+168,EURES,https://example-eures.es/oferta/168,Data Engineer,Data Engineer,Dados,BBVA,Madrid,Comunidad de Madrid,1-2 años,Híbrido,39000.0,42000.0,True,2026-05-18,2026-05-21
+169,EURES,https://example-eures.es/oferta/169,QA Engineer,QA Engineer,Engenharia de Software,Naturgy,Barcelona,Cataluña,5+ años,Híbrido,42000.0,54000.0,True,2026-03-24,2026-03-28
+170,SEPE,https://example-sepe.es/oferta/170,Machine Learning Engineer,Machine Learning Engineer,Dados,Naturgy,Valencia,Comunidad Valenciana,3-5 años,Híbrido,,,False,2026-08-23,2026-08-26
+171,EURES,https://example-eures.es/oferta/171,BI Analyst,BI Analyst,Dados,Zara (Inditex),Madrid,Comunidad de Madrid,Sin experiencia,Presencial,62000.0,77000.0,True,2026-06-01,2026-06-03
+172,SEPE,https://example-sepe.es/oferta/172,Full Stack Developer,Full Stack Developer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,1-2 años,Híbrido,63000.0,67000.0,True,2026-06-21,2026-06-23
+173,SEPE,https://example-sepe.es/oferta/173,Full Stack Developer,Full Stack Developer,Engenharia de Software,NTT Data,Madrid,Comunidad de Madrid,3-5 años,Presencial,42000.0,54000.0,True,2026-07-04,2026-07-08
+174,SEPE,https://example-sepe.es/oferta/174,Machine Learning Engineer,Machine Learning Engineer,Dados,BBVA,Barcelona,Cataluña,5+ años,Remoto,35000.0,49000.0,True,2026-03-07,2026-03-12
+175,SEPE,https://example-sepe.es/oferta/175,Frontend Developer,Frontend Developer,Engenharia de Software,Startup Local S.L.,Madrid,Comunidad de Madrid,5+ años,Remoto,26000.0,40000.0,True,2026-08-31,2026-09-03
+176,SEPE,https://example-sepe.es/oferta/176,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Iberdrola,Barcelona,Cataluña,5+ años,Presencial,32000.0,33000.0,True,2026-05-03,2026-05-08
+177,SEPE,https://example-sepe.es/oferta/177,Ingeniero de Datos,Data Engineer,Dados,Indra,Madrid,Comunidad de Madrid,5+ años,Presencial,54000.0,58000.0,True,2026-06-27,2026-07-02
+178,SEPE,https://example-sepe.es/oferta/178,Ingeniero de Software,Software Engineer,Engenharia de Software,Wallapop,Barcelona,Cataluña,Sin experiencia,Híbrido,35000.0,50000.0,True,2026-05-19,2026-05-21
+179,EURES,https://example-eures.es/oferta/179,Frontend Developer,Frontend Developer,Engenharia de Software,Glovo,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-05-27,2026-06-01
+180,EURES,https://example-eures.es/oferta/180,BI Analyst,BI Analyst,Dados,Zara (Inditex),Madrid,Comunidad de Madrid,5+ años,Híbrido,47000.0,47000.0,True,2026-04-17,2026-04-22
+181,SEPE,https://example-sepe.es/oferta/181,Ingeniero de Datos,Data Engineer,Dados,Iberdrola,Valencia,Comunidad Valenciana,1-2 años,Híbrido,56000.0,61000.0,True,2026-07-26,2026-07-26
+182,SEPE,https://example-sepe.es/oferta/182,Analista BI,BI Analyst,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,51000.0,56000.0,True,2026-07-29,2026-07-29
+183,SEPE,https://example-sepe.es/oferta/183,Ingeniero de Datos,Data Engineer,Dados,Everis,Madrid,Comunidad de Madrid,1-2 años,Híbrido,60000.0,64000.0,True,2026-04-06,2026-04-10
+184,EURES,https://example-eures.es/oferta/184,Analista BI,BI Analyst,Dados,Mango,Barcelona,Cataluña,5+ años,Remoto,22000.0,37000.0,True,2026-08-06,2026-08-06
+185,SEPE,https://example-sepe.es/oferta/185,DevOps Engineer,DevOps Engineer,Engenharia de Software,Glovo,Barcelona,Cataluña,3-5 años,Presencial,,,False,2026-03-08,2026-03-09
+186,EURES,https://example-eures.es/oferta/186,DevOps Engineer,DevOps Engineer,Engenharia de Software,Everis,Barcelona,Cataluña,Sin experiencia,Remoto,24000.0,38000.0,True,2026-07-18,2026-07-20
+187,SEPE,https://example-sepe.es/oferta/187,Data Analyst,Data Analyst,Dados,Seat,Madrid,Comunidad de Madrid,1-2 años,Presencial,59000.0,70000.0,True,2026-04-30,2026-05-01
+188,SEPE,https://example-sepe.es/oferta/188,Científico de Datos,Data Scientist,Dados,Typeform,Valencia,Comunidad Valenciana,Sin experiencia,Presencial,,,False,2026-08-28,2026-08-30
+189,SEPE,https://example-sepe.es/oferta/189,Frontend Developer,Frontend Developer,Engenharia de Software,Amadeus,Malaga,Andalucía,3-5 años,Remoto,65000.0,77000.0,True,2026-08-30,2026-09-01
+190,SEPE,https://example-sepe.es/oferta/190,Ingeniero de Software,Software Engineer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,45000.0,59000.0,True,2026-05-11,2026-05-16
+191,SEPE,https://example-sepe.es/oferta/191,Analista BI,BI Analyst,Dados,Iberdrola,Valencia,Comunidad Valenciana,3-5 años,Híbrido,35000.0,50000.0,True,2026-06-10,2026-06-11
+192,EURES,https://example-eures.es/oferta/192,Analista BI,BI Analyst,Dados,Seat,Barcelona,Cataluña,5+ años,Híbrido,51000.0,51000.0,True,2026-03-12,2026-03-12
+193,SEPE,https://example-sepe.es/oferta/193,BI Analyst,BI Analyst,Dados,Cabify,A Coruna,Galicia,Sin experiencia,Híbrido,39000.0,41000.0,True,2026-05-17,2026-05-18
+194,SEPE,https://example-sepe.es/oferta/194,Data Scientist,Data Scientist,Dados,BBVA,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-08-28,2026-08-28
+195,SEPE,https://example-sepe.es/oferta/195,Analista BI,BI Analyst,Dados,BBVA,Barcelona,Cataluña,1-2 años,Híbrido,49000.0,53000.0,True,2026-05-27,2026-05-27
+196,EURES,https://example-eures.es/oferta/196,Analista de Datos,Data Analyst,Dados,Typeform,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,30000.0,34000.0,True,2026-05-16,2026-05-17
+197,EURES,https://example-eures.es/oferta/197,Ingeniero de Datos,Data Engineer,Dados,CaixaBank,Barcelona,Cataluña,5+ años,Híbrido,27000.0,30000.0,True,2026-08-23,2026-08-26
+198,EURES,https://example-eures.es/oferta/198,Backend Developer,Backend Developer,Engenharia de Software,Naturgy,Madrid,Comunidad de Madrid,1-2 años,Remoto,60000.0,69000.0,True,2026-05-03,2026-05-07
+199,EURES,https://example-eures.es/oferta/199,Data Scientist,Data Scientist,Dados,Typeform,Valencia,Comunidad Valenciana,Sin experiencia,Híbrido,37000.0,52000.0,True,2026-05-01,2026-05-04
+200,EURES,https://example-eures.es/oferta/200,Ingeniero QA,QA Engineer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,22000.0,30000.0,True,2026-03-19,2026-03-19
+201,SEPE,https://example-sepe.es/oferta/201,QA Engineer,QA Engineer,Engenharia de Software,BBVA,Barcelona,Cataluña,1-2 años,Presencial,39000.0,41000.0,True,2026-07-16,2026-07-20
+202,SEPE,https://example-sepe.es/oferta/202,Ingeniero de Software,Software Engineer,Engenharia de Software,CaixaBank,Barcelona,Cataluña,5+ años,Remoto,,,False,2026-03-15,2026-03-16
+203,SEPE,https://example-sepe.es/oferta/203,Data Engineer,Data Engineer,Dados,Accenture España,Madrid,Comunidad de Madrid,3-5 años,Presencial,,,False,2026-04-05,2026-04-10
+204,SEPE,https://example-sepe.es/oferta/204,Frontend Developer,Frontend Developer,Engenharia de Software,Zara (Inditex),Madrid,Comunidad de Madrid,3-5 años,Presencial,38000.0,40000.0,True,2026-06-18,2026-06-20
+205,EURES,https://example-eures.es/oferta/205,Backend Developer,Backend Developer,Engenharia de Software,Indra,Malaga,Andalucía,1-2 años,Presencial,36000.0,36000.0,True,2026-07-25,2026-07-30
+206,EURES,https://example-eures.es/oferta/206,Backend Developer,Backend Developer,Engenharia de Software,Everis,Madrid,Comunidad de Madrid,3-5 años,Híbrido,36000.0,46000.0,True,2026-08-30,2026-09-04
+207,SEPE,https://example-sepe.es/oferta/207,Analista de Datos,Data Analyst,Dados,Naturgy,Barcelona,Cataluña,3-5 años,Presencial,26000.0,40000.0,True,2026-07-11,2026-07-11
+208,EURES,https://example-eures.es/oferta/208,Desarrollador Backend,Backend Developer,Engenharia de Software,Amadeus,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,53000.0,59000.0,True,2026-06-27,2026-06-29
+209,EURES,https://example-eures.es/oferta/209,Científico de Datos,Data Scientist,Dados,Typeform,Madrid,Comunidad de Madrid,1-2 años,Híbrido,41000.0,44000.0,True,2026-08-16,2026-08-19
+210,EURES,https://example-eures.es/oferta/210,Backend Developer,Backend Developer,Engenharia de Software,Typeform,A Coruna,Galicia,1-2 años,Remoto,51000.0,53000.0,True,2026-06-14,2026-06-19
+211,SEPE,https://example-sepe.es/oferta/211,Ingeniero QA,QA Engineer,Engenharia de Software,NTT Data,Madrid,Comunidad de Madrid,3-5 años,Híbrido,,,False,2026-04-03,2026-04-04
+212,EURES,https://example-eures.es/oferta/212,Ingeniero de Software,Software Engineer,Engenharia de Software,Zara (Inditex),Madrid,Comunidad de Madrid,5+ años,Híbrido,,,False,2026-07-28,2026-07-28
+213,SEPE,https://example-sepe.es/oferta/213,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Híbrido,,,False,2026-05-07,2026-05-07
+214,SEPE,https://example-sepe.es/oferta/214,Ingeniero de Datos,Data Engineer,Dados,Zara (Inditex),Madrid,Comunidad de Madrid,1-2 años,Presencial,33000.0,33000.0,True,2026-05-16,2026-05-18
+215,SEPE,https://example-sepe.es/oferta/215,Backend Developer,Backend Developer,Engenharia de Software,Accenture España,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,,,False,2026-04-26,2026-04-27
+216,EURES,https://example-eures.es/oferta/216,Ingeniero de Software,Software Engineer,Engenharia de Software,Telefónica,Malaga,Andalucía,5+ años,Presencial,27000.0,37000.0,True,2026-08-13,2026-08-16
+217,EURES,https://example-eures.es/oferta/217,BI Analyst,BI Analyst,Dados,Cabify,Malaga,Andalucía,3-5 años,Híbrido,,,False,2026-04-14,2026-04-16
+218,EURES,https://example-eures.es/oferta/218,Ingeniero de Datos,Data Engineer,Dados,Everis,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-03-16,2026-03-16
+219,SEPE,https://example-sepe.es/oferta/219,Machine Learning Engineer,Machine Learning Engineer,Dados,NTT Data,Barcelona,Cataluña,3-5 años,Presencial,53000.0,64000.0,True,2026-08-30,2026-09-01
+220,EURES,https://example-eures.es/oferta/220,Ingeniero de Datos,Data Engineer,Dados,Seat,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,52000.0,63000.0,True,2026-05-11,2026-05-11
+221,EURES,https://example-eures.es/oferta/221,Data Analyst,Data Analyst,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,3-5 años,Remoto,33000.0,38000.0,True,2026-06-08,2026-06-10
+222,EURES,https://example-eures.es/oferta/222,Software Engineer,Software Engineer,Engenharia de Software,Telefónica,Malaga,Andalucía,1-2 años,Remoto,53000.0,54000.0,True,2026-07-05,2026-07-09
+223,EURES,https://example-eures.es/oferta/223,Analista BI,BI Analyst,Dados,Indra,Madrid,Comunidad de Madrid,1-2 años,Remoto,33000.0,43000.0,True,2026-04-21,2026-04-22
+224,SEPE,https://example-sepe.es/oferta/224,Machine Learning Engineer,Machine Learning Engineer,Dados,Iberdrola,Valencia,Comunidad Valenciana,1-2 años,Presencial,,,False,2026-06-10,2026-06-14
+225,EURES,https://example-eures.es/oferta/225,DevOps Engineer,DevOps Engineer,Engenharia de Software,NTT Data,Valencia,Comunidad Valenciana,3-5 años,Remoto,,,False,2026-08-05,2026-08-07
+226,SEPE,https://example-sepe.es/oferta/226,Software Engineer,Software Engineer,Engenharia de Software,BBVA,Madrid,Comunidad de Madrid,1-2 años,Híbrido,53000.0,57000.0,True,2026-04-26,2026-05-01
+227,SEPE,https://example-sepe.es/oferta/227,Ingeniero de Software,Software Engineer,Engenharia de Software,CaixaBank,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,,,False,2026-05-03,2026-05-08
+228,EURES,https://example-eures.es/oferta/228,Full Stack Developer,Full Stack Developer,Engenharia de Software,Zara (Inditex),Barcelona,Cataluña,Sin experiencia,Presencial,52000.0,59000.0,True,2026-05-29,2026-06-02
+229,EURES,https://example-eures.es/oferta/229,Frontend Developer,Frontend Developer,Engenharia de Software,Factorial,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,,,False,2026-04-13,2026-04-16
+230,EURES,https://example-eures.es/oferta/230,Full Stack Developer,Full Stack Developer,Engenharia de Software,Everis,Valencia,Comunidad Valenciana,3-5 años,Remoto,,,False,2026-03-26,2026-03-28
+231,SEPE,https://example-sepe.es/oferta/231,Ingeniero de Software,Software Engineer,Engenharia de Software,Indra,Madrid,Comunidad de Madrid,5+ años,Presencial,,,False,2026-07-19,2026-07-22
+232,SEPE,https://example-sepe.es/oferta/232,Ingeniero QA,QA Engineer,Engenharia de Software,NTT Data,Malaga,Andalucía,5+ años,Híbrido,52000.0,55000.0,True,2026-08-11,2026-08-13
+233,SEPE,https://example-sepe.es/oferta/233,QA Engineer,QA Engineer,Engenharia de Software,Cabify,Madrid,Comunidad de Madrid,1-2 años,Híbrido,,,False,2026-06-23,2026-06-23
+234,EURES,https://example-eures.es/oferta/234,Analista de Datos,Data Analyst,Dados,NTT Data,Madrid,Comunidad de Madrid,5+ años,Remoto,59000.0,66000.0,True,2026-07-17,2026-07-20
+235,EURES,https://example-eures.es/oferta/235,Desarrollador Backend,Backend Developer,Engenharia de Software,Zara (Inditex),Barcelona,Cataluña,1-2 años,Presencial,58000.0,62000.0,True,2026-07-07,2026-07-11
+236,EURES,https://example-eures.es/oferta/236,Data Engineer,Data Engineer,Dados,Cabify,Valencia,Comunidad Valenciana,3-5 años,Remoto,,,False,2026-08-22,2026-08-25
+237,EURES,https://example-eures.es/oferta/237,Machine Learning Engineer,Machine Learning Engineer,Dados,Everis,Madrid,Comunidad de Madrid,1-2 años,Presencial,55000.0,68000.0,True,2026-03-04,2026-03-09
+238,EURES,https://example-eures.es/oferta/238,Analista de Datos,Data Analyst,Dados,Seat,Malaga,Andalucía,3-5 años,Híbrido,58000.0,73000.0,True,2026-05-07,2026-05-10
+239,SEPE,https://example-sepe.es/oferta/239,BI Analyst,BI Analyst,Dados,Cabify,Barcelona,Cataluña,3-5 años,Presencial,,,False,2026-08-24,2026-08-25
+240,SEPE,https://example-sepe.es/oferta/240,Frontend Developer,Frontend Developer,Engenharia de Software,Zara (Inditex),Valencia,Comunidad Valenciana,3-5 años,Híbrido,36000.0,40000.0,True,2026-08-23,2026-08-23
+241,EURES,https://example-eures.es/oferta/241,Ingeniero de Software,Software Engineer,Engenharia de Software,Typeform,Barcelona,Cataluña,1-2 años,Presencial,55000.0,66000.0,True,2026-06-13,2026-06-18
+242,SEPE,https://example-sepe.es/oferta/242,Full Stack Developer,Full Stack Developer,Engenharia de Software,Telefónica,Valencia,Comunidad Valenciana,3-5 años,Remoto,,,False,2026-04-21,2026-04-21
+243,SEPE,https://example-sepe.es/oferta/243,Analista BI,BI Analyst,Dados,Accenture España,Madrid,Comunidad de Madrid,1-2 años,Híbrido,33000.0,48000.0,True,2026-06-04,2026-06-07
+244,EURES,https://example-eures.es/oferta/244,BI Analyst,BI Analyst,Dados,Cabify,Madrid,Comunidad de Madrid,5+ años,Remoto,63000.0,70000.0,True,2026-07-25,2026-07-26
+245,SEPE,https://example-sepe.es/oferta/245,Data Analyst,Data Analyst,Dados,Cabify,Malaga,Andalucía,5+ años,Híbrido,,,False,2026-03-03,2026-03-04
+246,SEPE,https://example-sepe.es/oferta/246,Desarrollador Backend,Backend Developer,Engenharia de Software,Factorial,Barcelona,Cataluña,3-5 años,Híbrido,,,False,2026-07-28,2026-07-28
+247,EURES,https://example-eures.es/oferta/247,Científico de Datos,Data Scientist,Dados,Amadeus,Barcelona,Cataluña,1-2 años,Presencial,63000.0,72000.0,True,2026-08-15,2026-08-20
+248,SEPE,https://example-sepe.es/oferta/248,Backend Developer,Backend Developer,Engenharia de Software,Glovo,Barcelona,Cataluña,5+ años,Remoto,24000.0,30000.0,True,2026-05-06,2026-05-09
+249,EURES,https://example-eures.es/oferta/249,Backend Developer,Backend Developer,Engenharia de Software,Iberdrola,Barcelona,Cataluña,Sin experiencia,Presencial,,,False,2026-04-02,2026-04-07
+250,SEPE,https://example-sepe.es/oferta/250,Frontend Developer,Frontend Developer,Engenharia de Software,Mango,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,62000.0,64000.0,True,2026-06-27,2026-06-27
+251,EURES,https://example-eures.es/oferta/251,Full Stack Developer,Full Stack Developer,Engenharia de Software,Iberdrola,Barcelona,Cataluña,1-2 años,Presencial,58000.0,72000.0,True,2026-04-21,2026-04-23
+252,EURES,https://example-eures.es/oferta/252,Backend Developer,Backend Developer,Engenharia de Software,Amadeus,Madrid,Comunidad de Madrid,5+ años,Remoto,32000.0,47000.0,True,2026-04-23,2026-04-24
+253,EURES,https://example-eures.es/oferta/253,DevOps Engineer,DevOps Engineer,Engenharia de Software,Indra,Barcelona,Cataluña,1-2 años,Presencial,55000.0,61000.0,True,2026-06-04,2026-06-04
+254,SEPE,https://example-sepe.es/oferta/254,Ingeniero de Software,Software Engineer,Engenharia de Software,Amadeus,Madrid,Comunidad de Madrid,3-5 años,Híbrido,60000.0,70000.0,True,2026-05-14,2026-05-17
+255,EURES,https://example-eures.es/oferta/255,Backend Developer,Backend Developer,Engenharia de Software,CaixaBank,Valencia,Comunidad Valenciana,3-5 años,Remoto,,,False,2026-04-24,2026-04-29
+256,EURES,https://example-eures.es/oferta/256,Data Scientist,Data Scientist,Dados,Everis,Madrid,Comunidad de Madrid,5+ años,Híbrido,23000.0,24000.0,True,2026-08-17,2026-08-17
+257,SEPE,https://example-sepe.es/oferta/257,Analista BI,BI Analyst,Dados,Amadeus,Barcelona,Cataluña,5+ años,Presencial,64000.0,67000.0,True,2026-08-09,2026-08-09
+258,EURES,https://example-eures.es/oferta/258,Analista de Datos,Data Analyst,Dados,Factorial,Madrid,Comunidad de Madrid,5+ años,Presencial,40000.0,45000.0,True,2026-04-21,2026-04-23
+259,EURES,https://example-eures.es/oferta/259,Software Engineer,Software Engineer,Engenharia de Software,CaixaBank,Madrid,Comunidad de Madrid,3-5 años,Remoto,31000.0,33000.0,True,2026-03-29,2026-04-02
+260,SEPE,https://example-sepe.es/oferta/260,Data Scientist,Data Scientist,Dados,CaixaBank,Barcelona,Cataluña,Sin experiencia,Presencial,65000.0,75000.0,True,2026-03-11,2026-03-13
+261,SEPE,https://example-sepe.es/oferta/261,Data Engineer,Data Engineer,Dados,NTT Data,Malaga,Andalucía,5+ años,Híbrido,33000.0,36000.0,True,2026-03-24,2026-03-26
+262,SEPE,https://example-sepe.es/oferta/262,DevOps Engineer,DevOps Engineer,Engenharia de Software,Startup Local S.L.,Valencia,Comunidad Valenciana,5+ años,Presencial,,,False,2026-03-16,2026-03-17
+263,EURES,https://example-eures.es/oferta/263,Ingeniero QA,QA Engineer,Engenharia de Software,Cabify,Valencia,Comunidad Valenciana,3-5 años,Presencial,50000.0,51000.0,True,2026-07-03,2026-07-03
+264,EURES,https://example-eures.es/oferta/264,Científico de Datos,Data Scientist,Dados,Factorial,A Coruna,Galicia,Sin experiencia,Presencial,65000.0,77000.0,True,2026-05-03,2026-05-06
+265,SEPE,https://example-sepe.es/oferta/265,Analista BI,BI Analyst,Dados,NTT Data,Barcelona,Cataluña,1-2 años,Presencial,25000.0,32000.0,True,2026-05-01,2026-05-03
+266,SEPE,https://example-sepe.es/oferta/266,Ingeniero QA,QA Engineer,Engenharia de Software,Everis,Barcelona,Cataluña,Sin experiencia,Remoto,23000.0,26000.0,True,2026-03-31,2026-04-03
+267,SEPE,https://example-sepe.es/oferta/267,Data Scientist,Data Scientist,Dados,Factorial,Malaga,Andalucía,5+ años,Remoto,36000.0,50000.0,True,2026-05-27,2026-05-29
+268,EURES,https://example-eures.es/oferta/268,Ingeniero de Software,Software Engineer,Engenharia de Software,Telefónica,Valencia,Comunidad Valenciana,1-2 años,Híbrido,40000.0,51000.0,True,2026-05-27,2026-05-29
+269,SEPE,https://example-sepe.es/oferta/269,BI Analyst,BI Analyst,Dados,Mango,Malaga,Andalucía,5+ años,Presencial,,,False,2026-04-20,2026-04-21
+270,SEPE,https://example-sepe.es/oferta/270,Full Stack Developer,Full Stack Developer,Engenharia de Software,Indra,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,54000.0,58000.0,True,2026-06-24,2026-06-27
+271,SEPE,https://example-sepe.es/oferta/271,DevOps Engineer,DevOps Engineer,Engenharia de Software,Everis,Malaga,Andalucía,1-2 años,Híbrido,60000.0,70000.0,True,2026-04-02,2026-04-02
+272,EURES,https://example-eures.es/oferta/272,Frontend Developer,Frontend Developer,Engenharia de Software,Mango,A Coruna,Galicia,1-2 años,Remoto,57000.0,67000.0,True,2026-07-10,2026-07-12
+273,SEPE,https://example-sepe.es/oferta/273,Backend Developer,Backend Developer,Engenharia de Software,Everis,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,58000.0,71000.0,True,2026-05-30,2026-06-03
+274,SEPE,https://example-sepe.es/oferta/274,Data Engineer,Data Engineer,Dados,Amadeus,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,32000.0,41000.0,True,2026-04-21,2026-04-23
+275,SEPE,https://example-sepe.es/oferta/275,QA Engineer,QA Engineer,Engenharia de Software,Glovo,Madrid,Comunidad de Madrid,3-5 años,Remoto,65000.0,72000.0,True,2026-06-24,2026-06-24
+276,SEPE,https://example-sepe.es/oferta/276,BI Analyst,BI Analyst,Dados,Glovo,Malaga,Andalucía,3-5 años,Remoto,,,False,2026-03-04,2026-03-09
+277,EURES,https://example-eures.es/oferta/277,Ingeniero de Datos,Data Engineer,Dados,Everis,Valencia,Comunidad Valenciana,3-5 años,Remoto,29000.0,41000.0,True,2026-04-17,2026-04-18
+278,SEPE,https://example-sepe.es/oferta/278,Ingeniero QA,QA Engineer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,3-5 años,Híbrido,,,False,2026-04-09,2026-04-09
+279,EURES,https://example-eures.es/oferta/279,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Accenture España,Madrid,Comunidad de Madrid,1-2 años,Presencial,56000.0,68000.0,True,2026-07-08,2026-07-09
+280,SEPE,https://example-sepe.es/oferta/280,Frontend Developer,Frontend Developer,Engenharia de Software,Zara (Inditex),Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-08-14,2026-08-14
+281,SEPE,https://example-sepe.es/oferta/281,Científico de Datos,Data Scientist,Dados,Typeform,A Coruna,Galicia,5+ años,Híbrido,,,False,2026-07-17,2026-07-22
+282,EURES,https://example-eures.es/oferta/282,Ingeniero de Datos,Data Engineer,Dados,Mango,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-07-16,2026-07-20
+283,EURES,https://example-eures.es/oferta/283,Desarrollador Backend,Backend Developer,Engenharia de Software,Seat,Malaga,Andalucía,3-5 años,Remoto,27000.0,29000.0,True,2026-06-26,2026-07-01
+284,EURES,https://example-eures.es/oferta/284,Ingeniero de Datos,Data Engineer,Dados,BBVA,Barcelona,Cataluña,Sin experiencia,Remoto,46000.0,49000.0,True,2026-06-12,2026-06-15
+285,SEPE,https://example-sepe.es/oferta/285,Machine Learning Engineer,Machine Learning Engineer,Dados,NTT Data,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,40000.0,54000.0,True,2026-08-23,2026-08-25
+286,EURES,https://example-eures.es/oferta/286,Data Engineer,Data Engineer,Dados,Factorial,Barcelona,Cataluña,1-2 años,Presencial,63000.0,74000.0,True,2026-04-06,2026-04-08
+287,EURES,https://example-eures.es/oferta/287,BI Analyst,BI Analyst,Dados,Seat,Madrid,Comunidad de Madrid,1-2 años,Remoto,63000.0,67000.0,True,2026-05-28,2026-05-29
+288,EURES,https://example-eures.es/oferta/288,Backend Developer,Backend Developer,Engenharia de Software,Cabify,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,,,False,2026-07-19,2026-07-19
+289,SEPE,https://example-sepe.es/oferta/289,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Iberdrola,A Coruna,Galicia,3-5 años,Remoto,42000.0,57000.0,True,2026-08-06,2026-08-06
+290,SEPE,https://example-sepe.es/oferta/290,Científico de Datos,Data Scientist,Dados,Accenture España,Barcelona,Cataluña,1-2 años,Remoto,63000.0,76000.0,True,2026-05-03,2026-05-04
+291,EURES,https://example-eures.es/oferta/291,DevOps Engineer,DevOps Engineer,Engenharia de Software,Factorial,Malaga,Andalucía,1-2 años,Híbrido,27000.0,35000.0,True,2026-03-28,2026-03-29
+292,SEPE,https://example-sepe.es/oferta/292,Data Analyst,Data Analyst,Dados,Factorial,Valencia,Comunidad Valenciana,5+ años,Remoto,35000.0,36000.0,True,2026-07-27,2026-07-30
+293,EURES,https://example-eures.es/oferta/293,Ingeniero de Datos,Data Engineer,Dados,Typeform,Madrid,Comunidad de Madrid,1-2 años,Híbrido,22000.0,29000.0,True,2026-03-24,2026-03-27
+294,SEPE,https://example-sepe.es/oferta/294,Data Engineer,Data Engineer,Dados,NTT Data,Madrid,Comunidad de Madrid,5+ años,Híbrido,24000.0,30000.0,True,2026-03-17,2026-03-19
+295,SEPE,https://example-sepe.es/oferta/295,Científico de Datos,Data Scientist,Dados,NTT Data,Madrid,Comunidad de Madrid,3-5 años,Remoto,38000.0,43000.0,True,2026-08-10,2026-08-12
+296,EURES,https://example-eures.es/oferta/296,BI Analyst,BI Analyst,Dados,Zara (Inditex),Barcelona,Cataluña,1-2 años,Presencial,60000.0,60000.0,True,2026-05-28,2026-05-31
+297,SEPE,https://example-sepe.es/oferta/297,Data Scientist,Data Scientist,Dados,Iberdrola,Barcelona,Cataluña,Sin experiencia,Híbrido,29000.0,36000.0,True,2026-06-01,2026-06-05
+298,EURES,https://example-eures.es/oferta/298,Ingeniero QA,QA Engineer,Engenharia de Software,Startup Local S.L.,Barcelona,Cataluña,1-2 años,Presencial,32000.0,36000.0,True,2026-03-12,2026-03-13
+299,SEPE,https://example-sepe.es/oferta/299,Data Engineer,Data Engineer,Dados,Wallapop,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-05-12,2026-05-12
+300,EURES,https://example-eures.es/oferta/300,Ingeniero QA,QA Engineer,Engenharia de Software,NTT Data,Barcelona,Cataluña,5+ años,Presencial,60000.0,62000.0,True,2026-08-23,2026-08-25
+301,EURES,https://example-eures.es/oferta/301,Machine Learning Engineer,Machine Learning Engineer,Dados,Wallapop,Madrid,Comunidad de Madrid,1-2 años,Remoto,56000.0,59000.0,True,2026-06-30,2026-07-04
+302,SEPE,https://example-sepe.es/oferta/302,BI Analyst,BI Analyst,Dados,Startup Local S.L.,Malaga,Andalucía,Sin experiencia,Híbrido,52000.0,64000.0,True,2026-06-18,2026-06-19
+303,EURES,https://example-eures.es/oferta/303,Ingeniero de Datos,Data Engineer,Dados,Indra,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,,,False,2026-07-18,2026-07-21
+304,SEPE,https://example-sepe.es/oferta/304,Ingeniero de Datos,Data Engineer,Dados,Cabify,Madrid,Comunidad de Madrid,5+ años,Presencial,38000.0,51000.0,True,2026-06-18,2026-06-23
+305,EURES,https://example-eures.es/oferta/305,QA Engineer,QA Engineer,Engenharia de Software,Glovo,Barcelona,Cataluña,5+ años,Remoto,47000.0,51000.0,True,2026-05-04,2026-05-06
+306,EURES,https://example-eures.es/oferta/306,Machine Learning Engineer,Machine Learning Engineer,Dados,BBVA,Madrid,Comunidad de Madrid,1-2 años,Híbrido,32000.0,44000.0,True,2026-08-26,2026-08-31
+307,EURES,https://example-eures.es/oferta/307,Frontend Developer,Frontend Developer,Engenharia de Software,Seat,Madrid,Comunidad de Madrid,5+ años,Híbrido,47000.0,56000.0,True,2026-03-10,2026-03-15
+308,EURES,https://example-eures.es/oferta/308,Machine Learning Engineer,Machine Learning Engineer,Dados,Accenture España,Madrid,Comunidad de Madrid,1-2 años,Remoto,61000.0,66000.0,True,2026-07-09,2026-07-13
+309,EURES,https://example-eures.es/oferta/309,Analista de Datos,Data Analyst,Dados,BBVA,A Coruna,Galicia,3-5 años,Remoto,55000.0,55000.0,True,2026-06-10,2026-06-13
+310,SEPE,https://example-sepe.es/oferta/310,Frontend Developer,Frontend Developer,Engenharia de Software,Typeform,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,,,False,2026-07-26,2026-07-26
+311,SEPE,https://example-sepe.es/oferta/311,Científico de Datos,Data Scientist,Dados,NTT Data,Barcelona,Cataluña,5+ años,Presencial,58000.0,66000.0,True,2026-05-05,2026-05-09
+312,SEPE,https://example-sepe.es/oferta/312,DevOps Engineer,DevOps Engineer,Engenharia de Software,Everis,A Coruna,Galicia,3-5 años,Remoto,36000.0,43000.0,True,2026-06-06,2026-06-11
+313,SEPE,https://example-sepe.es/oferta/313,Data Scientist,Data Scientist,Dados,Iberdrola,Valencia,Comunidad Valenciana,3-5 años,Presencial,26000.0,31000.0,True,2026-08-20,2026-08-25
+314,EURES,https://example-eures.es/oferta/314,Desarrollador Backend,Backend Developer,Engenharia de Software,Accenture España,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-04-22,2026-04-23
+315,SEPE,https://example-sepe.es/oferta/315,Analista BI,BI Analyst,Dados,Startup Local S.L.,Malaga,Andalucía,3-5 años,Híbrido,45000.0,55000.0,True,2026-07-17,2026-07-17
+316,EURES,https://example-eures.es/oferta/316,Machine Learning Engineer,Machine Learning Engineer,Dados,Typeform,A Coruna,Galicia,3-5 años,Híbrido,49000.0,64000.0,True,2026-04-02,2026-04-02
+317,SEPE,https://example-sepe.es/oferta/317,Analista de Datos,Data Analyst,Dados,Seat,Barcelona,Cataluña,3-5 años,Presencial,42000.0,53000.0,True,2026-04-23,2026-04-26
+318,SEPE,https://example-sepe.es/oferta/318,Ingeniero QA,QA Engineer,Engenharia de Software,Cabify,Barcelona,Cataluña,5+ años,Presencial,45000.0,56000.0,True,2026-04-23,2026-04-26
+319,EURES,https://example-eures.es/oferta/319,Ingeniero de Datos,Data Engineer,Dados,Amadeus,A Coruna,Galicia,5+ años,Presencial,46000.0,52000.0,True,2026-04-30,2026-05-04
+320,EURES,https://example-eures.es/oferta/320,Data Engineer,Data Engineer,Dados,Seat,Barcelona,Cataluña,Sin experiencia,Presencial,,,False,2026-07-22,2026-07-26
+321,SEPE,https://example-sepe.es/oferta/321,Ingeniero de Software,Software Engineer,Engenharia de Software,Mango,Barcelona,Cataluña,1-2 años,Híbrido,48000.0,51000.0,True,2026-07-21,2026-07-23
+322,SEPE,https://example-sepe.es/oferta/322,QA Engineer,QA Engineer,Engenharia de Software,Everis,Madrid,Comunidad de Madrid,5+ años,Presencial,31000.0,36000.0,True,2026-05-13,2026-05-16
+323,SEPE,https://example-sepe.es/oferta/323,Ingeniero de Datos,Data Engineer,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,5+ años,Híbrido,39000.0,53000.0,True,2026-05-08,2026-05-12
+324,EURES,https://example-eures.es/oferta/324,Data Analyst,Data Analyst,Dados,NTT Data,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,27000.0,33000.0,True,2026-05-04,2026-05-09
+325,SEPE,https://example-sepe.es/oferta/325,Analista BI,BI Analyst,Dados,Amadeus,A Coruna,Galicia,Sin experiencia,Remoto,27000.0,30000.0,True,2026-06-10,2026-06-14
+326,SEPE,https://example-sepe.es/oferta/326,Desarrollador Backend,Backend Developer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,5+ años,Híbrido,,,False,2026-07-13,2026-07-14
+327,SEPE,https://example-sepe.es/oferta/327,Backend Developer,Backend Developer,Engenharia de Software,Wallapop,Barcelona,Cataluña,1-2 años,Presencial,62000.0,71000.0,True,2026-08-10,2026-08-14
+328,SEPE,https://example-sepe.es/oferta/328,Full Stack Developer,Full Stack Developer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,3-5 años,Presencial,52000.0,52000.0,True,2026-07-12,2026-07-13
+329,EURES,https://example-eures.es/oferta/329,Ingeniero QA,QA Engineer,Engenharia de Software,Seat,Valencia,Comunidad Valenciana,5+ años,Híbrido,49000.0,61000.0,True,2026-04-18,2026-04-21
+330,SEPE,https://example-sepe.es/oferta/330,BI Analyst,BI Analyst,Dados,Mango,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,40000.0,48000.0,True,2026-08-04,2026-08-09
+331,EURES,https://example-eures.es/oferta/331,Analista BI,BI Analyst,Dados,Seat,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,,,False,2026-05-22,2026-05-22
+332,SEPE,https://example-sepe.es/oferta/332,DevOps Engineer,DevOps Engineer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,3-5 años,Híbrido,43000.0,56000.0,True,2026-04-08,2026-04-08
+333,SEPE,https://example-sepe.es/oferta/333,Data Engineer,Data Engineer,Dados,NTT Data,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,33000.0,39000.0,True,2026-06-09,2026-06-09
+334,SEPE,https://example-sepe.es/oferta/334,Analista BI,BI Analyst,Dados,NTT Data,Barcelona,Cataluña,3-5 años,Híbrido,55000.0,61000.0,True,2026-06-26,2026-07-01
+335,EURES,https://example-eures.es/oferta/335,Data Analyst,Data Analyst,Dados,Mango,Barcelona,Cataluña,Sin experiencia,Presencial,,,False,2026-08-11,2026-08-13
+336,SEPE,https://example-sepe.es/oferta/336,Backend Developer,Backend Developer,Engenharia de Software,BBVA,Madrid,Comunidad de Madrid,1-2 años,Presencial,52000.0,56000.0,True,2026-03-03,2026-03-03
+337,SEPE,https://example-sepe.es/oferta/337,Ingeniero QA,QA Engineer,Engenharia de Software,Glovo,Madrid,Comunidad de Madrid,3-5 años,Remoto,28000.0,32000.0,True,2026-04-09,2026-04-14
+338,EURES,https://example-eures.es/oferta/338,DevOps Engineer,DevOps Engineer,Engenharia de Software,Wallapop,Valencia,Comunidad Valenciana,5+ años,Remoto,,,False,2026-05-31,2026-06-05
+339,EURES,https://example-eures.es/oferta/339,DevOps Engineer,DevOps Engineer,Engenharia de Software,Typeform,Barcelona,Cataluña,1-2 años,Híbrido,60000.0,65000.0,True,2026-05-22,2026-05-27
+340,EURES,https://example-eures.es/oferta/340,QA Engineer,QA Engineer,Engenharia de Software,Iberdrola,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,23000.0,34000.0,True,2026-07-08,2026-07-11
+341,EURES,https://example-eures.es/oferta/341,DevOps Engineer,DevOps Engineer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-08-12,2026-08-14
+342,EURES,https://example-eures.es/oferta/342,Analista BI,BI Analyst,Dados,Accenture España,Madrid,Comunidad de Madrid,1-2 años,Remoto,55000.0,63000.0,True,2026-08-12,2026-08-15
+343,EURES,https://example-eures.es/oferta/343,Ingeniero de Datos,Data Engineer,Dados,Cabify,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,48000.0,59000.0,True,2026-03-16,2026-03-18
+344,EURES,https://example-eures.es/oferta/344,Analista de Datos,Data Analyst,Dados,Factorial,Malaga,Andalucía,5+ años,Remoto,34000.0,41000.0,True,2026-04-29,2026-05-03
+345,SEPE,https://example-sepe.es/oferta/345,Científico de Datos,Data Scientist,Dados,Accenture España,Valencia,Comunidad Valenciana,3-5 años,Remoto,43000.0,48000.0,True,2026-04-16,2026-04-20
+346,SEPE,https://example-sepe.es/oferta/346,Full Stack Developer,Full Stack Developer,Engenharia de Software,Zara (Inditex),Malaga,Andalucía,5+ años,Presencial,38000.0,49000.0,True,2026-04-24,2026-04-27
+347,SEPE,https://example-sepe.es/oferta/347,Data Analyst,Data Analyst,Dados,Indra,A Coruna,Galicia,3-5 años,Remoto,,,False,2026-05-16,2026-05-17
+348,SEPE,https://example-sepe.es/oferta/348,Analista BI,BI Analyst,Dados,BBVA,Madrid,Comunidad de Madrid,5+ años,Remoto,,,False,2026-07-28,2026-07-29
+349,EURES,https://example-eures.es/oferta/349,Científico de Datos,Data Scientist,Dados,Telefónica,Valencia,Comunidad Valenciana,3-5 años,Híbrido,24000.0,36000.0,True,2026-03-25,2026-03-29
+350,EURES,https://example-eures.es/oferta/350,Ingeniero de Software,Software Engineer,Engenharia de Software,Iberdrola,Barcelona,Cataluña,1-2 años,Híbrido,,,False,2026-08-09,2026-08-12
+351,SEPE,https://example-sepe.es/oferta/351,BI Analyst,BI Analyst,Dados,Amadeus,Madrid,Comunidad de Madrid,1-2 años,Híbrido,,,False,2026-04-26,2026-04-29
+352,SEPE,https://example-sepe.es/oferta/352,Data Analyst,Data Analyst,Dados,NTT Data,Barcelona,Cataluña,1-2 años,Remoto,52000.0,58000.0,True,2026-08-26,2026-08-27
+353,SEPE,https://example-sepe.es/oferta/353,Data Scientist,Data Scientist,Dados,Accenture España,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,44000.0,50000.0,True,2026-08-19,2026-08-22
+354,EURES,https://example-eures.es/oferta/354,Analista BI,BI Analyst,Dados,Glovo,A Coruna,Galicia,1-2 años,Híbrido,27000.0,30000.0,True,2026-04-21,2026-04-26
+355,SEPE,https://example-sepe.es/oferta/355,Analista de Datos,Data Analyst,Dados,Amadeus,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,35000.0,43000.0,True,2026-04-23,2026-04-28
+356,SEPE,https://example-sepe.es/oferta/356,Data Analyst,Data Analyst,Dados,Cabify,Madrid,Comunidad de Madrid,3-5 años,Presencial,22000.0,24000.0,True,2026-05-09,2026-05-09
+357,EURES,https://example-eures.es/oferta/357,BI Analyst,BI Analyst,Dados,Mango,Madrid,Comunidad de Madrid,5+ años,Remoto,60000.0,62000.0,True,2026-03-26,2026-03-28
+358,SEPE,https://example-sepe.es/oferta/358,Machine Learning Engineer,Machine Learning Engineer,Dados,Glovo,Madrid,Comunidad de Madrid,3-5 años,Presencial,44000.0,55000.0,True,2026-04-10,2026-04-10
+359,SEPE,https://example-sepe.es/oferta/359,Software Engineer,Software Engineer,Engenharia de Software,Typeform,Malaga,Andalucía,1-2 años,Híbrido,,,False,2026-08-16,2026-08-17
+360,EURES,https://example-eures.es/oferta/360,BI Analyst,BI Analyst,Dados,Startup Local S.L.,Barcelona,Cataluña,1-2 años,Presencial,,,False,2026-07-17,2026-07-18
+361,EURES,https://example-eures.es/oferta/361,QA Engineer,QA Engineer,Engenharia de Software,Factorial,Valencia,Comunidad Valenciana,Sin experiencia,Presencial,32000.0,42000.0,True,2026-04-07,2026-04-12
+362,EURES,https://example-eures.es/oferta/362,Backend Developer,Backend Developer,Engenharia de Software,Mango,Malaga,Andalucía,Sin experiencia,Presencial,62000.0,70000.0,True,2026-06-14,2026-06-17
+363,SEPE,https://example-sepe.es/oferta/363,Data Scientist,Data Scientist,Dados,Accenture España,Madrid,Comunidad de Madrid,1-2 años,Híbrido,52000.0,56000.0,True,2026-08-23,2026-08-23
+364,EURES,https://example-eures.es/oferta/364,Backend Developer,Backend Developer,Engenharia de Software,BBVA,Barcelona,Cataluña,1-2 años,Híbrido,36000.0,42000.0,True,2026-03-04,2026-03-06
+365,SEPE,https://example-sepe.es/oferta/365,DevOps Engineer,DevOps Engineer,Engenharia de Software,Startup Local S.L.,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,46000.0,56000.0,True,2026-03-11,2026-03-15
+366,EURES,https://example-eures.es/oferta/366,Data Analyst,Data Analyst,Dados,Naturgy,Barcelona,Cataluña,5+ años,Híbrido,62000.0,63000.0,True,2026-03-11,2026-03-15
+367,EURES,https://example-eures.es/oferta/367,Frontend Developer,Frontend Developer,Engenharia de Software,Typeform,Valencia,Comunidad Valenciana,Sin experiencia,Presencial,51000.0,65000.0,True,2026-08-24,2026-08-28
+368,EURES,https://example-eures.es/oferta/368,Científico de Datos,Data Scientist,Dados,CaixaBank,Barcelona,Cataluña,Sin experiencia,Presencial,,,False,2026-06-25,2026-06-25
+369,EURES,https://example-eures.es/oferta/369,Ingeniero de Software,Software Engineer,Engenharia de Software,Amadeus,Barcelona,Cataluña,1-2 años,Remoto,64000.0,68000.0,True,2026-04-13,2026-04-15
+370,SEPE,https://example-sepe.es/oferta/370,Data Scientist,Data Scientist,Dados,Wallapop,Barcelona,Cataluña,5+ años,Remoto,38000.0,38000.0,True,2026-04-21,2026-04-21
+371,EURES,https://example-eures.es/oferta/371,Analista BI,BI Analyst,Dados,Factorial,Barcelona,Cataluña,3-5 años,Remoto,27000.0,27000.0,True,2026-06-30,2026-07-03
+372,SEPE,https://example-sepe.es/oferta/372,Data Engineer,Data Engineer,Dados,BBVA,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,64000.0,73000.0,True,2026-03-10,2026-03-11
+373,SEPE,https://example-sepe.es/oferta/373,Backend Developer,Backend Developer,Engenharia de Software,Iberdrola,A Coruna,Galicia,3-5 años,Híbrido,,,False,2026-06-01,2026-06-01
+374,SEPE,https://example-sepe.es/oferta/374,Machine Learning Engineer,Machine Learning Engineer,Dados,Typeform,Valencia,Comunidad Valenciana,1-2 años,Remoto,39000.0,49000.0,True,2026-04-04,2026-04-04
+375,SEPE,https://example-sepe.es/oferta/375,Analista de Datos,Data Analyst,Dados,Cabify,Barcelona,Cataluña,3-5 años,Presencial,40000.0,53000.0,True,2026-08-24,2026-08-28
+376,EURES,https://example-eures.es/oferta/376,DevOps Engineer,DevOps Engineer,Engenharia de Software,Zara (Inditex),Barcelona,Cataluña,Sin experiencia,Remoto,,,False,2026-05-14,2026-05-15
+377,EURES,https://example-eures.es/oferta/377,BI Analyst,BI Analyst,Dados,Naturgy,Valencia,Comunidad Valenciana,3-5 años,Remoto,40000.0,48000.0,True,2026-04-24,2026-04-24
+378,SEPE,https://example-sepe.es/oferta/378,Ingeniero de Software,Software Engineer,Engenharia de Software,Wallapop,Valencia,Comunidad Valenciana,5+ años,Presencial,34000.0,44000.0,True,2026-08-05,2026-08-05
+379,SEPE,https://example-sepe.es/oferta/379,Analista BI,BI Analyst,Dados,Factorial,Barcelona,Cataluña,Sin experiencia,Presencial,,,False,2026-03-15,2026-03-19
+380,SEPE,https://example-sepe.es/oferta/380,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Seat,Valencia,Comunidad Valenciana,Sin experiencia,Híbrido,62000.0,67000.0,True,2026-03-08,2026-03-10
+381,SEPE,https://example-sepe.es/oferta/381,Frontend Developer,Frontend Developer,Engenharia de Software,Telefónica,Valencia,Comunidad Valenciana,1-2 años,Presencial,33000.0,36000.0,True,2026-05-17,2026-05-18
+382,EURES,https://example-eures.es/oferta/382,DevOps Engineer,DevOps Engineer,Engenharia de Software,Mango,Barcelona,Cataluña,Sin experiencia,Híbrido,31000.0,34000.0,True,2026-07-13,2026-07-15
+383,SEPE,https://example-sepe.es/oferta/383,QA Engineer,QA Engineer,Engenharia de Software,Telefónica,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,27000.0,37000.0,True,2026-03-12,2026-03-17
+384,SEPE,https://example-sepe.es/oferta/384,Frontend Developer,Frontend Developer,Engenharia de Software,Amadeus,Madrid,Comunidad de Madrid,1-2 años,Híbrido,50000.0,53000.0,True,2026-05-13,2026-05-15
+385,EURES,https://example-eures.es/oferta/385,Machine Learning Engineer,Machine Learning Engineer,Dados,Seat,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,31000.0,40000.0,True,2026-05-29,2026-06-02
+386,SEPE,https://example-sepe.es/oferta/386,Software Engineer,Software Engineer,Engenharia de Software,Seat,Barcelona,Cataluña,5+ años,Remoto,27000.0,40000.0,True,2026-03-13,2026-03-13
+387,SEPE,https://example-sepe.es/oferta/387,Desarrollador Backend,Backend Developer,Engenharia de Software,Naturgy,Madrid,Comunidad de Madrid,5+ años,Híbrido,51000.0,54000.0,True,2026-04-03,2026-04-03
+388,SEPE,https://example-sepe.es/oferta/388,Data Engineer,Data Engineer,Dados,Indra,A Coruna,Galicia,Sin experiencia,Híbrido,42000.0,56000.0,True,2026-08-27,2026-09-01
+389,EURES,https://example-eures.es/oferta/389,Analista BI,BI Analyst,Dados,NTT Data,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,,,False,2026-08-02,2026-08-06
+390,SEPE,https://example-sepe.es/oferta/390,Machine Learning Engineer,Machine Learning Engineer,Dados,NTT Data,Valencia,Comunidad Valenciana,Sin experiencia,Híbrido,,,False,2026-05-02,2026-05-06
+391,EURES,https://example-eures.es/oferta/391,BI Analyst,BI Analyst,Dados,Startup Local S.L.,Valencia,Comunidad Valenciana,5+ años,Híbrido,58000.0,73000.0,True,2026-04-14,2026-04-19
+392,SEPE,https://example-sepe.es/oferta/392,Data Engineer,Data Engineer,Dados,Telefónica,Malaga,Andalucía,Sin experiencia,Presencial,46000.0,56000.0,True,2026-08-23,2026-08-27
+393,EURES,https://example-eures.es/oferta/393,Data Analyst,Data Analyst,Dados,Mango,Malaga,Andalucía,3-5 años,Híbrido,58000.0,72000.0,True,2026-07-15,2026-07-17
+394,SEPE,https://example-sepe.es/oferta/394,Full Stack Developer,Full Stack Developer,Engenharia de Software,Factorial,Malaga,Andalucía,Sin experiencia,Presencial,40000.0,41000.0,True,2026-07-09,2026-07-12
+395,SEPE,https://example-sepe.es/oferta/395,Frontend Developer,Frontend Developer,Engenharia de Software,NTT Data,Madrid,Comunidad de Madrid,5+ años,Remoto,42000.0,54000.0,True,2026-08-27,2026-08-31
+396,EURES,https://example-eures.es/oferta/396,Analista BI,BI Analyst,Dados,Amadeus,Barcelona,Cataluña,Sin experiencia,Presencial,,,False,2026-06-01,2026-06-04
+397,SEPE,https://example-sepe.es/oferta/397,Analista BI,BI Analyst,Dados,Typeform,Madrid,Comunidad de Madrid,5+ años,Remoto,49000.0,54000.0,True,2026-06-25,2026-06-30
+398,SEPE,https://example-sepe.es/oferta/398,Desarrollador Backend,Backend Developer,Engenharia de Software,Factorial,Barcelona,Cataluña,3-5 años,Presencial,37000.0,45000.0,True,2026-07-26,2026-07-29
+399,SEPE,https://example-sepe.es/oferta/399,Científico de Datos,Data Scientist,Dados,Zara (Inditex),Barcelona,Cataluña,Sin experiencia,Remoto,,,False,2026-08-24,2026-08-24
+400,SEPE,https://example-sepe.es/oferta/400,Analista de Datos,Data Analyst,Dados,Accenture España,Madrid,Comunidad de Madrid,3-5 años,Híbrido,52000.0,62000.0,True,2026-03-03,2026-03-06
+401,SEPE,https://example-sepe.es/oferta/401,Data Scientist,Data Scientist,Dados,Indra,Madrid,Comunidad de Madrid,3-5 años,Híbrido,,,False,2026-04-13,2026-04-17
+402,EURES,https://example-eures.es/oferta/402,Analista de Datos,Data Analyst,Dados,Seat,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-05-10,2026-05-12
+403,EURES,https://example-eures.es/oferta/403,Backend Developer,Backend Developer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,5+ años,Híbrido,27000.0,31000.0,True,2026-07-14,2026-07-14
+404,EURES,https://example-eures.es/oferta/404,Data Engineer,Data Engineer,Dados,Telefónica,Barcelona,Cataluña,1-2 años,Híbrido,,,False,2026-03-14,2026-03-19
+405,SEPE,https://example-sepe.es/oferta/405,DevOps Engineer,DevOps Engineer,Engenharia de Software,Indra,Barcelona,Cataluña,3-5 años,Híbrido,,,False,2026-06-08,2026-06-11
+406,SEPE,https://example-sepe.es/oferta/406,QA Engineer,QA Engineer,Engenharia de Software,Cabify,Barcelona,Cataluña,3-5 años,Presencial,49000.0,57000.0,True,2026-07-15,2026-07-20
+407,EURES,https://example-eures.es/oferta/407,Full Stack Developer,Full Stack Developer,Engenharia de Software,Indra,Barcelona,Cataluña,Sin experiencia,Presencial,33000.0,43000.0,True,2026-07-12,2026-07-14
+408,EURES,https://example-eures.es/oferta/408,Ingeniero de Software,Software Engineer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-04-19,2026-04-19
+409,EURES,https://example-eures.es/oferta/409,Analista de Datos,Data Analyst,Dados,Seat,Valencia,Comunidad Valenciana,3-5 años,Híbrido,63000.0,68000.0,True,2026-04-03,2026-04-06
+410,EURES,https://example-eures.es/oferta/410,Ingeniero de Software,Software Engineer,Engenharia de Software,Cabify,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-05-22,2026-05-24
+411,EURES,https://example-eures.es/oferta/411,Software Engineer,Software Engineer,Engenharia de Software,Amadeus,Madrid,Comunidad de Madrid,5+ años,Presencial,33000.0,48000.0,True,2026-07-04,2026-07-05
+412,SEPE,https://example-sepe.es/oferta/412,Data Scientist,Data Scientist,Dados,Amadeus,Malaga,Andalucía,Sin experiencia,Presencial,50000.0,50000.0,True,2026-03-19,2026-03-23
+413,EURES,https://example-eures.es/oferta/413,Desarrollador Frontend,Frontend Developer,Engenharia de Software,NTT Data,Madrid,Comunidad de Madrid,5+ años,Presencial,26000.0,33000.0,True,2026-07-01,2026-07-04
+414,SEPE,https://example-sepe.es/oferta/414,Frontend Developer,Frontend Developer,Engenharia de Software,Naturgy,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-07-15,2026-07-17
+415,EURES,https://example-eures.es/oferta/415,Ingeniero de Datos,Data Engineer,Dados,Amadeus,A Coruna,Galicia,Sin experiencia,Presencial,62000.0,76000.0,True,2026-08-24,2026-08-26
+416,EURES,https://example-eures.es/oferta/416,Ingeniero de Datos,Data Engineer,Dados,Iberdrola,Valencia,Comunidad Valenciana,Sin experiencia,Híbrido,50000.0,50000.0,True,2026-05-18,2026-05-21
+417,EURES,https://example-eures.es/oferta/417,Ingeniero de Datos,Data Engineer,Dados,Wallapop,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-04-29,2026-04-29
+418,EURES,https://example-eures.es/oferta/418,Data Engineer,Data Engineer,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,Sin experiencia,Presencial,28000.0,42000.0,True,2026-03-13,2026-03-15
+419,SEPE,https://example-sepe.es/oferta/419,Ingeniero de Datos,Data Engineer,Dados,CaixaBank,Barcelona,Cataluña,1-2 años,Híbrido,65000.0,77000.0,True,2026-06-18,2026-06-20
+420,SEPE,https://example-sepe.es/oferta/420,Data Engineer,Data Engineer,Dados,Glovo,Valencia,Comunidad Valenciana,Sin experiencia,Presencial,57000.0,62000.0,True,2026-06-15,2026-06-16
+421,EURES,https://example-eures.es/oferta/421,BI Analyst,BI Analyst,Dados,Startup Local S.L.,Valencia,Comunidad Valenciana,3-5 años,Híbrido,,,False,2026-03-02,2026-03-02
+422,EURES,https://example-eures.es/oferta/422,Desarrollador Backend,Backend Developer,Engenharia de Software,Wallapop,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,61000.0,62000.0,True,2026-06-14,2026-06-15
+423,SEPE,https://example-sepe.es/oferta/423,Software Engineer,Software Engineer,Engenharia de Software,Mango,Madrid,Comunidad de Madrid,3-5 años,Presencial,56000.0,63000.0,True,2026-03-25,2026-03-29
+424,SEPE,https://example-sepe.es/oferta/424,Data Engineer,Data Engineer,Dados,Iberdrola,Madrid,Comunidad de Madrid,5+ años,Presencial,35000.0,48000.0,True,2026-03-14,2026-03-19
+425,EURES,https://example-eures.es/oferta/425,Machine Learning Engineer,Machine Learning Engineer,Dados,Zara (Inditex),Valencia,Comunidad Valenciana,3-5 años,Híbrido,,,False,2026-07-03,2026-07-07
+426,SEPE,https://example-sepe.es/oferta/426,Científico de Datos,Data Scientist,Dados,Mango,Valencia,Comunidad Valenciana,5+ años,Presencial,,,False,2026-04-28,2026-04-28
+427,SEPE,https://example-sepe.es/oferta/427,Analista BI,BI Analyst,Dados,Accenture España,Barcelona,Cataluña,1-2 años,Híbrido,51000.0,56000.0,True,2026-04-07,2026-04-08
+428,EURES,https://example-eures.es/oferta/428,Data Scientist,Data Scientist,Dados,CaixaBank,Barcelona,Cataluña,5+ años,Híbrido,,,False,2026-08-25,2026-08-29
+429,EURES,https://example-eures.es/oferta/429,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Everis,Madrid,Comunidad de Madrid,5+ años,Presencial,58000.0,65000.0,True,2026-08-11,2026-08-15
+430,EURES,https://example-eures.es/oferta/430,Frontend Developer,Frontend Developer,Engenharia de Software,Startup Local S.L.,Malaga,Andalucía,Sin experiencia,Híbrido,59000.0,66000.0,True,2026-05-03,2026-05-04
+431,SEPE,https://example-sepe.es/oferta/431,Analista BI,BI Analyst,Dados,Glovo,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,28000.0,42000.0,True,2026-06-09,2026-06-12
+432,SEPE,https://example-sepe.es/oferta/432,BI Analyst,BI Analyst,Dados,Seat,Valencia,Comunidad Valenciana,5+ años,Remoto,23000.0,38000.0,True,2026-05-01,2026-05-06
+433,EURES,https://example-eures.es/oferta/433,Analista BI,BI Analyst,Dados,NTT Data,A Coruna,Galicia,3-5 años,Remoto,62000.0,62000.0,True,2026-04-17,2026-04-19
+434,EURES,https://example-eures.es/oferta/434,Data Scientist,Data Scientist,Dados,CaixaBank,Madrid,Comunidad de Madrid,5+ años,Híbrido,25000.0,36000.0,True,2026-08-06,2026-08-08
+435,SEPE,https://example-sepe.es/oferta/435,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Glovo,Barcelona,Cataluña,Sin experiencia,Remoto,35000.0,39000.0,True,2026-03-18,2026-03-22
+436,EURES,https://example-eures.es/oferta/436,Ingeniero QA,QA Engineer,Engenharia de Software,Accenture España,Valencia,Comunidad Valenciana,3-5 años,Híbrido,39000.0,40000.0,True,2026-05-08,2026-05-12
+437,SEPE,https://example-sepe.es/oferta/437,Ingeniero de Software,Software Engineer,Engenharia de Software,BBVA,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-08-25,2026-08-25
+438,EURES,https://example-eures.es/oferta/438,Analista de Datos,Data Analyst,Dados,Mango,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,,,False,2026-03-29,2026-04-03
+439,EURES,https://example-eures.es/oferta/439,QA Engineer,QA Engineer,Engenharia de Software,Indra,A Coruna,Galicia,1-2 años,Remoto,40000.0,46000.0,True,2026-06-22,2026-06-27
+440,SEPE,https://example-sepe.es/oferta/440,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Seat,Barcelona,Cataluña,3-5 años,Presencial,41000.0,45000.0,True,2026-07-14,2026-07-18
+441,SEPE,https://example-sepe.es/oferta/441,Frontend Developer,Frontend Developer,Engenharia de Software,Seat,Madrid,Comunidad de Madrid,1-2 años,Remoto,61000.0,66000.0,True,2026-05-12,2026-05-15
+442,EURES,https://example-eures.es/oferta/442,Analista de Datos,Data Analyst,Dados,Mango,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,,,False,2026-04-02,2026-04-05
+443,EURES,https://example-eures.es/oferta/443,Backend Developer,Backend Developer,Engenharia de Software,Zara (Inditex),A Coruna,Galicia,3-5 años,Presencial,47000.0,62000.0,True,2026-05-17,2026-05-17
+444,SEPE,https://example-sepe.es/oferta/444,Machine Learning Engineer,Machine Learning Engineer,Dados,CaixaBank,A Coruna,Galicia,5+ años,Presencial,58000.0,72000.0,True,2026-05-14,2026-05-18
+445,EURES,https://example-eures.es/oferta/445,Analista de Datos,Data Analyst,Dados,Mango,Barcelona,Cataluña,1-2 años,Híbrido,,,False,2026-06-23,2026-06-25
+446,SEPE,https://example-sepe.es/oferta/446,Machine Learning Engineer,Machine Learning Engineer,Dados,NTT Data,Madrid,Comunidad de Madrid,1-2 años,Remoto,60000.0,61000.0,True,2026-04-19,2026-04-22
+447,EURES,https://example-eures.es/oferta/447,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Zara (Inditex),Madrid,Comunidad de Madrid,5+ años,Híbrido,57000.0,59000.0,True,2026-05-29,2026-05-31
+448,EURES,https://example-eures.es/oferta/448,Full Stack Developer,Full Stack Developer,Engenharia de Software,Startup Local S.L.,Madrid,Comunidad de Madrid,5+ años,Presencial,55000.0,65000.0,True,2026-04-06,2026-04-07
+449,SEPE,https://example-sepe.es/oferta/449,Data Scientist,Data Scientist,Dados,Naturgy,Barcelona,Cataluña,5+ años,Presencial,,,False,2026-04-05,2026-04-06
+450,EURES,https://example-eures.es/oferta/450,Frontend Developer,Frontend Developer,Engenharia de Software,Naturgy,Malaga,Andalucía,5+ años,Presencial,62000.0,77000.0,True,2026-04-09,2026-04-11
+451,SEPE,https://example-sepe.es/oferta/451,Desarrollador Backend,Backend Developer,Engenharia de Software,Startup Local S.L.,Malaga,Andalucía,5+ años,Híbrido,26000.0,37000.0,True,2026-05-10,2026-05-13
+452,SEPE,https://example-sepe.es/oferta/452,Ingeniero de Software,Software Engineer,Engenharia de Software,Amadeus,A Coruna,Galicia,3-5 años,Presencial,,,False,2026-07-27,2026-07-27
+453,EURES,https://example-eures.es/oferta/453,BI Analyst,BI Analyst,Dados,Seat,Madrid,Comunidad de Madrid,3-5 años,Híbrido,62000.0,67000.0,True,2026-08-11,2026-08-11
+454,SEPE,https://example-sepe.es/oferta/454,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Accenture España,Madrid,Comunidad de Madrid,5+ años,Híbrido,,,False,2026-04-06,2026-04-06
+455,SEPE,https://example-sepe.es/oferta/455,Backend Developer,Backend Developer,Engenharia de Software,Zara (Inditex),Malaga,Andalucía,Sin experiencia,Presencial,57000.0,60000.0,True,2026-07-07,2026-07-08
+456,SEPE,https://example-sepe.es/oferta/456,Analista BI,BI Analyst,Dados,Indra,Malaga,Andalucía,Sin experiencia,Presencial,43000.0,48000.0,True,2026-06-22,2026-06-26
+457,EURES,https://example-eures.es/oferta/457,Data Engineer,Data Engineer,Dados,Wallapop,Malaga,Andalucía,5+ años,Presencial,29000.0,31000.0,True,2026-04-03,2026-04-03
+458,EURES,https://example-eures.es/oferta/458,Machine Learning Engineer,Machine Learning Engineer,Dados,CaixaBank,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,,,False,2026-05-04,2026-05-04
+459,SEPE,https://example-sepe.es/oferta/459,Ingeniero de Datos,Data Engineer,Dados,Seat,Barcelona,Cataluña,1-2 años,Remoto,39000.0,50000.0,True,2026-03-24,2026-03-25
+460,EURES,https://example-eures.es/oferta/460,Data Analyst,Data Analyst,Dados,Mango,Madrid,Comunidad de Madrid,5+ años,Híbrido,,,False,2026-04-13,2026-04-17
+461,SEPE,https://example-sepe.es/oferta/461,Analista de Datos,Data Analyst,Dados,CaixaBank,Barcelona,Cataluña,5+ años,Presencial,48000.0,51000.0,True,2026-06-17,2026-06-18
+462,SEPE,https://example-sepe.es/oferta/462,Científico de Datos,Data Scientist,Dados,Zara (Inditex),Barcelona,Cataluña,3-5 años,Remoto,,,False,2026-05-23,2026-05-26
+463,EURES,https://example-eures.es/oferta/463,Full Stack Developer,Full Stack Developer,Engenharia de Software,NTT Data,Madrid,Comunidad de Madrid,5+ años,Remoto,22000.0,37000.0,True,2026-06-30,2026-07-05
+464,SEPE,https://example-sepe.es/oferta/464,BI Analyst,BI Analyst,Dados,CaixaBank,Madrid,Comunidad de Madrid,1-2 años,Híbrido,43000.0,49000.0,True,2026-03-17,2026-03-19
+465,EURES,https://example-eures.es/oferta/465,Ingeniero QA,QA Engineer,Engenharia de Software,Zara (Inditex),Madrid,Comunidad de Madrid,Sin experiencia,Presencial,54000.0,62000.0,True,2026-08-02,2026-08-05
+466,SEPE,https://example-sepe.es/oferta/466,Desarrollador Backend,Backend Developer,Engenharia de Software,Iberdrola,Barcelona,Cataluña,1-2 años,Híbrido,23000.0,28000.0,True,2026-03-14,2026-03-14
+467,EURES,https://example-eures.es/oferta/467,Machine Learning Engineer,Machine Learning Engineer,Dados,Telefónica,Valencia,Comunidad Valenciana,5+ años,Presencial,56000.0,66000.0,True,2026-07-06,2026-07-09
+468,SEPE,https://example-sepe.es/oferta/468,Full Stack Developer,Full Stack Developer,Engenharia de Software,Amadeus,Barcelona,Cataluña,3-5 años,Remoto,32000.0,47000.0,True,2026-08-16,2026-08-18
+469,SEPE,https://example-sepe.es/oferta/469,Ingeniero de Software,Software Engineer,Engenharia de Software,Accenture España,Barcelona,Cataluña,3-5 años,Híbrido,,,False,2026-03-15,2026-03-18
+470,SEPE,https://example-sepe.es/oferta/470,Data Analyst,Data Analyst,Dados,CaixaBank,Madrid,Comunidad de Madrid,5+ años,Híbrido,62000.0,72000.0,True,2026-07-28,2026-07-28
+471,EURES,https://example-eures.es/oferta/471,Software Engineer,Software Engineer,Engenharia de Software,Naturgy,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-05-19,2026-05-23
+472,EURES,https://example-eures.es/oferta/472,Científico de Datos,Data Scientist,Dados,Wallapop,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,48000.0,56000.0,True,2026-06-17,2026-06-21
+473,SEPE,https://example-sepe.es/oferta/473,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Typeform,Barcelona,Cataluña,3-5 años,Presencial,,,False,2026-08-24,2026-08-29
+474,SEPE,https://example-sepe.es/oferta/474,Full Stack Developer,Full Stack Developer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,3-5 años,Remoto,,,False,2026-03-20,2026-03-24
+475,SEPE,https://example-sepe.es/oferta/475,Ingeniero QA,QA Engineer,Engenharia de Software,Everis,Valencia,Comunidad Valenciana,1-2 años,Híbrido,,,False,2026-05-26,2026-05-28
+476,EURES,https://example-eures.es/oferta/476,Data Scientist,Data Scientist,Dados,Indra,Barcelona,Cataluña,1-2 años,Remoto,61000.0,75000.0,True,2026-04-21,2026-04-24
+477,EURES,https://example-eures.es/oferta/477,DevOps Engineer,DevOps Engineer,Engenharia de Software,Glovo,Madrid,Comunidad de Madrid,1-2 años,Remoto,45000.0,59000.0,True,2026-08-08,2026-08-08
+478,SEPE,https://example-sepe.es/oferta/478,Full Stack Developer,Full Stack Developer,Engenharia de Software,Glovo,Malaga,Andalucía,Sin experiencia,Presencial,38000.0,45000.0,True,2026-05-08,2026-05-10
+479,EURES,https://example-eures.es/oferta/479,Data Scientist,Data Scientist,Dados,Indra,Madrid,Comunidad de Madrid,3-5 años,Híbrido,,,False,2026-03-10,2026-03-11
+480,EURES,https://example-eures.es/oferta/480,Data Analyst,Data Analyst,Dados,NTT Data,Barcelona,Cataluña,1-2 años,Presencial,48000.0,59000.0,True,2026-08-02,2026-08-04
+481,EURES,https://example-eures.es/oferta/481,Machine Learning Engineer,Machine Learning Engineer,Dados,Glovo,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-07-27,2026-07-31
+482,SEPE,https://example-sepe.es/oferta/482,Full Stack Developer,Full Stack Developer,Engenharia de Software,Zara (Inditex),Malaga,Andalucía,5+ años,Híbrido,,,False,2026-03-28,2026-03-29
+483,SEPE,https://example-sepe.es/oferta/483,Científico de Datos,Data Scientist,Dados,Wallapop,Barcelona,Cataluña,3-5 años,Híbrido,39000.0,43000.0,True,2026-06-17,2026-06-20
+484,SEPE,https://example-sepe.es/oferta/484,Data Analyst,Data Analyst,Dados,Naturgy,Barcelona,Cataluña,3-5 años,Remoto,,,False,2026-08-19,2026-08-20
+485,EURES,https://example-eures.es/oferta/485,Ingeniero de Datos,Data Engineer,Dados,Zara (Inditex),Barcelona,Cataluña,3-5 años,Remoto,,,False,2026-03-24,2026-03-25
+486,SEPE,https://example-sepe.es/oferta/486,Frontend Developer,Frontend Developer,Engenharia de Software,Typeform,Valencia,Comunidad Valenciana,Sin experiencia,Híbrido,28000.0,33000.0,True,2026-06-14,2026-06-16
+487,EURES,https://example-eures.es/oferta/487,QA Engineer,QA Engineer,Engenharia de Software,Indra,Barcelona,Cataluña,5+ años,Presencial,62000.0,76000.0,True,2026-03-14,2026-03-19
+488,SEPE,https://example-sepe.es/oferta/488,Ingeniero de Software,Software Engineer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,5+ años,Híbrido,63000.0,67000.0,True,2026-07-11,2026-07-16
+489,EURES,https://example-eures.es/oferta/489,Científico de Datos,Data Scientist,Dados,Indra,Madrid,Comunidad de Madrid,1-2 años,Presencial,58000.0,65000.0,True,2026-04-16,2026-04-19
+490,EURES,https://example-eures.es/oferta/490,Backend Developer,Backend Developer,Engenharia de Software,Accenture España,Madrid,Comunidad de Madrid,1-2 años,Remoto,,,False,2026-06-18,2026-06-22
+491,SEPE,https://example-sepe.es/oferta/491,Machine Learning Engineer,Machine Learning Engineer,Dados,Naturgy,Madrid,Comunidad de Madrid,5+ años,Híbrido,,,False,2026-04-27,2026-05-02
+492,EURES,https://example-eures.es/oferta/492,Ingeniero de Datos,Data Engineer,Dados,Naturgy,Barcelona,Cataluña,3-5 años,Presencial,48000.0,52000.0,True,2026-08-21,2026-08-22
+493,SEPE,https://example-sepe.es/oferta/493,Desarrollador Frontend,Frontend Developer,Engenharia de Software,BBVA,Malaga,Andalucía,Sin experiencia,Remoto,46000.0,59000.0,True,2026-08-25,2026-08-28
+494,SEPE,https://example-sepe.es/oferta/494,Ingeniero de Datos,Data Engineer,Dados,Naturgy,Madrid,Comunidad de Madrid,5+ años,Remoto,22000.0,30000.0,True,2026-08-29,2026-09-03
+495,EURES,https://example-eures.es/oferta/495,QA Engineer,QA Engineer,Engenharia de Software,BBVA,Madrid,Comunidad de Madrid,3-5 años,Remoto,43000.0,57000.0,True,2026-04-13,2026-04-17
+496,SEPE,https://example-sepe.es/oferta/496,Ingeniero de Software,Software Engineer,Engenharia de Software,Cabify,Madrid,Comunidad de Madrid,3-5 años,Híbrido,,,False,2026-06-01,2026-06-04
+497,EURES,https://example-eures.es/oferta/497,Analista BI,BI Analyst,Dados,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-08-10,2026-08-13
+498,EURES,https://example-eures.es/oferta/498,Data Engineer,Data Engineer,Dados,Amadeus,Barcelona,Cataluña,Sin experiencia,Híbrido,51000.0,66000.0,True,2026-05-31,2026-06-05
+499,EURES,https://example-eures.es/oferta/499,Data Scientist,Data Scientist,Dados,Typeform,Madrid,Comunidad de Madrid,1-2 años,Híbrido,64000.0,70000.0,True,2026-07-09,2026-07-11
+500,SEPE,https://example-sepe.es/oferta/500,Analista BI,BI Analyst,Dados,Accenture España,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,65000.0,68000.0,True,2026-03-07,2026-03-09
+501,SEPE,https://example-sepe.es/oferta/501,Analista BI,BI Analyst,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,1-2 años,Presencial,63000.0,77000.0,True,2026-03-02,2026-03-04
+502,EURES,https://example-eures.es/oferta/502,Data Scientist,Data Scientist,Dados,Glovo,Valencia,Comunidad Valenciana,5+ años,Presencial,47000.0,55000.0,True,2026-07-19,2026-07-23
+503,SEPE,https://example-sepe.es/oferta/503,Data Engineer,Data Engineer,Dados,Naturgy,Malaga,Andalucía,1-2 años,Híbrido,,,False,2026-04-09,2026-04-09
+504,SEPE,https://example-sepe.es/oferta/504,Machine Learning Engineer,Machine Learning Engineer,Dados,Accenture España,Malaga,Andalucía,1-2 años,Híbrido,49000.0,51000.0,True,2026-06-30,2026-07-02
+505,SEPE,https://example-sepe.es/oferta/505,QA Engineer,QA Engineer,Engenharia de Software,Typeform,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,,,False,2026-08-23,2026-08-28
+506,EURES,https://example-eures.es/oferta/506,DevOps Engineer,DevOps Engineer,Engenharia de Software,Telefónica,Barcelona,Cataluña,Sin experiencia,Remoto,58000.0,59000.0,True,2026-05-03,2026-05-07
+507,SEPE,https://example-sepe.es/oferta/507,DevOps Engineer,DevOps Engineer,Engenharia de Software,Seat,Barcelona,Cataluña,1-2 años,Híbrido,,,False,2026-07-07,2026-07-07
+508,EURES,https://example-eures.es/oferta/508,Data Scientist,Data Scientist,Dados,Seat,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,43000.0,48000.0,True,2026-06-24,2026-06-28
+509,SEPE,https://example-sepe.es/oferta/509,Ingeniero de Software,Software Engineer,Engenharia de Software,Accenture España,Malaga,Andalucía,5+ años,Híbrido,47000.0,62000.0,True,2026-04-13,2026-04-18
+510,EURES,https://example-eures.es/oferta/510,Data Analyst,Data Analyst,Dados,Glovo,Madrid,Comunidad de Madrid,5+ años,Remoto,35000.0,50000.0,True,2026-08-26,2026-08-27
+511,SEPE,https://example-sepe.es/oferta/511,Analista BI,BI Analyst,Dados,Indra,Madrid,Comunidad de Madrid,5+ años,Remoto,50000.0,65000.0,True,2026-03-30,2026-03-31
+512,SEPE,https://example-sepe.es/oferta/512,BI Analyst,BI Analyst,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,3-5 años,Presencial,49000.0,62000.0,True,2026-03-27,2026-04-01
+513,SEPE,https://example-sepe.es/oferta/513,QA Engineer,QA Engineer,Engenharia de Software,Wallapop,Barcelona,Cataluña,Sin experiencia,Híbrido,26000.0,34000.0,True,2026-06-17,2026-06-21
+514,SEPE,https://example-sepe.es/oferta/514,Full Stack Developer,Full Stack Developer,Engenharia de Software,Zara (Inditex),Barcelona,Cataluña,1-2 años,Híbrido,36000.0,43000.0,True,2026-04-19,2026-04-22
+515,EURES,https://example-eures.es/oferta/515,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Wallapop,A Coruna,Galicia,Sin experiencia,Híbrido,33000.0,39000.0,True,2026-03-23,2026-03-28
+516,EURES,https://example-eures.es/oferta/516,Desarrollador Backend,Backend Developer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,5+ años,Presencial,33000.0,34000.0,True,2026-05-06,2026-05-08
+517,EURES,https://example-eures.es/oferta/517,Ingeniero de Datos,Data Engineer,Dados,Zara (Inditex),Madrid,Comunidad de Madrid,5+ años,Presencial,54000.0,57000.0,True,2026-07-21,2026-07-23
+518,EURES,https://example-eures.es/oferta/518,Analista de Datos,Data Analyst,Dados,Accenture España,Valencia,Comunidad Valenciana,1-2 años,Remoto,,,False,2026-04-12,2026-04-17
+519,EURES,https://example-eures.es/oferta/519,QA Engineer,QA Engineer,Engenharia de Software,Glovo,Valencia,Comunidad Valenciana,5+ años,Híbrido,50000.0,63000.0,True,2026-04-05,2026-04-05
+520,EURES,https://example-eures.es/oferta/520,Ingeniero de Software,Software Engineer,Engenharia de Software,Amadeus,Barcelona,Cataluña,5+ años,Híbrido,31000.0,44000.0,True,2026-06-01,2026-06-06
+521,SEPE,https://example-sepe.es/oferta/521,QA Engineer,QA Engineer,Engenharia de Software,Iberdrola,Malaga,Andalucía,5+ años,Presencial,26000.0,28000.0,True,2026-03-03,2026-03-08
+522,SEPE,https://example-sepe.es/oferta/522,Software Engineer,Software Engineer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,3-5 años,Presencial,48000.0,60000.0,True,2026-08-17,2026-08-21
+523,SEPE,https://example-sepe.es/oferta/523,Ingeniero QA,QA Engineer,Engenharia de Software,NTT Data,Malaga,Andalucía,1-2 años,Híbrido,61000.0,75000.0,True,2026-04-22,2026-04-26
+524,SEPE,https://example-sepe.es/oferta/524,Científico de Datos,Data Scientist,Dados,Typeform,Madrid,Comunidad de Madrid,3-5 años,Remoto,,,False,2026-07-17,2026-07-19
+525,EURES,https://example-eures.es/oferta/525,Machine Learning Engineer,Machine Learning Engineer,Dados,Accenture España,Madrid,Comunidad de Madrid,3-5 años,Remoto,,,False,2026-06-17,2026-06-21
+526,SEPE,https://example-sepe.es/oferta/526,Ingeniero de Software,Software Engineer,Engenharia de Software,Naturgy,Madrid,Comunidad de Madrid,3-5 años,Remoto,59000.0,66000.0,True,2026-05-26,2026-05-27
+527,EURES,https://example-eures.es/oferta/527,Machine Learning Engineer,Machine Learning Engineer,Dados,Amadeus,Valencia,Comunidad Valenciana,5+ años,Híbrido,45000.0,59000.0,True,2026-07-28,2026-07-29
+528,SEPE,https://example-sepe.es/oferta/528,BI Analyst,BI Analyst,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,5+ años,Remoto,47000.0,59000.0,True,2026-03-20,2026-03-22
+529,EURES,https://example-eures.es/oferta/529,DevOps Engineer,DevOps Engineer,Engenharia de Software,Mango,A Coruna,Galicia,5+ años,Híbrido,,,False,2026-08-30,2026-09-02
+530,EURES,https://example-eures.es/oferta/530,Machine Learning Engineer,Machine Learning Engineer,Dados,CaixaBank,Valencia,Comunidad Valenciana,3-5 años,Híbrido,40000.0,41000.0,True,2026-03-29,2026-03-29
+531,SEPE,https://example-sepe.es/oferta/531,DevOps Engineer,DevOps Engineer,Engenharia de Software,Naturgy,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-07-29,2026-08-01
+532,SEPE,https://example-sepe.es/oferta/532,QA Engineer,QA Engineer,Engenharia de Software,Wallapop,Madrid,Comunidad de Madrid,1-2 años,Presencial,50000.0,60000.0,True,2026-07-02,2026-07-06
+533,SEPE,https://example-sepe.es/oferta/533,DevOps Engineer,DevOps Engineer,Engenharia de Software,Iberdrola,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,46000.0,53000.0,True,2026-08-07,2026-08-12
+534,EURES,https://example-eures.es/oferta/534,Ingeniero de Software,Software Engineer,Engenharia de Software,Factorial,Valencia,Comunidad Valenciana,Sin experiencia,Remoto,29000.0,31000.0,True,2026-08-29,2026-08-31
+535,EURES,https://example-eures.es/oferta/535,Machine Learning Engineer,Machine Learning Engineer,Dados,Startup Local S.L.,Valencia,Comunidad Valenciana,5+ años,Presencial,39000.0,45000.0,True,2026-07-15,2026-07-16
+536,EURES,https://example-eures.es/oferta/536,Software Engineer,Software Engineer,Engenharia de Software,CaixaBank,Barcelona,Cataluña,1-2 años,Híbrido,38000.0,40000.0,True,2026-03-07,2026-03-11
+537,EURES,https://example-eures.es/oferta/537,Analista de Datos,Data Analyst,Dados,Telefónica,Madrid,Comunidad de Madrid,3-5 años,Híbrido,42000.0,47000.0,True,2026-04-13,2026-04-13
+538,SEPE,https://example-sepe.es/oferta/538,BI Analyst,BI Analyst,Dados,Typeform,Madrid,Comunidad de Madrid,5+ años,Presencial,59000.0,66000.0,True,2026-04-21,2026-04-22
+539,EURES,https://example-eures.es/oferta/539,DevOps Engineer,DevOps Engineer,Engenharia de Software,Glovo,Madrid,Comunidad de Madrid,1-2 años,Híbrido,,,False,2026-04-29,2026-04-29
+540,EURES,https://example-eures.es/oferta/540,QA Engineer,QA Engineer,Engenharia de Software,Indra,Barcelona,Cataluña,5+ años,Remoto,49000.0,63000.0,True,2026-04-13,2026-04-14
+541,SEPE,https://example-sepe.es/oferta/541,Backend Developer,Backend Developer,Engenharia de Software,Mango,Barcelona,Cataluña,3-5 años,Presencial,65000.0,77000.0,True,2026-07-02,2026-07-04
+542,EURES,https://example-eures.es/oferta/542,Analista de Datos,Data Analyst,Dados,Typeform,Valencia,Comunidad Valenciana,3-5 años,Remoto,39000.0,52000.0,True,2026-04-05,2026-04-10
+543,EURES,https://example-eures.es/oferta/543,DevOps Engineer,DevOps Engineer,Engenharia de Software,Indra,Barcelona,Cataluña,5+ años,Presencial,43000.0,43000.0,True,2026-04-23,2026-04-26
+544,EURES,https://example-eures.es/oferta/544,BI Analyst,BI Analyst,Dados,Accenture España,Barcelona,Cataluña,5+ años,Remoto,64000.0,78000.0,True,2026-08-14,2026-08-14
+545,EURES,https://example-eures.es/oferta/545,Software Engineer,Software Engineer,Engenharia de Software,Cabify,Barcelona,Cataluña,3-5 años,Presencial,,,False,2026-04-19,2026-04-22
+546,EURES,https://example-eures.es/oferta/546,Data Scientist,Data Scientist,Dados,Mango,Valencia,Comunidad Valenciana,5+ años,Presencial,60000.0,66000.0,True,2026-03-10,2026-03-12
+547,EURES,https://example-eures.es/oferta/547,DevOps Engineer,DevOps Engineer,Engenharia de Software,Startup Local S.L.,Barcelona,Cataluña,1-2 años,Remoto,58000.0,63000.0,True,2026-07-23,2026-07-28
+548,EURES,https://example-eures.es/oferta/548,Ingeniero de Datos,Data Engineer,Dados,Everis,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,38000.0,52000.0,True,2026-08-25,2026-08-30
+549,EURES,https://example-eures.es/oferta/549,Full Stack Developer,Full Stack Developer,Engenharia de Software,Cabify,Malaga,Andalucía,5+ años,Remoto,24000.0,31000.0,True,2026-07-05,2026-07-07
+550,SEPE,https://example-sepe.es/oferta/550,Full Stack Developer,Full Stack Developer,Engenharia de Software,BBVA,Madrid,Comunidad de Madrid,1-2 años,Presencial,,,False,2026-03-07,2026-03-12
+551,SEPE,https://example-sepe.es/oferta/551,Analista de Datos,Data Analyst,Dados,Glovo,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,62000.0,72000.0,True,2026-06-19,2026-06-19
+552,EURES,https://example-eures.es/oferta/552,Data Analyst,Data Analyst,Dados,BBVA,A Coruna,Galicia,Sin experiencia,Presencial,28000.0,42000.0,True,2026-08-01,2026-08-05
+553,EURES,https://example-eures.es/oferta/553,Ingeniero de Software,Software Engineer,Engenharia de Software,CaixaBank,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,62000.0,75000.0,True,2026-06-22,2026-06-22
+554,SEPE,https://example-sepe.es/oferta/554,BI Analyst,BI Analyst,Dados,Everis,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,51000.0,63000.0,True,2026-08-01,2026-08-06
+555,EURES,https://example-eures.es/oferta/555,Científico de Datos,Data Scientist,Dados,Startup Local S.L.,Barcelona,Cataluña,1-2 años,Remoto,,,False,2026-07-31,2026-08-05
+556,SEPE,https://example-sepe.es/oferta/556,DevOps Engineer,DevOps Engineer,Engenharia de Software,Startup Local S.L.,Madrid,Comunidad de Madrid,1-2 años,Presencial,49000.0,60000.0,True,2026-03-16,2026-03-17
+557,EURES,https://example-eures.es/oferta/557,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Typeform,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,,,False,2026-08-16,2026-08-21
+558,SEPE,https://example-sepe.es/oferta/558,Desarrollador Backend,Backend Developer,Engenharia de Software,Naturgy,Madrid,Comunidad de Madrid,5+ años,Híbrido,51000.0,61000.0,True,2026-08-18,2026-08-21
+559,SEPE,https://example-sepe.es/oferta/559,Data Analyst,Data Analyst,Dados,Iberdrola,Madrid,Comunidad de Madrid,5+ años,Presencial,,,False,2026-06-28,2026-07-02
+560,SEPE,https://example-sepe.es/oferta/560,Software Engineer,Software Engineer,Engenharia de Software,Mango,Madrid,Comunidad de Madrid,3-5 años,Presencial,,,False,2026-07-21,2026-07-21
+561,EURES,https://example-eures.es/oferta/561,Data Scientist,Data Scientist,Dados,Indra,Madrid,Comunidad de Madrid,1-2 años,Híbrido,37000.0,42000.0,True,2026-04-14,2026-04-16
+562,SEPE,https://example-sepe.es/oferta/562,Data Engineer,Data Engineer,Dados,Seat,Madrid,Comunidad de Madrid,5+ años,Remoto,,,False,2026-05-18,2026-05-21
+563,EURES,https://example-eures.es/oferta/563,Data Engineer,Data Engineer,Dados,Startup Local S.L.,Madrid,Comunidad de Madrid,1-2 años,Remoto,49000.0,56000.0,True,2026-08-25,2026-08-27
+564,EURES,https://example-eures.es/oferta/564,Desarrollador Frontend,Frontend Developer,Engenharia de Software,BBVA,Valencia,Comunidad Valenciana,5+ años,Remoto,59000.0,74000.0,True,2026-05-11,2026-05-12
+565,SEPE,https://example-sepe.es/oferta/565,BI Analyst,BI Analyst,Dados,Cabify,Madrid,Comunidad de Madrid,5+ años,Remoto,52000.0,67000.0,True,2026-05-22,2026-05-27
+566,EURES,https://example-eures.es/oferta/566,Ingeniero de Datos,Data Engineer,Dados,Amadeus,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,45000.0,53000.0,True,2026-06-17,2026-06-20
+567,SEPE,https://example-sepe.es/oferta/567,Desarrollador Backend,Backend Developer,Engenharia de Software,Accenture España,Barcelona,Cataluña,5+ años,Híbrido,51000.0,64000.0,True,2026-08-07,2026-08-09
+568,SEPE,https://example-sepe.es/oferta/568,Backend Developer,Backend Developer,Engenharia de Software,Glovo,Barcelona,Cataluña,Sin experiencia,Presencial,54000.0,56000.0,True,2026-03-22,2026-03-24
+569,EURES,https://example-eures.es/oferta/569,Machine Learning Engineer,Machine Learning Engineer,Dados,Amadeus,Madrid,Comunidad de Madrid,3-5 años,Presencial,65000.0,73000.0,True,2026-05-24,2026-05-26
+570,EURES,https://example-eures.es/oferta/570,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Glovo,Madrid,Comunidad de Madrid,1-2 años,Híbrido,31000.0,43000.0,True,2026-03-04,2026-03-07
+571,SEPE,https://example-sepe.es/oferta/571,Machine Learning Engineer,Machine Learning Engineer,Dados,Zara (Inditex),Barcelona,Cataluña,Sin experiencia,Híbrido,48000.0,54000.0,True,2026-05-20,2026-05-21
+572,SEPE,https://example-sepe.es/oferta/572,Data Engineer,Data Engineer,Dados,NTT Data,Barcelona,Cataluña,3-5 años,Híbrido,,,False,2026-05-30,2026-06-01
+573,SEPE,https://example-sepe.es/oferta/573,Data Analyst,Data Analyst,Dados,Mango,Barcelona,Cataluña,5+ años,Presencial,58000.0,70000.0,True,2026-08-09,2026-08-13
+574,SEPE,https://example-sepe.es/oferta/574,Ingeniero de Software,Software Engineer,Engenharia de Software,Indra,Madrid,Comunidad de Madrid,1-2 años,Presencial,33000.0,34000.0,True,2026-04-13,2026-04-13
+575,EURES,https://example-eures.es/oferta/575,BI Analyst,BI Analyst,Dados,Iberdrola,Malaga,Andalucía,5+ años,Híbrido,45000.0,45000.0,True,2026-07-13,2026-07-13
+576,EURES,https://example-eures.es/oferta/576,Data Engineer,Data Engineer,Dados,Startup Local S.L.,A Coruna,Galicia,3-5 años,Remoto,64000.0,79000.0,True,2026-04-03,2026-04-04
+577,SEPE,https://example-sepe.es/oferta/577,Analista BI,BI Analyst,Dados,Zara (Inditex),Barcelona,Cataluña,5+ años,Remoto,37000.0,47000.0,True,2026-03-17,2026-03-20
+578,SEPE,https://example-sepe.es/oferta/578,Data Scientist,Data Scientist,Dados,NTT Data,Valencia,Comunidad Valenciana,1-2 años,Remoto,33000.0,46000.0,True,2026-08-04,2026-08-05
+579,EURES,https://example-eures.es/oferta/579,Data Analyst,Data Analyst,Dados,Wallapop,Barcelona,Cataluña,5+ años,Remoto,64000.0,66000.0,True,2026-05-10,2026-05-15
+580,EURES,https://example-eures.es/oferta/580,Analista de Datos,Data Analyst,Dados,Zara (Inditex),A Coruna,Galicia,Sin experiencia,Presencial,38000.0,44000.0,True,2026-05-23,2026-05-26
+581,SEPE,https://example-sepe.es/oferta/581,Full Stack Developer,Full Stack Developer,Engenharia de Software,Wallapop,Barcelona,Cataluña,5+ años,Presencial,30000.0,40000.0,True,2026-05-04,2026-05-04
+582,SEPE,https://example-sepe.es/oferta/582,Ingeniero de Datos,Data Engineer,Dados,CaixaBank,Barcelona,Cataluña,5+ años,Presencial,,,False,2026-03-05,2026-03-09
+583,EURES,https://example-eures.es/oferta/583,Data Analyst,Data Analyst,Dados,Zara (Inditex),Barcelona,Cataluña,Sin experiencia,Remoto,,,False,2026-04-25,2026-04-30
+585,EURES,https://example-eures.es/oferta/585,Ingeniero de Datos,Data Engineer,Dados,Iberdrola,Madrid,Comunidad de Madrid,3-5 años,Remoto,24000.0,37000.0,True,2026-08-18,2026-08-19
+586,SEPE,https://example-sepe.es/oferta/586,Machine Learning Engineer,Machine Learning Engineer,Dados,Iberdrola,Barcelona,Cataluña,Sin experiencia,Híbrido,,,False,2026-05-31,2026-06-02
+587,EURES,https://example-eures.es/oferta/587,Analista de Datos,Data Analyst,Dados,Factorial,Barcelona,Cataluña,1-2 años,Híbrido,60000.0,75000.0,True,2026-03-18,2026-03-19
+588,EURES,https://example-eures.es/oferta/588,BI Analyst,BI Analyst,Dados,Iberdrola,Barcelona,Cataluña,Sin experiencia,Remoto,64000.0,79000.0,True,2026-08-24,2026-08-26
+589,EURES,https://example-eures.es/oferta/589,Desarrollador Backend,Backend Developer,Engenharia de Software,Telefónica,Barcelona,Cataluña,1-2 años,Híbrido,49000.0,56000.0,True,2026-08-05,2026-08-05
+590,SEPE,https://example-sepe.es/oferta/590,Backend Developer,Backend Developer,Engenharia de Software,Iberdrola,Madrid,Comunidad de Madrid,Sin experiencia,Remoto,43000.0,47000.0,True,2026-08-01,2026-08-04
+591,EURES,https://example-eures.es/oferta/591,Frontend Developer,Frontend Developer,Engenharia de Software,Glovo,Barcelona,Cataluña,1-2 años,Remoto,,,False,2026-05-24,2026-05-26
+592,EURES,https://example-eures.es/oferta/592,Backend Developer,Backend Developer,Engenharia de Software,BBVA,Barcelona,Cataluña,1-2 años,Remoto,31000.0,37000.0,True,2026-04-19,2026-04-19
+593,EURES,https://example-eures.es/oferta/593,Analista de Datos,Data Analyst,Dados,Naturgy,Madrid,Comunidad de Madrid,3-5 años,Remoto,,,False,2026-05-02,2026-05-05
+594,EURES,https://example-eures.es/oferta/594,Desarrollador Backend,Backend Developer,Engenharia de Software,Wallapop,A Coruna,Galicia,Sin experiencia,Híbrido,49000.0,62000.0,True,2026-06-05,2026-06-06
+595,EURES,https://example-eures.es/oferta/595,Frontend Developer,Frontend Developer,Engenharia de Software,Iberdrola,Malaga,Andalucía,1-2 años,Remoto,46000.0,61000.0,True,2026-06-27,2026-06-29
+596,SEPE,https://example-sepe.es/oferta/596,Desarrollador Backend,Backend Developer,Engenharia de Software,NTT Data,Madrid,Comunidad de Madrid,3-5 años,Híbrido,53000.0,65000.0,True,2026-07-07,2026-07-12
+597,EURES,https://example-eures.es/oferta/597,Ingeniero QA,QA Engineer,Engenharia de Software,Everis,Madrid,Comunidad de Madrid,3-5 años,Remoto,58000.0,63000.0,True,2026-03-10,2026-03-10
+598,EURES,https://example-eures.es/oferta/598,DevOps Engineer,DevOps Engineer,Engenharia de Software,Cabify,Barcelona,Cataluña,5+ años,Remoto,45000.0,45000.0,True,2026-05-03,2026-05-04
+600,SEPE,https://example-sepe.es/oferta/600,Data Scientist,Data Scientist,Dados,Amadeus,Malaga,Andalucía,3-5 años,Remoto,27000.0,30000.0,True,2026-07-29,2026-07-31
+601,SEPE,https://example-sepe.es/oferta/601,BI Analyst,BI Analyst,Dados,Everis,A Coruna,Galicia,1-2 años,Presencial,48000.0,61000.0,True,2026-03-25,2026-03-25
+602,EURES,https://example-eures.es/oferta/602,Backend Developer,Backend Developer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Presencial,35000.0,40000.0,True,2026-03-29,2026-04-01
+603,SEPE,https://example-sepe.es/oferta/603,Full Stack Developer,Full Stack Developer,Engenharia de Software,Indra,A Coruna,Galicia,1-2 años,Híbrido,39000.0,41000.0,True,2026-05-15,2026-05-15
+604,EURES,https://example-eures.es/oferta/604,Ingeniero de Software,Software Engineer,Engenharia de Software,Typeform,Barcelona,Cataluña,Sin experiencia,Híbrido,24000.0,27000.0,True,2026-03-02,2026-03-07
+605,SEPE,https://example-sepe.es/oferta/605,DevOps Engineer,DevOps Engineer,Engenharia de Software,Telefónica,A Coruna,Galicia,3-5 años,Híbrido,45000.0,57000.0,True,2026-05-27,2026-05-29
+606,SEPE,https://example-sepe.es/oferta/606,BI Analyst,BI Analyst,Dados,Wallapop,Madrid,Comunidad de Madrid,5+ años,Remoto,37000.0,48000.0,True,2026-07-14,2026-07-16
+607,SEPE,https://example-sepe.es/oferta/607,Científico de Datos,Data Scientist,Dados,NTT Data,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,50000.0,57000.0,True,2026-03-12,2026-03-17
+608,EURES,https://example-eures.es/oferta/608,DevOps Engineer,DevOps Engineer,Engenharia de Software,Wallapop,A Coruna,Galicia,Sin experiencia,Híbrido,55000.0,56000.0,True,2026-08-03,2026-08-04
+609,EURES,https://example-eures.es/oferta/609,DevOps Engineer,DevOps Engineer,Engenharia de Software,BBVA,Madrid,Comunidad de Madrid,Sin experiencia,Híbrido,,,False,2026-07-17,2026-07-18
+610,EURES,https://example-eures.es/oferta/610,Científico de Datos,Data Scientist,Dados,Factorial,Madrid,Comunidad de Madrid,5+ años,Presencial,64000.0,67000.0,True,2026-08-18,2026-08-21
+611,EURES,https://example-eures.es/oferta/611,Ingeniero QA,QA Engineer,Engenharia de Software,Glovo,Malaga,Andalucía,3-5 años,Presencial,46000.0,59000.0,True,2026-08-31,2026-09-05
+612,SEPE,https://example-sepe.es/oferta/612,Ingeniero de Software,Software Engineer,Engenharia de Software,Telefónica,Madrid,Comunidad de Madrid,1-2 años,Híbrido,46000.0,46000.0,True,2026-06-03,2026-06-04
+613,SEPE,https://example-sepe.es/oferta/613,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Glovo,Madrid,Comunidad de Madrid,5+ años,Remoto,42000.0,46000.0,True,2026-03-03,2026-03-07
+614,SEPE,https://example-sepe.es/oferta/614,Frontend Developer,Frontend Developer,Engenharia de Software,Mango,Madrid,Comunidad de Madrid,5+ años,Híbrido,29000.0,37000.0,True,2026-05-19,2026-05-23
+615,SEPE,https://example-sepe.es/oferta/615,Desarrollador Frontend,Frontend Developer,Engenharia de Software,Naturgy,Madrid,Comunidad de Madrid,1-2 años,Presencial,33000.0,48000.0,True,2026-04-27,2026-05-02
+616,EURES,https://example-eures.es/oferta/616,DevOps Engineer,DevOps Engineer,Engenharia de Software,Amadeus,Madrid,Comunidad de Madrid,3-5 años,Remoto,34000.0,46000.0,True,2026-05-12,2026-05-14
+617,EURES,https://example-eures.es/oferta/617,Data Scientist,Data Scientist,Dados,Mango,Malaga,Andalucía,1-2 años,Remoto,,,False,2026-08-26,2026-08-29
+618,EURES,https://example-eures.es/oferta/618,Data Analyst,Data Analyst,Dados,CaixaBank,Valencia,Comunidad Valenciana,3-5 años,Híbrido,49000.0,54000.0,True,2026-08-21,2026-08-22
+619,EURES,https://example-eures.es/oferta/619,Analista de Datos,Data Analyst,Dados,NTT Data,A Coruna,Galicia,5+ años,Híbrido,,,False,2026-06-12,2026-06-13

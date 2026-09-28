@@ -1,0 +1,621 @@
+source,source_url,job_title,company,city,region,technologies_raw,experience_raw,work_mode_raw,salary_raw,posted_date,collected_date
+SEPE,https://example-sepe.es/oferta/1,Data Scientist,Telefónica,Madrid,Comunidad de Madrid,"Tableau, Power BI, Snowflake",Sin experiencia,Presencial,56000 - 58000 EUR/año,2026-03-27,2026-04-01
+SEPE,https://example-sepe.es/oferta/2,Data Analyst,Indra,Madrid,Comunidad de Madrid,"Snowflake, R, Databricks",1-2 años,Remoto,,2026-07-18,2026-07-21
+EURES,https://example-eures.es/oferta/3,Backend Developer,Zara (Inditex),Madrid,Comunidad de Madrid,"Azure, Python, Git",Sin experiencia,Híbrido,44000 - 52000 EUR/año,2026-06-06,2026-06-06
+EURES,https://example-eures.es/oferta/4,Científico de Datos,NTT Data,Barcelona,Cataluña,"Snowflake, SQL, Python",3-5 años,Híbrido,27000 - 34000 EUR/año,2026-08-17,2026-08-18
+EURES,https://example-eures.es/oferta/5,Desarrollador Frontend,Zara (Inditex),Madrid,Comunidad de Madrid,"Kubernetes, SQL, Azure",5+ años,Híbrido,32000 - 39000 EUR/año,2026-08-13,2026-08-13
+EURES,https://example-eures.es/oferta/6,Data Analyst,Startup Local S.L.,Valencia,Comunidad Valenciana,"Looker, Python, dbt",3-5 años,Presencial,,2026-05-20,2026-05-23
+SEPE,https://example-sepe.es/oferta/7,DevOps Engineer,Startup Local S.L.,Barcelona,Cataluña,"Kubernetes, JavaScript, TypeScript",5+ años,Híbrido,,2026-07-22,2026-07-26
+SEPE,https://example-sepe.es/oferta/8,Data Engineer,NTT Data,A Coruna,Galicia,"SQL, dbt, Python, Databricks, Power BI",5+ años,Remoto,49000 - 51000 EUR/año,2026-08-08,2026-08-09
+SEPE,https://example-sepe.es/oferta/9,Software Engineer,Seat,A Coruna,Galicia,"Kubernetes, Node.js",5+ años,Presencial,,2026-08-12,2026-08-14
+EURES,https://example-eures.es/oferta/10,Backend Developer,Factorial,A Coruna,Galicia,"AWS, .NET",Sin experiencia,Remoto,31000 - 42000 EUR/año,2026-08-11,2026-08-15
+SEPE,https://example-sepe.es/oferta/11,Ingeniero de Software,BBVA,Barcelona,Cataluña,"AWS, TypeScript, Java, Git",1-2 años,Presencial,,2026-07-24,2026-07-24
+SEPE,https://example-sepe.es/oferta/12,Backend Developer,Typeform,A Coruna,Galicia,".NET, TypeScript, Kubernetes, Node.js",5+ años,Presencial,47000 - 58000 EUR/año,2026-08-24,2026-08-25
+EURES,https://example-eures.es/oferta/13,Científico de Datos,Telefónica,Madrid,Comunidad de Madrid,"Excel, GCP",1-2 años,Presencial,,2026-04-28,2026-05-02
+SEPE,https://example-sepe.es/oferta/14,Analista de Datos,Glovo,Malaga,Andalucía,"Spark, R, Azure",5+ años,Híbrido,,2026-04-24,2026-04-28
+EURES,https://example-eures.es/oferta/15,BI Analyst,NTT Data,Madrid,Comunidad de Madrid,"AWS, Databricks, Azure, Snowflake",3-5 años,Presencial,63000 - 66000 EUR/año,2026-03-14,2026-03-19
+EURES,https://example-eures.es/oferta/16,Machine Learning Engineer,Factorial,Madrid,Comunidad de Madrid,"Power BI, AWS, Databricks, Spark, Azure",Sin experiencia,Presencial,57000 - 60000 EUR/año,2026-05-03,2026-05-03
+SEPE,https://example-sepe.es/oferta/17,Analista BI,Everis,Madrid,Comunidad de Madrid,"Tableau, Looker, AWS, Python, Power BI",5+ años,Presencial,38000 - 52000 EUR/año,2026-06-06,2026-06-06
+EURES,https://example-eures.es/oferta/18,Data Analyst,Typeform,Madrid,Comunidad de Madrid,"Snowflake, Airflow",Sin experiencia,Presencial,54000 - 59000 EUR/año,2026-03-15,2026-03-15
+SEPE,https://example-sepe.es/oferta/19,Ingeniero de Datos,Cabify,Barcelona,Cataluña,"SQL, Excel, Tableau, Looker, Snowflake",1-2 años,Remoto,,2026-03-11,2026-03-15
+EURES,https://example-eures.es/oferta/20,Full Stack Developer,Factorial,Madrid,Comunidad de Madrid,"AWS, Docker, Angular",1-2 años,Remoto,58000 - 61000 EUR/año,2026-03-19,2026-03-19
+EURES,https://example-eures.es/oferta/21,Desarrollador Frontend,Factorial,Madrid,Comunidad de Madrid,"Docker, Angular",3-5 años,Remoto,56000 - 65000 EUR/año,2026-05-12,2026-05-13
+EURES,https://example-eures.es/oferta/22,Data Engineer,Iberdrola,A Coruna,Galicia,"SQL, Databricks, Snowflake, GCP",1-2 años,Remoto,,2026-04-09,2026-04-11
+SEPE,https://example-sepe.es/oferta/23,Frontend Developer,Amadeus,Barcelona,Cataluña,"JavaScript, Azure",3-5 años,Presencial,,2026-06-17,2026-06-19
+SEPE,https://example-sepe.es/oferta/24,Full Stack Developer,Amadeus,Barcelona,Cataluña,"TypeScript, Python",Sin experiencia,Híbrido,45000 - 49000 EUR/año,2026-08-24,2026-08-25
+EURES,https://example-eures.es/oferta/25,Software Engineer,Seat,Malaga,Andalucía,"Spring Boot, Azure, TypeScript, Git",1-2 años,Híbrido,48000 - 52000 EUR/año,2026-03-27,2026-03-29
+EURES,https://example-eures.es/oferta/26,Científico de Datos,Wallapop,Madrid,Comunidad de Madrid,"dbt, R, Snowflake, Tableau, Spark",1-2 años,Presencial,,2026-04-10,2026-04-15
+EURES,https://example-eures.es/oferta/27,Desarrollador Backend,Cabify,Madrid,Comunidad de Madrid,"Java, Azure, TypeScript",3-5 años,Remoto,,2026-06-11,2026-06-13
+SEPE,https://example-sepe.es/oferta/28,QA Engineer,Accenture España,Barcelona,Cataluña,"Java, Python, React, JavaScript",3-5 años,Híbrido,,2026-07-27,2026-07-29
+SEPE,https://example-sepe.es/oferta/29,Ingeniero de Datos,Everis,Barcelona,Cataluña,"Python, Snowflake, AWS, Databricks",Sin experiencia,Remoto,64000 - 70000 EUR/año,2026-07-12,2026-07-16
+EURES,https://example-eures.es/oferta/30,Ingeniero de Software,Mango,Barcelona,Cataluña,"AWS, Azure, Spring Boot, Angular",5+ años,Remoto,,2026-06-12,2026-06-17
+SEPE,https://example-sepe.es/oferta/31,Backend Developer,Zara (Inditex),Barcelona,Cataluña,"Node.js, Kubernetes, .NET, Java",5+ años,Híbrido,,2026-05-17,2026-05-19
+SEPE,https://example-sepe.es/oferta/32,Data Engineer,Glovo,Barcelona,Cataluña,"Spark, GCP",1-2 años,Presencial,27000 - 34000 EUR/año,2026-08-17,2026-08-22
+SEPE,https://example-sepe.es/oferta/33,Analista BI,Wallapop,Madrid,Comunidad de Madrid,"Azure, AWS",5+ años,Presencial,,2026-08-09,2026-08-13
+EURES,https://example-eures.es/oferta/34,Data Analyst,Factorial,Barcelona,Cataluña,"dbt, AWS",1-2 años,Presencial,55000 - 69000 EUR/año,2026-04-26,2026-04-27
+EURES,https://example-eures.es/oferta/35,DevOps Engineer,Wallapop,Madrid,Comunidad de Madrid,"Git, AWS, .NET, SQL",5+ años,Híbrido,57000 - 71000 EUR/año,2026-07-08,2026-07-11
+SEPE,https://example-sepe.es/oferta/36,Data Scientist,Iberdrola,Malaga,Andalucía,"R, Tableau, Spark, Azure, SQL",Sin experiencia,Presencial,,2026-08-30,2026-09-01
+SEPE,https://example-sepe.es/oferta/37,Data Engineer,NTT Data,Madrid,Comunidad de Madrid,"SQL, AWS, Looker",Sin experiencia,Remoto,25000 - 31000 EUR/año,2026-05-24,2026-05-28
+SEPE,https://example-sepe.es/oferta/38,Desarrollador Frontend,Glovo,Barcelona,Cataluña,"Node.js, .NET, Git, Spring Boot",3-5 años,Híbrido,60000 - 67000 EUR/año,2026-07-16,2026-07-21
+EURES,https://example-eures.es/oferta/39,Desarrollador Frontend,Everis,Madrid,Comunidad de Madrid,"Angular, .NET, Docker, JavaScript, AWS",1-2 años,Híbrido,59000 - 59000 EUR/año,2026-07-15,2026-07-15
+EURES,https://example-eures.es/oferta/40,BI Analyst,Wallapop,Madrid,Comunidad de Madrid,"Tableau, Azure, Airflow, dbt",Sin experiencia,Remoto,48000 - 56000 EUR/año,2026-06-06,2026-06-08
+EURES,https://example-eures.es/oferta/41,Científico de Datos,Amadeus,A Coruna,Galicia,"R, SQL, dbt",1-2 años,Presencial,37000 - 43000 EUR/año,2026-08-14,2026-08-14
+SEPE,https://example-sepe.es/oferta/42,Ingeniero QA,CaixaBank,Barcelona,Cataluña,"Git, SQL, React",Sin experiencia,Híbrido,29000 - 34000 EUR/año,2026-06-03,2026-06-04
+EURES,https://example-eures.es/oferta/43,Desarrollador Backend,Accenture España,Barcelona,Cataluña,"Docker, Python",5+ años,Remoto,60000 - 63000 EUR/año,2026-08-26,2026-08-28
+EURES,https://example-eures.es/oferta/44,Desarrollador Frontend,Everis,Madrid,Comunidad de Madrid,".NET, CI/CD",1-2 años,Remoto,45000 - 59000 EUR/año,2026-07-04,2026-07-04
+SEPE,https://example-sepe.es/oferta/45,QA Engineer,Glovo,Barcelona,Cataluña,"Git, Spring Boot, .NET, SQL, AWS",5+ años,Remoto,27000 - 35000 EUR/año,2026-05-08,2026-05-10
+SEPE,https://example-sepe.es/oferta/46,DevOps Engineer,Factorial,Madrid,Comunidad de Madrid,"Angular, Docker, TypeScript, CI/CD",Sin experiencia,Remoto,,2026-05-06,2026-05-08
+SEPE,https://example-sepe.es/oferta/47,BI Analyst,Glovo,Madrid,Comunidad de Madrid,"GCP, dbt, Tableau, Snowflake, Azure",5+ años,Remoto,23000 - 25000 EUR/año,2026-08-13,2026-08-18
+SEPE,https://example-sepe.es/oferta/48,Científico de Datos,Glovo,Madrid,Comunidad de Madrid,"GCP, Databricks, Airflow, AWS, Looker",Sin experiencia,Remoto,39000 - 48000 EUR/año,2026-05-24,2026-05-26
+EURES,https://example-eures.es/oferta/49,Machine Learning Engineer,Mango,Madrid,Comunidad de Madrid,"Tableau, Databricks, Snowflake",3-5 años,Presencial,55000 - 64000 EUR/año,2026-07-02,2026-07-04
+EURES,https://example-eures.es/oferta/50,Software Engineer,Indra,Madrid,Comunidad de Madrid,"Kubernetes, Java, Git",3-5 años,Híbrido,30000 - 45000 EUR/año,2026-07-20,2026-07-22
+EURES,https://example-eures.es/oferta/51,Backend Developer,Startup Local S.L.,Barcelona,Cataluña,"Kubernetes, .NET",Sin experiencia,Presencial,47000 - 62000 EUR/año,2026-07-01,2026-07-01
+SEPE,https://example-sepe.es/oferta/52,Data Scientist,Zara (Inditex),Valencia,Comunidad Valenciana,"Tableau, SQL",5+ años,Híbrido,61000 - 68000 EUR/año,2026-07-21,2026-07-24
+EURES,https://example-eures.es/oferta/53,Ingeniero QA,Seat,Madrid,Comunidad de Madrid,"TypeScript, Node.js",1-2 años,Presencial,,2026-04-23,2026-04-28
+EURES,https://example-eures.es/oferta/54,BI Analyst,Cabify,Madrid,Comunidad de Madrid,"Snowflake, Excel, Azure, Spark, Python",1-2 años,Híbrido,51000 - 53000 EUR/año,2026-04-29,2026-05-01
+SEPE,https://example-sepe.es/oferta/55,Data Engineer,CaixaBank,Barcelona,Cataluña,"Looker, Power BI, SQL, Python",5+ años,Remoto,58000 - 67000 EUR/año,2026-04-12,2026-04-14
+EURES,https://example-eures.es/oferta/56,Frontend Developer,Glovo,Valencia,Comunidad Valenciana,"Git, Python, AWS, Java, Spring Boot",Sin experiencia,Remoto,,2026-05-22,2026-05-26
+SEPE,https://example-sepe.es/oferta/57,Backend Developer,Everis,Barcelona,Cataluña,"Git, CI/CD, React, JavaScript, AWS",3-5 años,Híbrido,27000 - 42000 EUR/año,2026-06-20,2026-06-25
+SEPE,https://example-sepe.es/oferta/58,Científico de Datos,CaixaBank,Malaga,Andalucía,"Snowflake, Azure, Spark, R, AWS",5+ años,Remoto,42000 - 50000 EUR/año,2026-07-19,2026-07-19
+SEPE,https://example-sepe.es/oferta/59,Machine Learning Engineer,Factorial,Barcelona,Cataluña,"AWS, Python, Tableau, GCP, Airflow",1-2 años,Híbrido,25000 - 31000 EUR/año,2026-08-07,2026-08-10
+SEPE,https://example-sepe.es/oferta/60,DevOps Engineer,BBVA,Malaga,Andalucía,"Java, Azure",1-2 años,Presencial,41000 - 41000 EUR/año,2026-08-03,2026-08-04
+EURES,https://example-eures.es/oferta/61,Backend Developer,NTT Data,A Coruna,Galicia,"AWS, Kubernetes, SQL, React, Spring Boot",1-2 años,Remoto,,2026-07-02,2026-07-05
+SEPE,https://example-sepe.es/oferta/62,Data Scientist,Amadeus,Malaga,Andalucía,"Airflow, dbt, GCP, Spark, Python",5+ años,Remoto,,2026-05-12,2026-05-17
+SEPE,https://example-sepe.es/oferta/63,QA Engineer,Wallapop,Madrid,Comunidad de Madrid,"Git, CI/CD, Angular, TypeScript, SQL",5+ años,Híbrido,48000 - 49000 EUR/año,2026-05-01,2026-05-05
+SEPE,https://example-sepe.es/oferta/64,Data Analyst,Indra,Barcelona,Cataluña,"GCP, Excel, Airflow",1-2 años,Híbrido,,2026-03-26,2026-03-29
+SEPE,https://example-sepe.es/oferta/65,Data Scientist,Wallapop,Madrid,Comunidad de Madrid,"Excel, Snowflake, AWS, R",Sin experiencia,Remoto,56000 - 68000 EUR/año,2026-03-21,2026-03-23
+EURES,https://example-eures.es/oferta/66,Data Scientist,Naturgy,Madrid,Comunidad de Madrid,"Snowflake, SQL, AWS",Sin experiencia,Presencial,28000 - 42000 EUR/año,2026-03-26,2026-03-31
+EURES,https://example-eures.es/oferta/67,Frontend Developer,BBVA,Valencia,Comunidad Valenciana,"SQL, Spring Boot, JavaScript, TypeScript",5+ años,Remoto,33000 - 38000 EUR/año,2026-07-14,2026-07-17
+EURES,https://example-eures.es/oferta/68,Data Engineer,BBVA,Barcelona,Cataluña,"Azure, R, Spark",5+ años,Híbrido,51000 - 60000 EUR/año,2026-06-26,2026-06-28
+SEPE,https://example-sepe.es/oferta/69,Full Stack Developer,Startup Local S.L.,Barcelona,Cataluña,"Git, .NET, React, TypeScript",3-5 años,Remoto,,2026-06-07,2026-06-10
+SEPE,https://example-sepe.es/oferta/70,Frontend Developer,Glovo,A Coruna,Galicia,"Node.js, React",3-5 años,Presencial,25000 - 40000 EUR/año,2026-03-03,2026-03-07
+SEPE,https://example-sepe.es/oferta/71,Data Engineer,Amadeus,Barcelona,Cataluña,"Databricks, R",Sin experiencia,Híbrido,50000 - 51000 EUR/año,2026-08-13,2026-08-13
+SEPE,https://example-sepe.es/oferta/72,Backend Developer,Wallapop,Valencia,Comunidad Valenciana,"React, Node.js, Kubernetes",3-5 años,Remoto,39000 - 44000 EUR/año,2026-06-02,2026-06-06
+EURES,https://example-eures.es/oferta/73,DevOps Engineer,NTT Data,Valencia,Comunidad Valenciana,"React, Node.js",Sin experiencia,Híbrido,47000 - 58000 EUR/año,2026-04-27,2026-05-02
+SEPE,https://example-sepe.es/oferta/74,Data Scientist,Glovo,Barcelona,Cataluña,"Looker, R, Airflow, SQL, Databricks",Sin experiencia,Remoto,,2026-04-29,2026-05-02
+EURES,https://example-eures.es/oferta/75,Frontend Developer,NTT Data,Malaga,Andalucía,"TypeScript, JavaScript, Java, .NET, React",5+ años,Híbrido,,2026-07-05,2026-07-05
+SEPE,https://example-sepe.es/oferta/76,Backend Developer,Glovo,Barcelona,Cataluña,"TypeScript, .NET, Docker, AWS, Spring Boot",3-5 años,Presencial,35000 - 49000 EUR/año,2026-05-11,2026-05-11
+EURES,https://example-eures.es/oferta/77,Desarrollador Frontend,Indra,Barcelona,Cataluña,"Node.js, React",Sin experiencia,Híbrido,51000 - 53000 EUR/año,2026-04-18,2026-04-18
+EURES,https://example-eures.es/oferta/78,Ingeniero de Datos,Indra,A Coruna,Galicia,"Looker, dbt",3-5 años,Presencial,36000 - 46000 EUR/año,2026-07-20,2026-07-21
+EURES,https://example-eures.es/oferta/79,Data Engineer,Startup Local S.L.,Barcelona,Cataluña,"R, Looker",3-5 años,Presencial,,2026-03-07,2026-03-08
+EURES,https://example-eures.es/oferta/80,Data Engineer,Telefónica,Madrid,Comunidad de Madrid,"GCP, SQL, Snowflake, Looker, Azure",3-5 años,Híbrido,28000 - 42000 EUR/año,2026-06-23,2026-06-25
+EURES,https://example-eures.es/oferta/81,Analista BI,Cabify,Madrid,Comunidad de Madrid,"AWS, R, SQL, Azure, Snowflake",3-5 años,Híbrido,31000 - 33000 EUR/año,2026-03-19,2026-03-19
+SEPE,https://example-sepe.es/oferta/82,Ingeniero QA,Glovo,Barcelona,Cataluña,"TypeScript, Node.js, SQL, Python, Azure",5+ años,Híbrido,35000 - 48000 EUR/año,2026-08-14,2026-08-18
+EURES,https://example-eures.es/oferta/83,Ingeniero de Software,BBVA,Barcelona,Cataluña,".NET, Angular, Azure, React",Sin experiencia,Híbrido,52000 - 54000 EUR/año,2026-06-04,2026-06-05
+SEPE,https://example-sepe.es/oferta/84,Científico de Datos,Everis,Valencia,Comunidad Valenciana,"GCP, Python, Excel",Sin experiencia,Híbrido,29000 - 42000 EUR/año,2026-07-22,2026-07-26
+EURES,https://example-eures.es/oferta/85,Ingeniero QA,Cabify,Madrid,Comunidad de Madrid,"React, Azure, Docker",1-2 años,Híbrido,57000 - 68000 EUR/año,2026-04-27,2026-04-27
+EURES,https://example-eures.es/oferta/86,Data Scientist,Amadeus,Barcelona,Cataluña,"Power BI, Spark",5+ años,Presencial,44000 - 44000 EUR/año,2026-08-27,2026-08-29
+SEPE,https://example-sepe.es/oferta/87,Data Analyst,Naturgy,Valencia,Comunidad Valenciana,"Snowflake, GCP",3-5 años,Remoto,43000 - 48000 EUR/año,2026-04-25,2026-04-28
+SEPE,https://example-sepe.es/oferta/88,Data Engineer,Wallapop,Malaga,Andalucía,"dbt, Excel, Python",5+ años,Híbrido,,2026-08-20,2026-08-20
+SEPE,https://example-sepe.es/oferta/89,QA Engineer,Telefónica,Madrid,Comunidad de Madrid,"SQL, Spring Boot",1-2 años,Híbrido,59000 - 74000 EUR/año,2026-03-29,2026-03-31
+SEPE,https://example-sepe.es/oferta/90,Data Scientist,Seat,Madrid,Comunidad de Madrid,"dbt, Power BI, Databricks",1-2 años,Híbrido,22000 - 37000 EUR/año,2026-05-05,2026-05-07
+EURES,https://example-eures.es/oferta/91,Científico de Datos,Iberdrola,Barcelona,Cataluña,"AWS, Looker",5+ años,Remoto,,2026-03-11,2026-03-14
+SEPE,https://example-sepe.es/oferta/92,Full Stack Developer,CaixaBank,Valencia,Comunidad Valenciana,"TypeScript, Spring Boot, Java, Angular",1-2 años,Híbrido,45000 - 47000 EUR/año,2026-04-13,2026-04-17
+SEPE,https://example-sepe.es/oferta/93,Full Stack Developer,Accenture España,Barcelona,Cataluña,"Azure, TypeScript, Angular, Node.js",1-2 años,Presencial,29000 - 35000 EUR/año,2026-04-13,2026-04-13
+SEPE,https://example-sepe.es/oferta/94,Ingeniero de Datos,Zara (Inditex),Madrid,Comunidad de Madrid,"Excel, Power BI, dbt",5+ años,Remoto,,2026-08-15,2026-08-15
+SEPE,https://example-sepe.es/oferta/95,Desarrollador Frontend,Typeform,Malaga,Andalucía,"Git, Python, Docker",Sin experiencia,Híbrido,39000 - 40000 EUR/año,2026-06-22,2026-06-27
+SEPE,https://example-sepe.es/oferta/96,Software Engineer,Startup Local S.L.,Barcelona,Cataluña,"AWS, Python, Azure, Git",1-2 años,Híbrido,51000 - 52000 EUR/año,2026-08-05,2026-08-09
+SEPE,https://example-sepe.es/oferta/97,Software Engineer,Zara (Inditex),Barcelona,Cataluña,"TypeScript, Node.js, .NET, Angular, SQL",1-2 años,Híbrido,24000 - 31000 EUR/año,2026-03-22,2026-03-26
+EURES,https://example-eures.es/oferta/98,Full Stack Developer,Factorial,Malaga,Andalucía,"Azure, CI/CD, AWS, Java, Git",5+ años,Híbrido,,2026-08-13,2026-08-15
+EURES,https://example-eures.es/oferta/99,Ingeniero QA,BBVA,Valencia,Comunidad Valenciana,"Azure, Python, AWS",3-5 años,Remoto,41000 - 53000 EUR/año,2026-08-17,2026-08-18
+EURES,https://example-eures.es/oferta/100,Desarrollador Frontend,Mango,Barcelona,Cataluña,"JavaScript, Azure, Git",3-5 años,Híbrido,45000 - 54000 EUR/año,2026-06-17,2026-06-21
+SEPE,https://example-sepe.es/oferta/101,Data Engineer,Amadeus,Madrid,Comunidad de Madrid,"SQL, Spark, dbt",5+ años,Presencial,55000 - 56000 EUR/año,2026-03-26,2026-03-30
+SEPE,https://example-sepe.es/oferta/102,Data Engineer,Glovo,Madrid,Comunidad de Madrid,"Python, AWS, Airflow, R, Tableau",1-2 años,Híbrido,,2026-06-22,2026-06-26
+EURES,https://example-eures.es/oferta/103,Desarrollador Backend,Cabify,Malaga,Andalucía,"Git, Docker, Node.js, React",Sin experiencia,Remoto,32000 - 38000 EUR/año,2026-06-06,2026-06-10
+EURES,https://example-eures.es/oferta/104,QA Engineer,Everis,Malaga,Andalucía,"TypeScript, React",Sin experiencia,Presencial,,2026-03-22,2026-03-23
+EURES,https://example-eures.es/oferta/105,Software Engineer,Iberdrola,Malaga,Andalucía,"Python, Spring Boot, Kubernetes, Angular, TypeScript",1-2 años,Presencial,23000 - 33000 EUR/año,2026-06-07,2026-06-07
+EURES,https://example-eures.es/oferta/106,Analista BI,Indra,Madrid,Comunidad de Madrid,"dbt, Snowflake, Azure",3-5 años,Presencial,,2026-06-23,2026-06-27
+SEPE,https://example-sepe.es/oferta/107,Machine Learning Engineer,BBVA,Barcelona,Cataluña,"SQL, dbt, Spark, Tableau, Looker",Sin experiencia,Híbrido,,2026-04-01,2026-04-01
+SEPE,https://example-sepe.es/oferta/108,Ingeniero de Datos,Seat,Barcelona,Cataluña,"Spark, AWS, Python",Sin experiencia,Remoto,,2026-08-05,2026-08-07
+EURES,https://example-eures.es/oferta/109,QA Engineer,Accenture España,Madrid,Comunidad de Madrid,"Node.js, .NET",Sin experiencia,Híbrido,45000 - 53000 EUR/año,2026-06-29,2026-06-29
+SEPE,https://example-sepe.es/oferta/110,Analista de Datos,Wallapop,Valencia,Comunidad Valenciana,"Power BI, Python, Airflow, GCP",1-2 años,Presencial,,2026-05-26,2026-05-31
+SEPE,https://example-sepe.es/oferta/111,Analista BI,Factorial,Valencia,Comunidad Valenciana,"Spark, Tableau",5+ años,Híbrido,42000 - 51000 EUR/año,2026-03-12,2026-03-13
+SEPE,https://example-sepe.es/oferta/112,Ingeniero de Datos,Everis,Valencia,Comunidad Valenciana,"Airflow, Looker, dbt, Python",5+ años,Remoto,,2026-08-15,2026-08-17
+EURES,https://example-eures.es/oferta/113,Full Stack Developer,Everis,Malaga,Andalucía,"Angular, Docker, SQL, Git",Sin experiencia,Híbrido,,2026-06-03,2026-06-07
+EURES,https://example-eures.es/oferta/114,Científico de Datos,Zara (Inditex),Barcelona,Cataluña,"SQL, Airflow",3-5 años,Híbrido,60000 - 73000 EUR/año,2026-08-17,2026-08-19
+EURES,https://example-eures.es/oferta/115,Científico de Datos,Amadeus,Valencia,Comunidad Valenciana,"Spark, R, dbt, Python, SQL",5+ años,Presencial,54000 - 59000 EUR/año,2026-08-19,2026-08-24
+SEPE,https://example-sepe.es/oferta/116,Científico de Datos,BBVA,Madrid,Comunidad de Madrid,"AWS, Excel, Python, Looker",1-2 años,Remoto,45000 - 56000 EUR/año,2026-04-09,2026-04-14
+SEPE,https://example-sepe.es/oferta/117,Frontend Developer,Cabify,Barcelona,Cataluña,"TypeScript, Java, SQL",5+ años,Presencial,57000 - 60000 EUR/año,2026-04-17,2026-04-20
+SEPE,https://example-sepe.es/oferta/118,DevOps Engineer,BBVA,Valencia,Comunidad Valenciana,"TypeScript, JavaScript, .NET",3-5 años,Remoto,,2026-03-19,2026-03-22
+EURES,https://example-eures.es/oferta/119,QA Engineer,Mango,Valencia,Comunidad Valenciana,"AWS, .NET, JavaScript, SQL",1-2 años,Presencial,45000 - 52000 EUR/año,2026-08-29,2026-09-03
+SEPE,https://example-sepe.es/oferta/120,QA Engineer,Wallapop,Madrid,Comunidad de Madrid,"Git, Node.js, Kubernetes, JavaScript",5+ años,Híbrido,,2026-08-04,2026-08-04
+EURES,https://example-eures.es/oferta/121,Científico de Datos,Everis,Madrid,Comunidad de Madrid,"Azure, Databricks",Sin experiencia,Presencial,57000 - 62000 EUR/año,2026-08-22,2026-08-26
+SEPE,https://example-sepe.es/oferta/122,Data Engineer,Amadeus,Madrid,Comunidad de Madrid,"Databricks, Snowflake, Tableau, Airflow",3-5 años,Remoto,38000 - 44000 EUR/año,2026-07-11,2026-07-13
+EURES,https://example-eures.es/oferta/123,Data Engineer,BBVA,Barcelona,Cataluña,"Power BI, R, Excel",Sin experiencia,Remoto,58000 - 59000 EUR/año,2026-08-02,2026-08-04
+SEPE,https://example-sepe.es/oferta/124,Ingeniero QA,Zara (Inditex),Barcelona,Cataluña,"Java, Docker, Azure, Kubernetes, React",Sin experiencia,Remoto,65000 - 77000 EUR/año,2026-08-12,2026-08-14
+EURES,https://example-eures.es/oferta/125,BI Analyst,Accenture España,Madrid,Comunidad de Madrid,"Azure, Tableau, Airflow, Excel, Power BI",Sin experiencia,Híbrido,44000 - 56000 EUR/año,2026-05-20,2026-05-25
+SEPE,https://example-sepe.es/oferta/126,Data Scientist,Mango,Barcelona,Cataluña,"Tableau, Power BI, SQL, Python, Spark",1-2 años,Híbrido,32000 - 42000 EUR/año,2026-06-07,2026-06-11
+SEPE,https://example-sepe.es/oferta/127,Frontend Developer,Wallapop,Barcelona,Cataluña,"Java, Python, Spring Boot, Kubernetes, Docker",5+ años,Híbrido,25000 - 26000 EUR/año,2026-05-01,2026-05-02
+EURES,https://example-eures.es/oferta/128,BI Analyst,Accenture España,Malaga,Andalucía,"Databricks, Spark, Snowflake",3-5 años,Presencial,47000 - 48000 EUR/año,2026-06-02,2026-06-05
+EURES,https://example-eures.es/oferta/129,QA Engineer,Typeform,Barcelona,Cataluña,"TypeScript, JavaScript, Python, Spring Boot",5+ años,Remoto,45000 - 49000 EUR/año,2026-06-04,2026-06-06
+SEPE,https://example-sepe.es/oferta/130,Data Engineer,Seat,Madrid,Comunidad de Madrid,"dbt, Azure, GCP, Looker",5+ años,Remoto,30000 - 40000 EUR/año,2026-04-08,2026-04-12
+SEPE,https://example-sepe.es/oferta/131,QA Engineer,Startup Local S.L.,Barcelona,Cataluña,"AWS, Docker, .NET, Java, Angular",3-5 años,Remoto,,2026-05-24,2026-05-29
+EURES,https://example-eures.es/oferta/132,Data Scientist,Glovo,Barcelona,Cataluña,"Snowflake, Python, Excel",Sin experiencia,Remoto,61000 - 73000 EUR/año,2026-07-01,2026-07-02
+EURES,https://example-eures.es/oferta/133,Analista BI,Amadeus,Madrid,Comunidad de Madrid,"AWS, Power BI, Databricks, Snowflake",1-2 años,Remoto,61000 - 76000 EUR/año,2026-04-22,2026-04-25
+SEPE,https://example-sepe.es/oferta/134,DevOps Engineer,Mango,A Coruna,Galicia,"Azure, JavaScript, Docker, Kubernetes, Angular",1-2 años,Híbrido,65000 - 73000 EUR/año,2026-07-18,2026-07-20
+EURES,https://example-eures.es/oferta/135,Frontend Developer,Startup Local S.L.,Madrid,Comunidad de Madrid,"Spring Boot, SQL, Git, Docker",5+ años,Híbrido,39000 - 48000 EUR/año,2026-05-21,2026-05-24
+EURES,https://example-eures.es/oferta/136,Backend Developer,Factorial,A Coruna,Galicia,"Python, React, SQL, CI/CD",3-5 años,Remoto,52000 - 58000 EUR/año,2026-05-28,2026-05-31
+SEPE,https://example-sepe.es/oferta/137,Ingeniero QA,Iberdrola,Madrid,Comunidad de Madrid,"Docker, Java, Azure",5+ años,Presencial,25000 - 28000 EUR/año,2026-07-14,2026-07-15
+SEPE,https://example-sepe.es/oferta/138,Machine Learning Engineer,Iberdrola,Madrid,Comunidad de Madrid,"AWS, R, Azure",3-5 años,Remoto,,2026-07-01,2026-07-06
+SEPE,https://example-sepe.es/oferta/139,Analista de Datos,Wallapop,Malaga,Andalucía,"GCP, Snowflake, Looker",1-2 años,Remoto,33000 - 34000 EUR/año,2026-03-10,2026-03-11
+SEPE,https://example-sepe.es/oferta/140,Software Engineer,Cabify,Malaga,Andalucía,"TypeScript, Git, Angular, React",1-2 años,Presencial,53000 - 57000 EUR/año,2026-06-25,2026-06-30
+SEPE,https://example-sepe.es/oferta/141,DevOps Engineer,Everis,Madrid,Comunidad de Madrid,"Angular, Java, SQL, CI/CD",3-5 años,Presencial,34000 - 39000 EUR/año,2026-05-15,2026-05-19
+SEPE,https://example-sepe.es/oferta/142,Backend Developer,Naturgy,Barcelona,Cataluña,"CI/CD, Angular, TypeScript",Sin experiencia,Híbrido,50000 - 58000 EUR/año,2026-03-02,2026-03-04
+SEPE,https://example-sepe.es/oferta/143,Software Engineer,Accenture España,Valencia,Comunidad Valenciana,"Git, React",1-2 años,Presencial,41000 - 44000 EUR/año,2026-04-10,2026-04-13
+SEPE,https://example-sepe.es/oferta/144,Analista BI,Typeform,Barcelona,Cataluña,"AWS, Snowflake, GCP, Azure",3-5 años,Presencial,37000 - 39000 EUR/año,2026-07-16,2026-07-21
+EURES,https://example-eures.es/oferta/145,Machine Learning Engineer,Startup Local S.L.,Madrid,Comunidad de Madrid,"Excel, GCP, Power BI",5+ años,Presencial,50000 - 53000 EUR/año,2026-04-12,2026-04-14
+SEPE,https://example-sepe.es/oferta/146,DevOps Engineer,Cabify,Valencia,Comunidad Valenciana,".NET, Docker, AWS",Sin experiencia,Remoto,41000 - 41000 EUR/año,2026-03-15,2026-03-19
+SEPE,https://example-sepe.es/oferta/147,Data Analyst,Seat,Barcelona,Cataluña,"Airflow, Snowflake, SQL, GCP, Python",1-2 años,Remoto,,2026-03-18,2026-03-21
+EURES,https://example-eures.es/oferta/148,Full Stack Developer,Factorial,Madrid,Comunidad de Madrid,"Node.js, Spring Boot, Python, Azure, CI/CD",5+ años,Remoto,44000 - 47000 EUR/año,2026-07-17,2026-07-18
+SEPE,https://example-sepe.es/oferta/149,Ingeniero de Datos,Glovo,Valencia,Comunidad Valenciana,"dbt, Python",1-2 años,Híbrido,56000 - 69000 EUR/año,2026-05-16,2026-05-19
+EURES,https://example-eures.es/oferta/150,Desarrollador Backend,BBVA,Madrid,Comunidad de Madrid,"Python, Node.js",Sin experiencia,Remoto,23000 - 30000 EUR/año,2026-08-17,2026-08-20
+SEPE,https://example-sepe.es/oferta/151,Data Analyst,Glovo,Barcelona,Cataluña,"Snowflake, Python, AWS",3-5 años,Remoto,25000 - 29000 EUR/año,2026-06-21,2026-06-22
+SEPE,https://example-sepe.es/oferta/152,Backend Developer,Telefónica,Madrid,Comunidad de Madrid,".NET, React, Git",3-5 años,Remoto,33000 - 46000 EUR/año,2026-03-16,2026-03-20
+EURES,https://example-eures.es/oferta/153,Desarrollador Frontend,Naturgy,Valencia,Comunidad Valenciana,".NET, JavaScript, React, Spring Boot, Git",1-2 años,Híbrido,,2026-07-16,2026-07-19
+EURES,https://example-eures.es/oferta/154,BI Analyst,Factorial,Barcelona,Cataluña,"AWS, Tableau, Spark",1-2 años,Presencial,50000 - 61000 EUR/año,2026-04-22,2026-04-24
+EURES,https://example-eures.es/oferta/155,Ingeniero QA,Iberdrola,Madrid,Comunidad de Madrid,"JavaScript, TypeScript",3-5 años,Presencial,35000 - 50000 EUR/año,2026-07-29,2026-08-03
+SEPE,https://example-sepe.es/oferta/156,Analista de Datos,Factorial,A Coruna,Galicia,"Databricks, Tableau, Snowflake, Excel, Looker",3-5 años,Híbrido,40000 - 52000 EUR/año,2026-06-10,2026-06-11
+EURES,https://example-eures.es/oferta/157,DevOps Engineer,Indra,Madrid,Comunidad de Madrid,"TypeScript, Node.js, SQL, Docker, Angular",3-5 años,Remoto,24000 - 31000 EUR/año,2026-04-22,2026-04-24
+SEPE,https://example-sepe.es/oferta/158,Desarrollador Backend,Wallapop,Madrid,Comunidad de Madrid,"Docker, Spring Boot, AWS, TypeScript",5+ años,Híbrido,65000 - 75000 EUR/año,2026-07-06,2026-07-10
+EURES,https://example-eures.es/oferta/159,Científico de Datos,BBVA,Valencia,Comunidad Valenciana,"Power BI, Snowflake, GCP",Sin experiencia,Presencial,56000 - 57000 EUR/año,2026-07-04,2026-07-05
+SEPE,https://example-sepe.es/oferta/160,Desarrollador Backend,Indra,Madrid,Comunidad de Madrid,"React, Java",Sin experiencia,Remoto,25000 - 40000 EUR/año,2026-04-25,2026-04-29
+EURES,https://example-eures.es/oferta/161,QA Engineer,Typeform,Madrid,Comunidad de Madrid,"AWS, Java, Kubernetes, SQL",1-2 años,Presencial,33000 - 36000 EUR/año,2026-08-20,2026-08-23
+SEPE,https://example-sepe.es/oferta/162,Data Scientist,BBVA,Barcelona,Cataluña,"Spark, dbt, AWS, SQL",Sin experiencia,Presencial,37000 - 44000 EUR/año,2026-06-04,2026-06-07
+EURES,https://example-eures.es/oferta/163,QA Engineer,Typeform,Madrid,Comunidad de Madrid,"Python, Azure, Java, SQL, JavaScript",Sin experiencia,Presencial,63000 - 73000 EUR/año,2026-03-22,2026-03-25
+EURES,https://example-eures.es/oferta/164,Analista BI,Mango,Malaga,Andalucía,"Python, SQL, R, Spark",1-2 años,Remoto,33000 - 43000 EUR/año,2026-07-18,2026-07-22
+EURES,https://example-eures.es/oferta/165,Frontend Developer,BBVA,Malaga,Andalucía,"Docker, AWS, .NET",3-5 años,Presencial,43000 - 55000 EUR/año,2026-06-08,2026-06-13
+SEPE,https://example-sepe.es/oferta/166,Analista de Datos,Zara (Inditex),Barcelona,Cataluña,"Excel, dbt, Databricks, Looker",5+ años,Presencial,,2026-06-10,2026-06-12
+EURES,https://example-eures.es/oferta/167,Full Stack Developer,BBVA,Barcelona,Cataluña,"Angular, Azure, AWS, Git, Spring Boot",Sin experiencia,Híbrido,,2026-03-22,2026-03-26
+EURES,https://example-eures.es/oferta/168,Data Engineer,BBVA,Madrid,Comunidad de Madrid,"Airflow, Databricks, SQL, dbt, Python",1-2 años,Híbrido,39000 - 42000 EUR/año,2026-05-18,2026-05-21
+EURES,https://example-eures.es/oferta/169,QA Engineer,Naturgy,Barcelona,Cataluña,"TypeScript, Java, Python, Angular, Kubernetes",5+ años,Híbrido,42000 - 54000 EUR/año,2026-03-24,2026-03-28
+SEPE,https://example-sepe.es/oferta/170,Machine Learning Engineer,Naturgy,Valencia,Comunidad Valenciana,"Excel, GCP, Power BI",3-5 años,Híbrido,,2026-08-23,2026-08-26
+EURES,https://example-eures.es/oferta/171,BI Analyst,Zara (Inditex),Madrid,Comunidad de Madrid,"AWS, Spark, Azure, SQL",Sin experiencia,Presencial,62000 - 77000 EUR/año,2026-06-01,2026-06-03
+SEPE,https://example-sepe.es/oferta/172,Full Stack Developer,Iberdrola,Madrid,Comunidad de Madrid,"Node.js, CI/CD, .NET, Angular",1-2 años,Híbrido,63000 - 67000 EUR/año,2026-06-21,2026-06-23
+SEPE,https://example-sepe.es/oferta/173,Full Stack Developer,NTT Data,Madrid,Comunidad de Madrid,"AWS, SQL, Git, Azure",3-5 años,Presencial,42000 - 54000 EUR/año,2026-07-04,2026-07-08
+SEPE,https://example-sepe.es/oferta/174,Machine Learning Engineer,BBVA,Barcelona,Cataluña,"R, dbt, GCP",5+ años,Remoto,35000 - 49000 EUR/año,2026-03-07,2026-03-12
+SEPE,https://example-sepe.es/oferta/175,Frontend Developer,Startup Local S.L.,Madrid,Comunidad de Madrid,"Kubernetes, Azure, JavaScript",5+ años,Remoto,26000 - 40000 EUR/año,2026-08-31,2026-09-03
+SEPE,https://example-sepe.es/oferta/176,Desarrollador Frontend,Iberdrola,Barcelona,Cataluña,"TypeScript, Node.js",5+ años,Presencial,32000 - 33000 EUR/año,2026-05-03,2026-05-08
+SEPE,https://example-sepe.es/oferta/177,Ingeniero de Datos,Indra,Madrid,Comunidad de Madrid,"Azure, Airflow, AWS",5+ años,Presencial,54000 - 58000 EUR/año,2026-06-27,2026-07-02
+SEPE,https://example-sepe.es/oferta/178,Ingeniero de Software,Wallapop,Barcelona,Cataluña,"React, Angular",Sin experiencia,Híbrido,35000 - 50000 EUR/año,2026-05-19,2026-05-21
+EURES,https://example-eures.es/oferta/179,Frontend Developer,Glovo,Madrid,Comunidad de Madrid,"TypeScript, Java",1-2 años,Remoto,,2026-05-27,2026-06-01
+EURES,https://example-eures.es/oferta/180,BI Analyst,Zara (Inditex),Madrid,Comunidad de Madrid,"Tableau, dbt, AWS, R, Power BI",5+ años,Híbrido,47000 - 47000 EUR/año,2026-04-17,2026-04-22
+SEPE,https://example-sepe.es/oferta/181,Ingeniero de Datos,Iberdrola,Valencia,Comunidad Valenciana,"dbt, Snowflake, Databricks, SQL",1-2 años,Híbrido,56000 - 61000 EUR/año,2026-07-26,2026-07-26
+SEPE,https://example-sepe.es/oferta/182,Analista BI,Startup Local S.L.,Madrid,Comunidad de Madrid,"Excel, AWS, Databricks, Looker",Sin experiencia,Remoto,51000 - 56000 EUR/año,2026-07-29,2026-07-29
+SEPE,https://example-sepe.es/oferta/183,Ingeniero de Datos,Everis,Madrid,Comunidad de Madrid,"SQL, Power BI, Airflow, Snowflake",1-2 años,Híbrido,60000 - 64000 EUR/año,2026-04-06,2026-04-10
+EURES,https://example-eures.es/oferta/184,Analista BI,Mango,Barcelona,Cataluña,"Power BI, Databricks, Airflow, Azure",5+ años,Remoto,22000 - 37000 EUR/año,2026-08-06,2026-08-06
+SEPE,https://example-sepe.es/oferta/185,DevOps Engineer,Glovo,Barcelona,Cataluña,"Git, Docker, JavaScript, Python, AWS",3-5 años,Presencial,,2026-03-08,2026-03-09
+EURES,https://example-eures.es/oferta/186,DevOps Engineer,Everis,Barcelona,Cataluña,"TypeScript, React",Sin experiencia,Remoto,24000 - 38000 EUR/año,2026-07-18,2026-07-20
+SEPE,https://example-sepe.es/oferta/187,Data Analyst,Seat,Madrid,Comunidad de Madrid,"Spark, Airflow, SQL, Azure, dbt",1-2 años,Presencial,59000 - 70000 EUR/año,2026-04-30,2026-05-01
+SEPE,https://example-sepe.es/oferta/188,Científico de Datos,Typeform,Valencia,Comunidad Valenciana,"Excel, GCP, Power BI, Airflow",Sin experiencia,Presencial,,2026-08-28,2026-08-30
+SEPE,https://example-sepe.es/oferta/189,Frontend Developer,Amadeus,Malaga,Andalucía,"React, TypeScript, JavaScript",3-5 años,Remoto,65000 - 77000 EUR/año,2026-08-30,2026-09-01
+SEPE,https://example-sepe.es/oferta/190,Ingeniero de Software,Iberdrola,Madrid,Comunidad de Madrid,"Node.js, Kubernetes",Sin experiencia,Remoto,45000 - 59000 EUR/año,2026-05-11,2026-05-16
+SEPE,https://example-sepe.es/oferta/191,Analista BI,Iberdrola,Valencia,Comunidad Valenciana,"Looker, SQL, dbt, GCP",3-5 años,Híbrido,35000 - 50000 EUR/año,2026-06-10,2026-06-11
+EURES,https://example-eures.es/oferta/192,Analista BI,Seat,Barcelona,Cataluña,"Databricks, R, dbt, Python",5+ años,Híbrido,51000 - 51000 EUR/año,2026-03-12,2026-03-12
+SEPE,https://example-sepe.es/oferta/193,BI Analyst,Cabify,A Coruna,Galicia,"Snowflake, Power BI, R",Sin experiencia,Híbrido,39000 - 41000 EUR/año,2026-05-17,2026-05-18
+SEPE,https://example-sepe.es/oferta/194,Data Scientist,BBVA,Madrid,Comunidad de Madrid,"AWS, R, SQL",1-2 años,Remoto,,2026-08-28,2026-08-28
+SEPE,https://example-sepe.es/oferta/195,Analista BI,BBVA,Barcelona,Cataluña,"Python, Snowflake",1-2 años,Híbrido,49000 - 53000 EUR/año,2026-05-27,2026-05-27
+EURES,https://example-eures.es/oferta/196,Analista de Datos,Typeform,Valencia,Comunidad Valenciana,"Airflow, Databricks",Sin experiencia,Remoto,30000 - 34000 EUR/año,2026-05-16,2026-05-17
+EURES,https://example-eures.es/oferta/197,Ingeniero de Datos,CaixaBank,Barcelona,Cataluña,"Databricks, AWS, Excel",5+ años,Híbrido,27000 - 30000 EUR/año,2026-08-23,2026-08-26
+EURES,https://example-eures.es/oferta/198,Backend Developer,Naturgy,Madrid,Comunidad de Madrid,"Kubernetes, Azure, Python",1-2 años,Remoto,60000 - 69000 EUR/año,2026-05-03,2026-05-07
+EURES,https://example-eures.es/oferta/199,Data Scientist,Typeform,Valencia,Comunidad Valenciana,"dbt, Databricks",Sin experiencia,Híbrido,37000 - 52000 EUR/año,2026-05-01,2026-05-04
+EURES,https://example-eures.es/oferta/200,Ingeniero QA,Telefónica,Madrid,Comunidad de Madrid,"SQL, Kubernetes, Azure, JavaScript, Docker",Sin experiencia,Híbrido,22000 - 30000 EUR/año,2026-03-19,2026-03-19
+SEPE,https://example-sepe.es/oferta/201,QA Engineer,BBVA,Barcelona,Cataluña,".NET, SQL, Spring Boot, Python, Azure",1-2 años,Presencial,39000 - 41000 EUR/año,2026-07-16,2026-07-20
+SEPE,https://example-sepe.es/oferta/202,Ingeniero de Software,CaixaBank,Barcelona,Cataluña,".NET, SQL, CI/CD, TypeScript",5+ años,Remoto,,2026-03-15,2026-03-16
+SEPE,https://example-sepe.es/oferta/203,Data Engineer,Accenture España,Madrid,Comunidad de Madrid,"Python, Snowflake",3-5 años,Presencial,,2026-04-05,2026-04-10
+SEPE,https://example-sepe.es/oferta/204,Frontend Developer,Zara (Inditex),Madrid,Comunidad de Madrid,"Java, Angular",3-5 años,Presencial,38000 - 40000 EUR/año,2026-06-18,2026-06-20
+EURES,https://example-eures.es/oferta/205,Backend Developer,Indra,Malaga,Andalucía,"Angular, React, Node.js, Python",1-2 años,Presencial,36000 - 36000 EUR/año,2026-07-25,2026-07-30
+EURES,https://example-eures.es/oferta/206,Backend Developer,Everis,Madrid,Comunidad de Madrid,"Python, Kubernetes, Node.js",3-5 años,Híbrido,36000 - 46000 EUR/año,2026-08-30,2026-09-04
+SEPE,https://example-sepe.es/oferta/207,Analista de Datos,Naturgy,Barcelona,Cataluña,"Power BI, Tableau",3-5 años,Presencial,26000 - 40000 EUR/año,2026-07-11,2026-07-11
+EURES,https://example-eures.es/oferta/208,Desarrollador Backend,Amadeus,Madrid,Comunidad de Madrid,"AWS, SQL, CI/CD, TypeScript",Sin experiencia,Híbrido,53000 - 59000 EUR/año,2026-06-27,2026-06-29
+EURES,https://example-eures.es/oferta/209,Científico de Datos,Typeform,Madrid,Comunidad de Madrid,"Airflow, Python",1-2 años,Híbrido,41000 - 44000 EUR/año,2026-08-16,2026-08-19
+EURES,https://example-eures.es/oferta/210,Backend Developer,Typeform,A Coruna,Galicia,"JavaScript, Java, TypeScript, Kubernetes",1-2 años,Remoto,51000 - 53000 EUR/año,2026-06-14,2026-06-19
+SEPE,https://example-sepe.es/oferta/211,Ingeniero QA,NTT Data,Madrid,Comunidad de Madrid,".NET, Azure",3-5 años,Híbrido,,2026-04-03,2026-04-04
+EURES,https://example-eures.es/oferta/212,Ingeniero de Software,Zara (Inditex),Madrid,Comunidad de Madrid,"React, Node.js, Git",5+ años,Híbrido,,2026-07-28,2026-07-28
+SEPE,https://example-sepe.es/oferta/213,Desarrollador Frontend,Telefónica,Madrid,Comunidad de Madrid,"Git, React, Docker",1-2 años,Híbrido,,2026-05-07,2026-05-07
+SEPE,https://example-sepe.es/oferta/214,Ingeniero de Datos,Zara (Inditex),Madrid,Comunidad de Madrid,"AWS, GCP, Python, R",1-2 años,Presencial,33000 - 33000 EUR/año,2026-05-16,2026-05-18
+SEPE,https://example-sepe.es/oferta/215,Backend Developer,Accenture España,Madrid,Comunidad de Madrid,"Java, CI/CD",Sin experiencia,Remoto,,2026-04-26,2026-04-27
+EURES,https://example-eures.es/oferta/216,Ingeniero de Software,Telefónica,Malaga,Andalucía,"JavaScript, TypeScript",5+ años,Presencial,27000 - 37000 EUR/año,2026-08-13,2026-08-16
+EURES,https://example-eures.es/oferta/217,BI Analyst,Cabify,Malaga,Andalucía,"Azure, Python, AWS, R, dbt",3-5 años,Híbrido,,2026-04-14,2026-04-16
+EURES,https://example-eures.es/oferta/218,Ingeniero de Datos,Everis,Madrid,Comunidad de Madrid,"Azure, AWS, GCP, Databricks",1-2 años,Remoto,,2026-03-16,2026-03-16
+SEPE,https://example-sepe.es/oferta/219,Machine Learning Engineer,NTT Data,Barcelona,Cataluña,"AWS, dbt",3-5 años,Presencial,53000 - 64000 EUR/año,2026-08-30,2026-09-01
+EURES,https://example-eures.es/oferta/220,Ingeniero de Datos,Seat,Madrid,Comunidad de Madrid,"Databricks, dbt",Sin experiencia,Presencial,52000 - 63000 EUR/año,2026-05-11,2026-05-11
+EURES,https://example-eures.es/oferta/221,Data Analyst,Startup Local S.L.,Madrid,Comunidad de Madrid,"Excel, Looker, dbt",3-5 años,Remoto,33000 - 38000 EUR/año,2026-06-08,2026-06-10
+EURES,https://example-eures.es/oferta/222,Software Engineer,Telefónica,Malaga,Andalucía,"React, AWS, TypeScript, Node.js",1-2 años,Remoto,53000 - 54000 EUR/año,2026-07-05,2026-07-09
+EURES,https://example-eures.es/oferta/223,Analista BI,Indra,Madrid,Comunidad de Madrid,"Airflow, Excel",1-2 años,Remoto,33000 - 43000 EUR/año,2026-04-21,2026-04-22
+SEPE,https://example-sepe.es/oferta/224,Machine Learning Engineer,Iberdrola,Valencia,Comunidad Valenciana,"SQL, Airflow, Snowflake, R",1-2 años,Presencial,,2026-06-10,2026-06-14
+EURES,https://example-eures.es/oferta/225,DevOps Engineer,NTT Data,Valencia,Comunidad Valenciana,"Angular, SQL, Kubernetes, Git",3-5 años,Remoto,,2026-08-05,2026-08-07
+SEPE,https://example-sepe.es/oferta/226,Software Engineer,BBVA,Madrid,Comunidad de Madrid,"Python, JavaScript, AWS, Angular, .NET",1-2 años,Híbrido,53000 - 57000 EUR/año,2026-04-26,2026-05-01
+SEPE,https://example-sepe.es/oferta/227,Ingeniero de Software,CaixaBank,Madrid,Comunidad de Madrid,"Git, Java, React, TypeScript",Sin experiencia,Presencial,,2026-05-03,2026-05-08
+EURES,https://example-eures.es/oferta/228,Full Stack Developer,Zara (Inditex),Barcelona,Cataluña,".NET, Docker, Spring Boot",Sin experiencia,Presencial,52000 - 59000 EUR/año,2026-05-29,2026-06-02
+EURES,https://example-eures.es/oferta/229,Frontend Developer,Factorial,Madrid,Comunidad de Madrid,"JavaScript, Angular",Sin experiencia,Híbrido,,2026-04-13,2026-04-16
+EURES,https://example-eures.es/oferta/230,Full Stack Developer,Everis,Valencia,Comunidad Valenciana,".NET, JavaScript, Java",3-5 años,Remoto,,2026-03-26,2026-03-28
+SEPE,https://example-sepe.es/oferta/231,Ingeniero de Software,Indra,Madrid,Comunidad de Madrid,"Node.js, AWS",5+ años,Presencial,,2026-07-19,2026-07-22
+SEPE,https://example-sepe.es/oferta/232,Ingeniero QA,NTT Data,Malaga,Andalucía,"Spring Boot, Python, Java, TypeScript, JavaScript",5+ años,Híbrido,52000 - 55000 EUR/año,2026-08-11,2026-08-13
+SEPE,https://example-sepe.es/oferta/233,QA Engineer,Cabify,Madrid,Comunidad de Madrid,"Angular, CI/CD, Spring Boot, Git, JavaScript",1-2 años,Híbrido,,2026-06-23,2026-06-23
+EURES,https://example-eures.es/oferta/234,Analista de Datos,NTT Data,Madrid,Comunidad de Madrid,"R, Airflow",5+ años,Remoto,59000 - 66000 EUR/año,2026-07-17,2026-07-20
+EURES,https://example-eures.es/oferta/235,Desarrollador Backend,Zara (Inditex),Barcelona,Cataluña,"AWS, Python, Spring Boot, SQL, Java",1-2 años,Presencial,58000 - 62000 EUR/año,2026-07-07,2026-07-11
+EURES,https://example-eures.es/oferta/236,Data Engineer,Cabify,Valencia,Comunidad Valenciana,"AWS, SQL",3-5 años,Remoto,,2026-08-22,2026-08-25
+EURES,https://example-eures.es/oferta/237,Machine Learning Engineer,Everis,Madrid,Comunidad de Madrid,"GCP, Airflow, Spark, Databricks, Azure",1-2 años,Presencial,55000 - 68000 EUR/año,2026-03-04,2026-03-09
+EURES,https://example-eures.es/oferta/238,Analista de Datos,Seat,Malaga,Andalucía,"Looker, GCP, Airflow, AWS",3-5 años,Híbrido,58000 - 73000 EUR/año,2026-05-07,2026-05-10
+SEPE,https://example-sepe.es/oferta/239,BI Analyst,Cabify,Barcelona,Cataluña,"AWS, Airflow",3-5 años,Presencial,,2026-08-24,2026-08-25
+SEPE,https://example-sepe.es/oferta/240,Frontend Developer,Zara (Inditex),Valencia,Comunidad Valenciana,"Kubernetes, .NET, Docker, SQL",3-5 años,Híbrido,36000 - 40000 EUR/año,2026-08-23,2026-08-23
+EURES,https://example-eures.es/oferta/241,Ingeniero de Software,Typeform,Barcelona,Cataluña,"Git, TypeScript, .NET",1-2 años,Presencial,55000 - 66000 EUR/año,2026-06-13,2026-06-18
+SEPE,https://example-sepe.es/oferta/242,Full Stack Developer,Telefónica,Valencia,Comunidad Valenciana,"Java, JavaScript, TypeScript",3-5 años,Remoto,,2026-04-21,2026-04-21
+SEPE,https://example-sepe.es/oferta/243,Analista BI,Accenture España,Madrid,Comunidad de Madrid,"R, SQL, Databricks, Python, Tableau",1-2 años,Híbrido,33000 - 48000 EUR/año,2026-06-04,2026-06-07
+EURES,https://example-eures.es/oferta/244,BI Analyst,Cabify,Madrid,Comunidad de Madrid,"Power BI, Looker",5+ años,Remoto,63000 - 70000 EUR/año,2026-07-25,2026-07-26
+SEPE,https://example-sepe.es/oferta/245,Data Analyst,Cabify,Malaga,Andalucía,"Databricks, Power BI, R, Looker, Excel",5+ años,Híbrido,,2026-03-03,2026-03-04
+SEPE,https://example-sepe.es/oferta/246,Desarrollador Backend,Factorial,Barcelona,Cataluña,"AWS, Azure, Kubernetes, CI/CD, Spring Boot",3-5 años,Híbrido,,2026-07-28,2026-07-28
+EURES,https://example-eures.es/oferta/247,Científico de Datos,Amadeus,Barcelona,Cataluña,"R, Airflow, Spark, dbt",1-2 años,Presencial,63000 - 72000 EUR/año,2026-08-15,2026-08-20
+SEPE,https://example-sepe.es/oferta/248,Backend Developer,Glovo,Barcelona,Cataluña,"CI/CD, React",5+ años,Remoto,24000 - 30000 EUR/año,2026-05-06,2026-05-09
+EURES,https://example-eures.es/oferta/249,Backend Developer,Iberdrola,Barcelona,Cataluña,"AWS, Python, Docker",Sin experiencia,Presencial,,2026-04-02,2026-04-07
+SEPE,https://example-sepe.es/oferta/250,Frontend Developer,Mango,Madrid,Comunidad de Madrid,"Azure, Angular, React, AWS, .NET",Sin experiencia,Remoto,62000 - 64000 EUR/año,2026-06-27,2026-06-27
+EURES,https://example-eures.es/oferta/251,Full Stack Developer,Iberdrola,Barcelona,Cataluña,"React, JavaScript",1-2 años,Presencial,58000 - 72000 EUR/año,2026-04-21,2026-04-23
+EURES,https://example-eures.es/oferta/252,Backend Developer,Amadeus,Madrid,Comunidad de Madrid,"Python, Java, Docker, React",5+ años,Remoto,32000 - 47000 EUR/año,2026-04-23,2026-04-24
+EURES,https://example-eures.es/oferta/253,DevOps Engineer,Indra,Barcelona,Cataluña,"Java, CI/CD, Kubernetes, TypeScript, SQL",1-2 años,Presencial,55000 - 61000 EUR/año,2026-06-04,2026-06-04
+SEPE,https://example-sepe.es/oferta/254,Ingeniero de Software,Amadeus,Madrid,Comunidad de Madrid,"AWS, JavaScript, Python, Java, React",3-5 años,Híbrido,60000 - 70000 EUR/año,2026-05-14,2026-05-17
+EURES,https://example-eures.es/oferta/255,Backend Developer,CaixaBank,Valencia,Comunidad Valenciana,"Java, TypeScript, Git, SQL, JavaScript",3-5 años,Remoto,,2026-04-24,2026-04-29
+EURES,https://example-eures.es/oferta/256,Data Scientist,Everis,Madrid,Comunidad de Madrid,"Excel, Python",5+ años,Híbrido,23000 - 24000 EUR/año,2026-08-17,2026-08-17
+SEPE,https://example-sepe.es/oferta/257,Analista BI,Amadeus,Barcelona,Cataluña,"Tableau, Snowflake, R",5+ años,Presencial,64000 - 67000 EUR/año,2026-08-09,2026-08-09
+EURES,https://example-eures.es/oferta/258,Analista de Datos,Factorial,Madrid,Comunidad de Madrid,"Tableau, Excel, Databricks, Spark, GCP",5+ años,Presencial,40000 - 45000 EUR/año,2026-04-21,2026-04-23
+EURES,https://example-eures.es/oferta/259,Software Engineer,CaixaBank,Madrid,Comunidad de Madrid,"JavaScript, Git",3-5 años,Remoto,31000 - 33000 EUR/año,2026-03-29,2026-04-02
+SEPE,https://example-sepe.es/oferta/260,Data Scientist,CaixaBank,Barcelona,Cataluña,"Azure, Python, SQL, Power BI",Sin experiencia,Presencial,65000 - 75000 EUR/año,2026-03-11,2026-03-13
+SEPE,https://example-sepe.es/oferta/261,Data Engineer,NTT Data,Malaga,Andalucía,"Airflow, Azure, Excel, Spark",5+ años,Híbrido,33000 - 36000 EUR/año,2026-03-24,2026-03-26
+SEPE,https://example-sepe.es/oferta/262,DevOps Engineer,Startup Local S.L.,Valencia,Comunidad Valenciana,"Angular, Python, JavaScript, SQL, Node.js",5+ años,Presencial,,2026-03-16,2026-03-17
+EURES,https://example-eures.es/oferta/263,Ingeniero QA,Cabify,Valencia,Comunidad Valenciana,"React, Docker",3-5 años,Presencial,50000 - 51000 EUR/año,2026-07-03,2026-07-03
+EURES,https://example-eures.es/oferta/264,Científico de Datos,Factorial,A Coruna,Galicia,"AWS, R",Sin experiencia,Presencial,65000 - 77000 EUR/año,2026-05-03,2026-05-06
+SEPE,https://example-sepe.es/oferta/265,Analista BI,NTT Data,Barcelona,Cataluña,"Looker, Power BI, SQL, Azure, Airflow",1-2 años,Presencial,25000 - 32000 EUR/año,2026-05-01,2026-05-03
+SEPE,https://example-sepe.es/oferta/266,Ingeniero QA,Everis,Barcelona,Cataluña,"JavaScript, .NET, Docker, Git, Angular",Sin experiencia,Remoto,23000 - 26000 EUR/año,2026-03-31,2026-04-03
+SEPE,https://example-sepe.es/oferta/267,Data Scientist,Factorial,Malaga,Andalucía,"R, Databricks, Azure",5+ años,Remoto,36000 - 50000 EUR/año,2026-05-27,2026-05-29
+EURES,https://example-eures.es/oferta/268,Ingeniero de Software,Telefónica,Valencia,Comunidad Valenciana,"Docker, Java",1-2 años,Híbrido,40000 - 51000 EUR/año,2026-05-27,2026-05-29
+SEPE,https://example-sepe.es/oferta/269,BI Analyst,Mango,Malaga,Andalucía,"Spark, Excel",5+ años,Presencial,,2026-04-20,2026-04-21
+SEPE,https://example-sepe.es/oferta/270,Full Stack Developer,Indra,Madrid,Comunidad de Madrid,"TypeScript, Node.js",Sin experiencia,Remoto,54000 - 58000 EUR/año,2026-06-24,2026-06-27
+SEPE,https://example-sepe.es/oferta/271,DevOps Engineer,Everis,Malaga,Andalucía,"Angular, SQL, .NET",1-2 años,Híbrido,60000 - 70000 EUR/año,2026-04-02,2026-04-02
+EURES,https://example-eures.es/oferta/272,Frontend Developer,Mango,A Coruna,Galicia,"React, JavaScript, Spring Boot, AWS, SQL",1-2 años,Remoto,57000 - 67000 EUR/año,2026-07-10,2026-07-12
+SEPE,https://example-sepe.es/oferta/273,Backend Developer,Everis,Valencia,Comunidad Valenciana,"Azure, SQL, Python",Sin experiencia,Remoto,58000 - 71000 EUR/año,2026-05-30,2026-06-03
+SEPE,https://example-sepe.es/oferta/274,Data Engineer,Amadeus,Madrid,Comunidad de Madrid,"R, Python",Sin experiencia,Remoto,32000 - 41000 EUR/año,2026-04-21,2026-04-23
+SEPE,https://example-sepe.es/oferta/275,QA Engineer,Glovo,Madrid,Comunidad de Madrid,"SQL, .NET",3-5 años,Remoto,65000 - 72000 EUR/año,2026-06-24,2026-06-24
+SEPE,https://example-sepe.es/oferta/276,BI Analyst,Glovo,Malaga,Andalucía,"dbt, R, Airflow, GCP, Python",3-5 años,Remoto,,2026-03-04,2026-03-09
+EURES,https://example-eures.es/oferta/277,Ingeniero de Datos,Everis,Valencia,Comunidad Valenciana,"Azure, Power BI, R, SQL",3-5 años,Remoto,29000 - 41000 EUR/año,2026-04-17,2026-04-18
+SEPE,https://example-sepe.es/oferta/278,Ingeniero QA,Telefónica,Madrid,Comunidad de Madrid,"Java, Angular, Docker, SQL",3-5 años,Híbrido,,2026-04-09,2026-04-09
+EURES,https://example-eures.es/oferta/279,Desarrollador Frontend,Accenture España,Madrid,Comunidad de Madrid,"Angular, Kubernetes, Python",1-2 años,Presencial,56000 - 68000 EUR/año,2026-07-08,2026-07-09
+SEPE,https://example-sepe.es/oferta/280,Frontend Developer,Zara (Inditex),Madrid,Comunidad de Madrid,"CI/CD, Kubernetes, .NET",1-2 años,Remoto,,2026-08-14,2026-08-14
+SEPE,https://example-sepe.es/oferta/281,Científico de Datos,Typeform,A Coruna,Galicia,"Databricks, dbt, SQL, AWS, Spark",5+ años,Híbrido,,2026-07-17,2026-07-22
+EURES,https://example-eures.es/oferta/282,Ingeniero de Datos,Mango,Madrid,Comunidad de Madrid,"GCP, SQL, Looker, Power BI",1-2 años,Remoto,,2026-07-16,2026-07-20
+EURES,https://example-eures.es/oferta/283,Desarrollador Backend,Seat,Malaga,Andalucía,"JavaScript, SQL, Azure, CI/CD, Java",3-5 años,Remoto,27000 - 29000 EUR/año,2026-06-26,2026-07-01
+EURES,https://example-eures.es/oferta/284,Ingeniero de Datos,BBVA,Barcelona,Cataluña,"AWS, Databricks, Azure, R",Sin experiencia,Remoto,46000 - 49000 EUR/año,2026-06-12,2026-06-15
+SEPE,https://example-sepe.es/oferta/285,Machine Learning Engineer,NTT Data,Madrid,Comunidad de Madrid,"Spark, dbt",Sin experiencia,Híbrido,40000 - 54000 EUR/año,2026-08-23,2026-08-25
+EURES,https://example-eures.es/oferta/286,Data Engineer,Factorial,Barcelona,Cataluña,"dbt, Databricks, GCP, Spark, R",1-2 años,Presencial,63000 - 74000 EUR/año,2026-04-06,2026-04-08
+EURES,https://example-eures.es/oferta/287,BI Analyst,Seat,Madrid,Comunidad de Madrid,"Spark, Tableau",1-2 años,Remoto,63000 - 67000 EUR/año,2026-05-28,2026-05-29
+EURES,https://example-eures.es/oferta/288,Backend Developer,Cabify,Madrid,Comunidad de Madrid,"Git, Azure",Sin experiencia,Presencial,,2026-07-19,2026-07-19
+SEPE,https://example-sepe.es/oferta/289,Desarrollador Frontend,Iberdrola,A Coruna,Galicia,"Docker, Python, React",3-5 años,Remoto,42000 - 57000 EUR/año,2026-08-06,2026-08-06
+SEPE,https://example-sepe.es/oferta/290,Científico de Datos,Accenture España,Barcelona,Cataluña,"AWS, Power BI, Python, Airflow",1-2 años,Remoto,63000 - 76000 EUR/año,2026-05-03,2026-05-04
+EURES,https://example-eures.es/oferta/291,DevOps Engineer,Factorial,Malaga,Andalucía,"SQL, Node.js, React, Docker, Kubernetes",1-2 años,Híbrido,27000 - 35000 EUR/año,2026-03-28,2026-03-29
+SEPE,https://example-sepe.es/oferta/292,Data Analyst,Factorial,Valencia,Comunidad Valenciana,"Looker, Excel",5+ años,Remoto,35000 - 36000 EUR/año,2026-07-27,2026-07-30
+EURES,https://example-eures.es/oferta/293,Ingeniero de Datos,Typeform,Madrid,Comunidad de Madrid,"Power BI, Azure, GCP, dbt",1-2 años,Híbrido,22000 - 29000 EUR/año,2026-03-24,2026-03-27
+SEPE,https://example-sepe.es/oferta/294,Data Engineer,NTT Data,Madrid,Comunidad de Madrid,"Airflow, Python, Tableau, Azure, dbt",5+ años,Híbrido,24000 - 30000 EUR/año,2026-03-17,2026-03-19
+SEPE,https://example-sepe.es/oferta/295,Científico de Datos,NTT Data,Madrid,Comunidad de Madrid,"Snowflake, GCP",3-5 años,Remoto,38000 - 43000 EUR/año,2026-08-10,2026-08-12
+EURES,https://example-eures.es/oferta/296,BI Analyst,Zara (Inditex),Barcelona,Cataluña,"GCP, AWS, Airflow",1-2 años,Presencial,60000 - 60000 EUR/año,2026-05-28,2026-05-31
+SEPE,https://example-sepe.es/oferta/297,Data Scientist,Iberdrola,Barcelona,Cataluña,"Power BI, Databricks, Looker",Sin experiencia,Híbrido,29000 - 36000 EUR/año,2026-06-01,2026-06-05
+EURES,https://example-eures.es/oferta/298,Ingeniero QA,Startup Local S.L.,Barcelona,Cataluña,".NET, Java, TypeScript",1-2 años,Presencial,32000 - 36000 EUR/año,2026-03-12,2026-03-13
+SEPE,https://example-sepe.es/oferta/299,Data Engineer,Wallapop,Madrid,Comunidad de Madrid,"Excel, Databricks, R, Python, dbt",1-2 años,Presencial,,2026-05-12,2026-05-12
+EURES,https://example-eures.es/oferta/300,Ingeniero QA,NTT Data,Barcelona,Cataluña,"Kubernetes, JavaScript, SQL",5+ años,Presencial,60000 - 62000 EUR/año,2026-08-23,2026-08-25
+EURES,https://example-eures.es/oferta/301,Machine Learning Engineer,Wallapop,Madrid,Comunidad de Madrid,"Looker, Power BI, Excel, SQL, Databricks",1-2 años,Remoto,56000 - 59000 EUR/año,2026-06-30,2026-07-04
+SEPE,https://example-sepe.es/oferta/302,BI Analyst,Startup Local S.L.,Malaga,Andalucía,"Airflow, Looker, Python, Snowflake, GCP",Sin experiencia,Híbrido,52000 - 64000 EUR/año,2026-06-18,2026-06-19
+EURES,https://example-eures.es/oferta/303,Ingeniero de Datos,Indra,Madrid,Comunidad de Madrid,"Spark, Excel",Sin experiencia,Remoto,,2026-07-18,2026-07-21
+SEPE,https://example-sepe.es/oferta/304,Ingeniero de Datos,Cabify,Madrid,Comunidad de Madrid,"AWS, Airflow, SQL, Power BI",5+ años,Presencial,38000 - 51000 EUR/año,2026-06-18,2026-06-23
+EURES,https://example-eures.es/oferta/305,QA Engineer,Glovo,Barcelona,Cataluña,"Angular, CI/CD, Kubernetes, .NET, Docker",5+ años,Remoto,47000 - 51000 EUR/año,2026-05-04,2026-05-06
+EURES,https://example-eures.es/oferta/306,Machine Learning Engineer,BBVA,Madrid,Comunidad de Madrid,"dbt, Airflow, Databricks, GCP, Excel",1-2 años,Híbrido,32000 - 44000 EUR/año,2026-08-26,2026-08-31
+EURES,https://example-eures.es/oferta/307,Frontend Developer,Seat,Madrid,Comunidad de Madrid,"SQL, Python, AWS",5+ años,Híbrido,47000 - 56000 EUR/año,2026-03-10,2026-03-15
+EURES,https://example-eures.es/oferta/308,Machine Learning Engineer,Accenture España,Madrid,Comunidad de Madrid,"Tableau, Python, dbt, Excel",1-2 años,Remoto,61000 - 66000 EUR/año,2026-07-09,2026-07-13
+EURES,https://example-eures.es/oferta/309,Analista de Datos,BBVA,A Coruna,Galicia,"dbt, AWS, Airflow, R",3-5 años,Remoto,55000 - 55000 EUR/año,2026-06-10,2026-06-13
+SEPE,https://example-sepe.es/oferta/310,Frontend Developer,Typeform,Madrid,Comunidad de Madrid,"Spring Boot, Docker, CI/CD",Sin experiencia,Remoto,,2026-07-26,2026-07-26
+SEPE,https://example-sepe.es/oferta/311,Científico de Datos,NTT Data,Barcelona,Cataluña,"dbt, GCP",5+ años,Presencial,58000 - 66000 EUR/año,2026-05-05,2026-05-09
+SEPE,https://example-sepe.es/oferta/312,DevOps Engineer,Everis,A Coruna,Galicia,"Java, Docker, Python, React, .NET",3-5 años,Remoto,36000 - 43000 EUR/año,2026-06-06,2026-06-11
+SEPE,https://example-sepe.es/oferta/313,Data Scientist,Iberdrola,Valencia,Comunidad Valenciana,"Spark, SQL, AWS",3-5 años,Presencial,26000 - 31000 EUR/año,2026-08-20,2026-08-25
+EURES,https://example-eures.es/oferta/314,Desarrollador Backend,Accenture España,Madrid,Comunidad de Madrid,"Spring Boot, TypeScript, SQL, Git, React",1-2 años,Presencial,,2026-04-22,2026-04-23
+SEPE,https://example-sepe.es/oferta/315,Analista BI,Startup Local S.L.,Malaga,Andalucía,"dbt, Looker",3-5 años,Híbrido,45000 - 55000 EUR/año,2026-07-17,2026-07-17
+EURES,https://example-eures.es/oferta/316,Machine Learning Engineer,Typeform,A Coruna,Galicia,"AWS, Tableau, dbt, Excel",3-5 años,Híbrido,49000 - 64000 EUR/año,2026-04-02,2026-04-02
+SEPE,https://example-sepe.es/oferta/317,Analista de Datos,Seat,Barcelona,Cataluña,"Airflow, Snowflake, Python, dbt, R",3-5 años,Presencial,42000 - 53000 EUR/año,2026-04-23,2026-04-26
+SEPE,https://example-sepe.es/oferta/318,Ingeniero QA,Cabify,Barcelona,Cataluña,"SQL, JavaScript, Docker, Spring Boot",5+ años,Presencial,45000 - 56000 EUR/año,2026-04-23,2026-04-26
+EURES,https://example-eures.es/oferta/319,Ingeniero de Datos,Amadeus,A Coruna,Galicia,"Snowflake, Spark",5+ años,Presencial,46000 - 52000 EUR/año,2026-04-30,2026-05-04
+EURES,https://example-eures.es/oferta/320,Data Engineer,Seat,Barcelona,Cataluña,"dbt, Azure, Spark, Databricks",Sin experiencia,Presencial,,2026-07-22,2026-07-26
+SEPE,https://example-sepe.es/oferta/321,Ingeniero de Software,Mango,Barcelona,Cataluña,"Azure, React, Angular, .NET, Kubernetes",1-2 años,Híbrido,48000 - 51000 EUR/año,2026-07-21,2026-07-23
+SEPE,https://example-sepe.es/oferta/322,QA Engineer,Everis,Madrid,Comunidad de Madrid,"Git, CI/CD, Python, Spring Boot, AWS",5+ años,Presencial,31000 - 36000 EUR/año,2026-05-13,2026-05-16
+SEPE,https://example-sepe.es/oferta/323,Ingeniero de Datos,Startup Local S.L.,Madrid,Comunidad de Madrid,"Airflow, R, Spark, Snowflake",5+ años,Híbrido,39000 - 53000 EUR/año,2026-05-08,2026-05-12
+EURES,https://example-eures.es/oferta/324,Data Analyst,NTT Data,Madrid,Comunidad de Madrid,"Snowflake, Tableau, R",Sin experiencia,Presencial,27000 - 33000 EUR/año,2026-05-04,2026-05-09
+SEPE,https://example-sepe.es/oferta/325,Analista BI,Amadeus,A Coruna,Galicia,"Python, dbt",Sin experiencia,Remoto,27000 - 30000 EUR/año,2026-06-10,2026-06-14
+SEPE,https://example-sepe.es/oferta/326,Desarrollador Backend,Iberdrola,Madrid,Comunidad de Madrid,"Git, Azure, JavaScript, .NET",5+ años,Híbrido,,2026-07-13,2026-07-14
+SEPE,https://example-sepe.es/oferta/327,Backend Developer,Wallapop,Barcelona,Cataluña,"Git, Azure, SQL",1-2 años,Presencial,62000 - 71000 EUR/año,2026-08-10,2026-08-14
+SEPE,https://example-sepe.es/oferta/328,Full Stack Developer,Wallapop,Madrid,Comunidad de Madrid,"React, CI/CD, Java, .NET",3-5 años,Presencial,52000 - 52000 EUR/año,2026-07-12,2026-07-13
+EURES,https://example-eures.es/oferta/329,Ingeniero QA,Seat,Valencia,Comunidad Valenciana,"Java, Kubernetes, Angular",5+ años,Híbrido,49000 - 61000 EUR/año,2026-04-18,2026-04-21
+SEPE,https://example-sepe.es/oferta/330,BI Analyst,Mango,Madrid,Comunidad de Madrid,"GCP, dbt, Looker",Sin experiencia,Presencial,40000 - 48000 EUR/año,2026-08-04,2026-08-09
+EURES,https://example-eures.es/oferta/331,Analista BI,Seat,Madrid,Comunidad de Madrid,"Spark, Snowflake, Excel, Azure, Tableau",Sin experiencia,Híbrido,,2026-05-22,2026-05-22
+SEPE,https://example-sepe.es/oferta/332,DevOps Engineer,Wallapop,Madrid,Comunidad de Madrid,"Docker, Python",3-5 años,Híbrido,43000 - 56000 EUR/año,2026-04-08,2026-04-08
+SEPE,https://example-sepe.es/oferta/333,Data Engineer,NTT Data,Madrid,Comunidad de Madrid,"Spark, dbt",Sin experiencia,Presencial,33000 - 39000 EUR/año,2026-06-09,2026-06-09
+SEPE,https://example-sepe.es/oferta/334,Analista BI,NTT Data,Barcelona,Cataluña,"Snowflake, Python, Tableau",3-5 años,Híbrido,55000 - 61000 EUR/año,2026-06-26,2026-07-01
+EURES,https://example-eures.es/oferta/335,Data Analyst,Mango,Barcelona,Cataluña,"Spark, Azure",Sin experiencia,Presencial,,2026-08-11,2026-08-13
+SEPE,https://example-sepe.es/oferta/336,Backend Developer,BBVA,Madrid,Comunidad de Madrid,"TypeScript, Spring Boot, Node.js, CI/CD",1-2 años,Presencial,52000 - 56000 EUR/año,2026-03-03,2026-03-03
+SEPE,https://example-sepe.es/oferta/337,Ingeniero QA,Glovo,Madrid,Comunidad de Madrid,"Python, Java, Angular, Azure",3-5 años,Remoto,28000 - 32000 EUR/año,2026-04-09,2026-04-14
+EURES,https://example-eures.es/oferta/338,DevOps Engineer,Wallapop,Valencia,Comunidad Valenciana,"Java, SQL, Spring Boot",5+ años,Remoto,,2026-05-31,2026-06-05
+EURES,https://example-eures.es/oferta/339,DevOps Engineer,Typeform,Barcelona,Cataluña,"Angular, Kubernetes, CI/CD",1-2 años,Híbrido,60000 - 65000 EUR/año,2026-05-22,2026-05-27
+EURES,https://example-eures.es/oferta/340,QA Engineer,Iberdrola,Valencia,Comunidad Valenciana,"Git, Java, Node.js, Azure",Sin experiencia,Remoto,23000 - 34000 EUR/año,2026-07-08,2026-07-11
+EURES,https://example-eures.es/oferta/341,DevOps Engineer,Telefónica,Madrid,Comunidad de Madrid,"AWS, Angular, Spring Boot",1-2 años,Presencial,,2026-08-12,2026-08-14
+EURES,https://example-eures.es/oferta/342,Analista BI,Accenture España,Madrid,Comunidad de Madrid,"SQL, Python, Excel",1-2 años,Remoto,55000 - 63000 EUR/año,2026-08-12,2026-08-15
+EURES,https://example-eures.es/oferta/343,Ingeniero de Datos,Cabify,Madrid,Comunidad de Madrid,"Databricks, Looker, SQL, Azure, R",Sin experiencia,Remoto,48000 - 59000 EUR/año,2026-03-16,2026-03-18
+EURES,https://example-eures.es/oferta/344,Analista de Datos,Factorial,Malaga,Andalucía,"GCP, SQL, Looker",5+ años,Remoto,34000 - 41000 EUR/año,2026-04-29,2026-05-03
+SEPE,https://example-sepe.es/oferta/345,Científico de Datos,Accenture España,Valencia,Comunidad Valenciana,"Snowflake, R, AWS, SQL, Power BI",3-5 años,Remoto,43000 - 48000 EUR/año,2026-04-16,2026-04-20
+SEPE,https://example-sepe.es/oferta/346,Full Stack Developer,Zara (Inditex),Malaga,Andalucía,"Azure, AWS, TypeScript, Git, Kubernetes",5+ años,Presencial,38000 - 49000 EUR/año,2026-04-24,2026-04-27
+SEPE,https://example-sepe.es/oferta/347,Data Analyst,Indra,A Coruna,Galicia,"Databricks, Spark, Python",3-5 años,Remoto,,2026-05-16,2026-05-17
+SEPE,https://example-sepe.es/oferta/348,Analista BI,BBVA,Madrid,Comunidad de Madrid,"Power BI, Databricks, Spark, Airflow",5+ años,Remoto,,2026-07-28,2026-07-29
+EURES,https://example-eures.es/oferta/349,Científico de Datos,Telefónica,Valencia,Comunidad Valenciana,"Power BI, Azure, Snowflake, dbt, Excel",3-5 años,Híbrido,24000 - 36000 EUR/año,2026-03-25,2026-03-29
+EURES,https://example-eures.es/oferta/350,Ingeniero de Software,Iberdrola,Barcelona,Cataluña,"Java, Azure, Node.js",1-2 años,Híbrido,,2026-08-09,2026-08-12
+SEPE,https://example-sepe.es/oferta/351,BI Analyst,Amadeus,Madrid,Comunidad de Madrid,"dbt, Excel, Looker, GCP, SQL",1-2 años,Híbrido,,2026-04-26,2026-04-29
+SEPE,https://example-sepe.es/oferta/352,Data Analyst,NTT Data,Barcelona,Cataluña,"Spark, SQL, AWS, GCP, dbt",1-2 años,Remoto,52000 - 58000 EUR/año,2026-08-26,2026-08-27
+SEPE,https://example-sepe.es/oferta/353,Data Scientist,Accenture España,Madrid,Comunidad de Madrid,"Airflow, R, Excel, SQL, Snowflake",Sin experiencia,Híbrido,44000 - 50000 EUR/año,2026-08-19,2026-08-22
+EURES,https://example-eures.es/oferta/354,Analista BI,Glovo,A Coruna,Galicia,"Azure, Python, Tableau",1-2 años,Híbrido,27000 - 30000 EUR/año,2026-04-21,2026-04-26
+SEPE,https://example-sepe.es/oferta/355,Analista de Datos,Amadeus,Madrid,Comunidad de Madrid,"Azure, Databricks, Python, Airflow",Sin experiencia,Híbrido,35000 - 43000 EUR/año,2026-04-23,2026-04-28
+SEPE,https://example-sepe.es/oferta/356,Data Analyst,Cabify,Madrid,Comunidad de Madrid,"Tableau, dbt, Snowflake, Excel",3-5 años,Presencial,22000 - 24000 EUR/año,2026-05-09,2026-05-09
+EURES,https://example-eures.es/oferta/357,BI Analyst,Mango,Madrid,Comunidad de Madrid,"AWS, GCP, Snowflake",5+ años,Remoto,60000 - 62000 EUR/año,2026-03-26,2026-03-28
+SEPE,https://example-sepe.es/oferta/358,Machine Learning Engineer,Glovo,Madrid,Comunidad de Madrid,"Airflow, Azure, AWS, Snowflake",3-5 años,Presencial,44000 - 55000 EUR/año,2026-04-10,2026-04-10
+SEPE,https://example-sepe.es/oferta/359,Software Engineer,Typeform,Malaga,Andalucía,"Docker, JavaScript, Angular, Spring Boot",1-2 años,Híbrido,,2026-08-16,2026-08-17
+EURES,https://example-eures.es/oferta/360,BI Analyst,Startup Local S.L.,Barcelona,Cataluña,"Databricks, Excel, Airflow, Azure",1-2 años,Presencial,,2026-07-17,2026-07-18
+EURES,https://example-eures.es/oferta/361,QA Engineer,Factorial,Valencia,Comunidad Valenciana,".NET, Git, Node.js",Sin experiencia,Presencial,32000 - 42000 EUR/año,2026-04-07,2026-04-12
+EURES,https://example-eures.es/oferta/362,Backend Developer,Mango,Malaga,Andalucía,"Azure, Git",Sin experiencia,Presencial,62000 - 70000 EUR/año,2026-06-14,2026-06-17
+SEPE,https://example-sepe.es/oferta/363,Data Scientist,Accenture España,Madrid,Comunidad de Madrid,"Excel, Tableau, Looker",1-2 años,Híbrido,52000 - 56000 EUR/año,2026-08-23,2026-08-23
+EURES,https://example-eures.es/oferta/364,Backend Developer,BBVA,Barcelona,Cataluña,"Docker, Java, Spring Boot",1-2 años,Híbrido,36000 - 42000 EUR/año,2026-03-04,2026-03-06
+SEPE,https://example-sepe.es/oferta/365,DevOps Engineer,Startup Local S.L.,Valencia,Comunidad Valenciana,".NET, Spring Boot, Node.js",Sin experiencia,Remoto,46000 - 56000 EUR/año,2026-03-11,2026-03-15
+EURES,https://example-eures.es/oferta/366,Data Analyst,Naturgy,Barcelona,Cataluña,"GCP, Databricks, AWS",5+ años,Híbrido,62000 - 63000 EUR/año,2026-03-11,2026-03-15
+EURES,https://example-eures.es/oferta/367,Frontend Developer,Typeform,Valencia,Comunidad Valenciana,"Angular, Spring Boot, React, AWS, Java",Sin experiencia,Presencial,51000 - 65000 EUR/año,2026-08-24,2026-08-28
+EURES,https://example-eures.es/oferta/368,Científico de Datos,CaixaBank,Barcelona,Cataluña,"Python, Power BI, Azure, Excel, Tableau",Sin experiencia,Presencial,,2026-06-25,2026-06-25
+EURES,https://example-eures.es/oferta/369,Ingeniero de Software,Amadeus,Barcelona,Cataluña,"Angular, Spring Boot, Kubernetes, Git, Java",1-2 años,Remoto,64000 - 68000 EUR/año,2026-04-13,2026-04-15
+SEPE,https://example-sepe.es/oferta/370,Data Scientist,Wallapop,Barcelona,Cataluña,"Spark, R, Power BI, SQL, dbt",5+ años,Remoto,38000 - 38000 EUR/año,2026-04-21,2026-04-21
+EURES,https://example-eures.es/oferta/371,Analista BI,Factorial,Barcelona,Cataluña,"Tableau, Excel, R",3-5 años,Remoto,27000 - 27000 EUR/año,2026-06-30,2026-07-03
+SEPE,https://example-sepe.es/oferta/372,Data Engineer,BBVA,Madrid,Comunidad de Madrid,"R, Airflow",Sin experiencia,Presencial,64000 - 73000 EUR/año,2026-03-10,2026-03-11
+SEPE,https://example-sepe.es/oferta/373,Backend Developer,Iberdrola,A Coruna,Galicia,"Angular, Docker, SQL, AWS",3-5 años,Híbrido,,2026-06-01,2026-06-01
+SEPE,https://example-sepe.es/oferta/374,Machine Learning Engineer,Typeform,Valencia,Comunidad Valenciana,"Spark, Azure",1-2 años,Remoto,39000 - 49000 EUR/año,2026-04-04,2026-04-04
+SEPE,https://example-sepe.es/oferta/375,Analista de Datos,Cabify,Barcelona,Cataluña,"Azure, Snowflake",3-5 años,Presencial,40000 - 53000 EUR/año,2026-08-24,2026-08-28
+EURES,https://example-eures.es/oferta/376,DevOps Engineer,Zara (Inditex),Barcelona,Cataluña,"Angular, Git, AWS, TypeScript, SQL",Sin experiencia,Remoto,,2026-05-14,2026-05-15
+EURES,https://example-eures.es/oferta/377,BI Analyst,Naturgy,Valencia,Comunidad Valenciana,"Python, Airflow, Looker, GCP, R",3-5 años,Remoto,40000 - 48000 EUR/año,2026-04-24,2026-04-24
+SEPE,https://example-sepe.es/oferta/378,Ingeniero de Software,Wallapop,Valencia,Comunidad Valenciana,"Azure, Spring Boot, SQL, AWS",5+ años,Presencial,34000 - 44000 EUR/año,2026-08-05,2026-08-05
+SEPE,https://example-sepe.es/oferta/379,Analista BI,Factorial,Barcelona,Cataluña,"Azure, dbt, AWS, Snowflake",Sin experiencia,Presencial,,2026-03-15,2026-03-19
+SEPE,https://example-sepe.es/oferta/380,Desarrollador Frontend,Seat,Valencia,Comunidad Valenciana,"React, CI/CD",Sin experiencia,Híbrido,62000 - 67000 EUR/año,2026-03-08,2026-03-10
+SEPE,https://example-sepe.es/oferta/381,Frontend Developer,Telefónica,Valencia,Comunidad Valenciana,"JavaScript, Docker, TypeScript, Angular, Git",1-2 años,Presencial,33000 - 36000 EUR/año,2026-05-17,2026-05-18
+EURES,https://example-eures.es/oferta/382,DevOps Engineer,Mango,Barcelona,Cataluña,"Spring Boot, Angular, Docker",Sin experiencia,Híbrido,31000 - 34000 EUR/año,2026-07-13,2026-07-15
+SEPE,https://example-sepe.es/oferta/383,QA Engineer,Telefónica,Valencia,Comunidad Valenciana,"Java, React",Sin experiencia,Remoto,27000 - 37000 EUR/año,2026-03-12,2026-03-17
+SEPE,https://example-sepe.es/oferta/384,Frontend Developer,Amadeus,Madrid,Comunidad de Madrid,"Azure, TypeScript, Git",1-2 años,Híbrido,50000 - 53000 EUR/año,2026-05-13,2026-05-15
+EURES,https://example-eures.es/oferta/385,Machine Learning Engineer,Seat,Madrid,Comunidad de Madrid,"Tableau, GCP",Sin experiencia,Híbrido,31000 - 40000 EUR/año,2026-05-29,2026-06-02
+SEPE,https://example-sepe.es/oferta/386,Software Engineer,Seat,Barcelona,Cataluña,"Java, Docker, Azure",5+ años,Remoto,27000 - 40000 EUR/año,2026-03-13,2026-03-13
+SEPE,https://example-sepe.es/oferta/387,Desarrollador Backend,Naturgy,Madrid,Comunidad de Madrid,"Git, AWS",5+ años,Híbrido,51000 - 54000 EUR/año,2026-04-03,2026-04-03
+SEPE,https://example-sepe.es/oferta/388,Data Engineer,Indra,A Coruna,Galicia,"Databricks, Airflow, AWS, Power BI",Sin experiencia,Híbrido,42000 - 56000 EUR/año,2026-08-27,2026-09-01
+EURES,https://example-eures.es/oferta/389,Analista BI,NTT Data,Madrid,Comunidad de Madrid,"Spark, dbt, Airflow",Sin experiencia,Híbrido,,2026-08-02,2026-08-06
+SEPE,https://example-sepe.es/oferta/390,Machine Learning Engineer,NTT Data,Valencia,Comunidad Valenciana,"AWS, Excel, Databricks, Tableau, Looker",Sin experiencia,Híbrido,,2026-05-02,2026-05-06
+EURES,https://example-eures.es/oferta/391,BI Analyst,Startup Local S.L.,Valencia,Comunidad Valenciana,"Excel, dbt, Airflow, GCP, Tableau",5+ años,Híbrido,58000 - 73000 EUR/año,2026-04-14,2026-04-19
+SEPE,https://example-sepe.es/oferta/392,Data Engineer,Telefónica,Malaga,Andalucía,"AWS, SQL, Excel, Looker",Sin experiencia,Presencial,46000 - 56000 EUR/año,2026-08-23,2026-08-27
+EURES,https://example-eures.es/oferta/393,Data Analyst,Mango,Malaga,Andalucía,"R, Power BI, Azure",3-5 años,Híbrido,58000 - 72000 EUR/año,2026-07-15,2026-07-17
+SEPE,https://example-sepe.es/oferta/394,Full Stack Developer,Factorial,Malaga,Andalucía,"JavaScript, AWS, Java, Git",Sin experiencia,Presencial,40000 - 41000 EUR/año,2026-07-09,2026-07-12
+SEPE,https://example-sepe.es/oferta/395,Frontend Developer,NTT Data,Madrid,Comunidad de Madrid,"Docker, Spring Boot",5+ años,Remoto,42000 - 54000 EUR/año,2026-08-27,2026-08-31
+EURES,https://example-eures.es/oferta/396,Analista BI,Amadeus,Barcelona,Cataluña,"Tableau, GCP, AWS",Sin experiencia,Presencial,,2026-06-01,2026-06-04
+SEPE,https://example-sepe.es/oferta/397,Analista BI,Typeform,Madrid,Comunidad de Madrid,"Power BI, SQL, Databricks, R, AWS",5+ años,Remoto,49000 - 54000 EUR/año,2026-06-25,2026-06-30
+SEPE,https://example-sepe.es/oferta/398,Desarrollador Backend,Factorial,Barcelona,Cataluña,".NET, AWS, Java",3-5 años,Presencial,37000 - 45000 EUR/año,2026-07-26,2026-07-29
+SEPE,https://example-sepe.es/oferta/399,Científico de Datos,Zara (Inditex),Barcelona,Cataluña,"Excel, Azure",Sin experiencia,Remoto,,2026-08-24,2026-08-24
+SEPE,https://example-sepe.es/oferta/400,Analista de Datos,Accenture España,Madrid,Comunidad de Madrid,"Excel, Python, Airflow, GCP",3-5 años,Híbrido,52000 - 62000 EUR/año,2026-03-03,2026-03-06
+SEPE,https://example-sepe.es/oferta/401,Data Scientist,Indra,Madrid,Comunidad de Madrid,"Python, R, Azure, Excel",3-5 años,Híbrido,,2026-04-13,2026-04-17
+EURES,https://example-eures.es/oferta/402,Analista de Datos,Seat,Madrid,Comunidad de Madrid,"Spark, Power BI, Excel, Databricks",1-2 años,Remoto,,2026-05-10,2026-05-12
+EURES,https://example-eures.es/oferta/403,Backend Developer,Wallapop,Madrid,Comunidad de Madrid,"Docker, CI/CD, JavaScript, Node.js",5+ años,Híbrido,27000 - 31000 EUR/año,2026-07-14,2026-07-14
+EURES,https://example-eures.es/oferta/404,Data Engineer,Telefónica,Barcelona,Cataluña,"Excel, Snowflake, Airflow",1-2 años,Híbrido,,2026-03-14,2026-03-19
+SEPE,https://example-sepe.es/oferta/405,DevOps Engineer,Indra,Barcelona,Cataluña,"Node.js, Azure, SQL",3-5 años,Híbrido,,2026-06-08,2026-06-11
+SEPE,https://example-sepe.es/oferta/406,QA Engineer,Cabify,Barcelona,Cataluña,"TypeScript, Git",3-5 años,Presencial,49000 - 57000 EUR/año,2026-07-15,2026-07-20
+EURES,https://example-eures.es/oferta/407,Full Stack Developer,Indra,Barcelona,Cataluña,"Docker, SQL, Azure, AWS, TypeScript",Sin experiencia,Presencial,33000 - 43000 EUR/año,2026-07-12,2026-07-14
+EURES,https://example-eures.es/oferta/408,Ingeniero de Software,Telefónica,Madrid,Comunidad de Madrid,"SQL, TypeScript, CI/CD, React, Node.js",1-2 años,Remoto,,2026-04-19,2026-04-19
+EURES,https://example-eures.es/oferta/409,Analista de Datos,Seat,Valencia,Comunidad Valenciana,"Looker, Excel",3-5 años,Híbrido,63000 - 68000 EUR/año,2026-04-03,2026-04-06
+EURES,https://example-eures.es/oferta/410,Ingeniero de Software,Cabify,Barcelona,Cataluña,"Kubernetes, Node.js, Spring Boot, SQL, Azure",Sin experiencia,Híbrido,,2026-05-22,2026-05-24
+EURES,https://example-eures.es/oferta/411,Software Engineer,Amadeus,Madrid,Comunidad de Madrid,"Kubernetes, JavaScript, Docker, Python",5+ años,Presencial,33000 - 48000 EUR/año,2026-07-04,2026-07-05
+SEPE,https://example-sepe.es/oferta/412,Data Scientist,Amadeus,Malaga,Andalucía,"Python, SQL",Sin experiencia,Presencial,50000 - 50000 EUR/año,2026-03-19,2026-03-23
+EURES,https://example-eures.es/oferta/413,Desarrollador Frontend,NTT Data,Madrid,Comunidad de Madrid,"Java, Kubernetes, SQL, Node.js, Docker",5+ años,Presencial,26000 - 33000 EUR/año,2026-07-01,2026-07-04
+SEPE,https://example-sepe.es/oferta/414,Frontend Developer,Naturgy,Madrid,Comunidad de Madrid,"Python, Azure, Git, CI/CD, Angular",1-2 años,Presencial,,2026-07-15,2026-07-17
+EURES,https://example-eures.es/oferta/415,Ingeniero de Datos,Amadeus,A Coruna,Galicia,"Snowflake, AWS, SQL, R",Sin experiencia,Presencial,62000 - 76000 EUR/año,2026-08-24,2026-08-26
+EURES,https://example-eures.es/oferta/416,Ingeniero de Datos,Iberdrola,Valencia,Comunidad Valenciana,"AWS, SQL, dbt, GCP, R",Sin experiencia,Híbrido,50000 - 50000 EUR/año,2026-05-18,2026-05-21
+EURES,https://example-eures.es/oferta/417,Ingeniero de Datos,Wallapop,Barcelona,Cataluña,"R, Looker, GCP, Power BI, Excel",Sin experiencia,Híbrido,,2026-04-29,2026-04-29
+EURES,https://example-eures.es/oferta/418,Data Engineer,Startup Local S.L.,Madrid,Comunidad de Madrid,"Power BI, R",Sin experiencia,Presencial,28000 - 42000 EUR/año,2026-03-13,2026-03-15
+SEPE,https://example-sepe.es/oferta/419,Ingeniero de Datos,CaixaBank,Barcelona,Cataluña,"dbt, Tableau",1-2 años,Híbrido,65000 - 77000 EUR/año,2026-06-18,2026-06-20
+SEPE,https://example-sepe.es/oferta/420,Data Engineer,Glovo,Valencia,Comunidad Valenciana,"SQL, Databricks, Spark, Power BI",Sin experiencia,Presencial,57000 - 62000 EUR/año,2026-06-15,2026-06-16
+EURES,https://example-eures.es/oferta/421,BI Analyst,Startup Local S.L.,Valencia,Comunidad Valenciana,"Python, Azure, SQL",3-5 años,Híbrido,,2026-03-02,2026-03-02
+EURES,https://example-eures.es/oferta/422,Desarrollador Backend,Wallapop,Valencia,Comunidad Valenciana,"Kubernetes, CI/CD, Docker",Sin experiencia,Remoto,61000 - 62000 EUR/año,2026-06-14,2026-06-15
+SEPE,https://example-sepe.es/oferta/423,Software Engineer,Mango,Madrid,Comunidad de Madrid,"Spring Boot, Python, Kubernetes",3-5 años,Presencial,56000 - 63000 EUR/año,2026-03-25,2026-03-29
+SEPE,https://example-sepe.es/oferta/424,Data Engineer,Iberdrola,Madrid,Comunidad de Madrid,"Azure, Power BI, Looker, R, Python",5+ años,Presencial,35000 - 48000 EUR/año,2026-03-14,2026-03-19
+EURES,https://example-eures.es/oferta/425,Machine Learning Engineer,Zara (Inditex),Valencia,Comunidad Valenciana,"Power BI, dbt, Python",3-5 años,Híbrido,,2026-07-03,2026-07-07
+SEPE,https://example-sepe.es/oferta/426,Científico de Datos,Mango,Valencia,Comunidad Valenciana,"dbt, SQL, Airflow",5+ años,Presencial,,2026-04-28,2026-04-28
+SEPE,https://example-sepe.es/oferta/427,Analista BI,Accenture España,Barcelona,Cataluña,"Databricks, AWS",1-2 años,Híbrido,51000 - 56000 EUR/año,2026-04-07,2026-04-08
+EURES,https://example-eures.es/oferta/428,Data Scientist,CaixaBank,Barcelona,Cataluña,"Airflow, Power BI, Python",5+ años,Híbrido,,2026-08-25,2026-08-29
+EURES,https://example-eures.es/oferta/429,Desarrollador Frontend,Everis,Madrid,Comunidad de Madrid,"AWS, CI/CD, JavaScript",5+ años,Presencial,58000 - 65000 EUR/año,2026-08-11,2026-08-15
+EURES,https://example-eures.es/oferta/430,Frontend Developer,Startup Local S.L.,Malaga,Andalucía,".NET, SQL",Sin experiencia,Híbrido,59000 - 66000 EUR/año,2026-05-03,2026-05-04
+SEPE,https://example-sepe.es/oferta/431,Analista BI,Glovo,Madrid,Comunidad de Madrid,"AWS, GCP",Sin experiencia,Remoto,28000 - 42000 EUR/año,2026-06-09,2026-06-12
+SEPE,https://example-sepe.es/oferta/432,BI Analyst,Seat,Valencia,Comunidad Valenciana,"Power BI, Airflow, Spark",5+ años,Remoto,23000 - 38000 EUR/año,2026-05-01,2026-05-06
+EURES,https://example-eures.es/oferta/433,Analista BI,NTT Data,A Coruna,Galicia,"Looker, Snowflake, AWS",3-5 años,Remoto,62000 - 62000 EUR/año,2026-04-17,2026-04-19
+EURES,https://example-eures.es/oferta/434,Data Scientist,CaixaBank,Madrid,Comunidad de Madrid,"dbt, R, SQL",5+ años,Híbrido,25000 - 36000 EUR/año,2026-08-06,2026-08-08
+SEPE,https://example-sepe.es/oferta/435,Desarrollador Frontend,Glovo,Barcelona,Cataluña,"Angular, Azure, Kubernetes, SQL",Sin experiencia,Remoto,35000 - 39000 EUR/año,2026-03-18,2026-03-22
+EURES,https://example-eures.es/oferta/436,Ingeniero QA,Accenture España,Valencia,Comunidad Valenciana,"Docker, Angular, Git",3-5 años,Híbrido,39000 - 40000 EUR/año,2026-05-08,2026-05-12
+SEPE,https://example-sepe.es/oferta/437,Ingeniero de Software,BBVA,Barcelona,Cataluña,"AWS, Docker, CI/CD, Angular, Azure",Sin experiencia,Híbrido,,2026-08-25,2026-08-25
+EURES,https://example-eures.es/oferta/438,Analista de Datos,Mango,Madrid,Comunidad de Madrid,"Power BI, Spark",Sin experiencia,Híbrido,,2026-03-29,2026-04-03
+EURES,https://example-eures.es/oferta/439,QA Engineer,Indra,A Coruna,Galicia,"CI/CD, Angular, Spring Boot",1-2 años,Remoto,40000 - 46000 EUR/año,2026-06-22,2026-06-27
+SEPE,https://example-sepe.es/oferta/440,Desarrollador Frontend,Seat,Barcelona,Cataluña,"CI/CD, AWS, Azure, SQL",3-5 años,Presencial,41000 - 45000 EUR/año,2026-07-14,2026-07-18
+SEPE,https://example-sepe.es/oferta/441,Frontend Developer,Seat,Madrid,Comunidad de Madrid,"React, Angular",1-2 años,Remoto,61000 - 66000 EUR/año,2026-05-12,2026-05-15
+EURES,https://example-eures.es/oferta/442,Analista de Datos,Mango,Madrid,Comunidad de Madrid,"Airflow, Excel",Sin experiencia,Remoto,,2026-04-02,2026-04-05
+EURES,https://example-eures.es/oferta/443,Backend Developer,Zara (Inditex),A Coruna,Galicia,"Git, Kubernetes, JavaScript, CI/CD",3-5 años,Presencial,47000 - 62000 EUR/año,2026-05-17,2026-05-17
+SEPE,https://example-sepe.es/oferta/444,Machine Learning Engineer,CaixaBank,A Coruna,Galicia,"R, Snowflake, Spark, Azure",5+ años,Presencial,58000 - 72000 EUR/año,2026-05-14,2026-05-18
+EURES,https://example-eures.es/oferta/445,Analista de Datos,Mango,Barcelona,Cataluña,"Python, AWS, Excel, Tableau",1-2 años,Híbrido,,2026-06-23,2026-06-25
+SEPE,https://example-sepe.es/oferta/446,Machine Learning Engineer,NTT Data,Madrid,Comunidad de Madrid,"R, Databricks, SQL, GCP, AWS",1-2 años,Remoto,60000 - 61000 EUR/año,2026-04-19,2026-04-22
+EURES,https://example-eures.es/oferta/447,Desarrollador Frontend,Zara (Inditex),Madrid,Comunidad de Madrid,"AWS, Angular",5+ años,Híbrido,57000 - 59000 EUR/año,2026-05-29,2026-05-31
+EURES,https://example-eures.es/oferta/448,Full Stack Developer,Startup Local S.L.,Madrid,Comunidad de Madrid,"React, .NET, AWS, Git, Python",5+ años,Presencial,55000 - 65000 EUR/año,2026-04-06,2026-04-07
+SEPE,https://example-sepe.es/oferta/449,Data Scientist,Naturgy,Barcelona,Cataluña,"Power BI, GCP, Azure, Snowflake, Excel",5+ años,Presencial,,2026-04-05,2026-04-06
+EURES,https://example-eures.es/oferta/450,Frontend Developer,Naturgy,Malaga,Andalucía,"Git, TypeScript, Java, Node.js, .NET",5+ años,Presencial,62000 - 77000 EUR/año,2026-04-09,2026-04-11
+SEPE,https://example-sepe.es/oferta/451,Desarrollador Backend,Startup Local S.L.,Malaga,Andalucía,"TypeScript, Node.js",5+ años,Híbrido,26000 - 37000 EUR/año,2026-05-10,2026-05-13
+SEPE,https://example-sepe.es/oferta/452,Ingeniero de Software,Amadeus,A Coruna,Galicia,"Java, .NET, React, JavaScript",3-5 años,Presencial,,2026-07-27,2026-07-27
+EURES,https://example-eures.es/oferta/453,BI Analyst,Seat,Madrid,Comunidad de Madrid,"Python, Spark, Looker, GCP",3-5 años,Híbrido,62000 - 67000 EUR/año,2026-08-11,2026-08-11
+SEPE,https://example-sepe.es/oferta/454,Desarrollador Frontend,Accenture España,Madrid,Comunidad de Madrid,"SQL, .NET",5+ años,Híbrido,,2026-04-06,2026-04-06
+SEPE,https://example-sepe.es/oferta/455,Backend Developer,Zara (Inditex),Malaga,Andalucía,"Spring Boot, JavaScript",Sin experiencia,Presencial,57000 - 60000 EUR/año,2026-07-07,2026-07-08
+SEPE,https://example-sepe.es/oferta/456,Analista BI,Indra,Malaga,Andalucía,"Spark, Snowflake, Airflow, Power BI",Sin experiencia,Presencial,43000 - 48000 EUR/año,2026-06-22,2026-06-26
+EURES,https://example-eures.es/oferta/457,Data Engineer,Wallapop,Malaga,Andalucía,"Spark, Power BI, Tableau",5+ años,Presencial,29000 - 31000 EUR/año,2026-04-03,2026-04-03
+EURES,https://example-eures.es/oferta/458,Machine Learning Engineer,CaixaBank,Madrid,Comunidad de Madrid,"Azure, SQL",Sin experiencia,Remoto,,2026-05-04,2026-05-04
+SEPE,https://example-sepe.es/oferta/459,Ingeniero de Datos,Seat,Barcelona,Cataluña,"R, Airflow, Python",1-2 años,Remoto,39000 - 50000 EUR/año,2026-03-24,2026-03-25
+EURES,https://example-eures.es/oferta/460,Data Analyst,Mango,Madrid,Comunidad de Madrid,"Snowflake, Tableau, Spark",5+ años,Híbrido,,2026-04-13,2026-04-17
+SEPE,https://example-sepe.es/oferta/461,Analista de Datos,CaixaBank,Barcelona,Cataluña,"Looker, Airflow, AWS",5+ años,Presencial,48000 - 51000 EUR/año,2026-06-17,2026-06-18
+SEPE,https://example-sepe.es/oferta/462,Científico de Datos,Zara (Inditex),Barcelona,Cataluña,"GCP, Snowflake, Python, SQL",3-5 años,Remoto,,2026-05-23,2026-05-26
+EURES,https://example-eures.es/oferta/463,Full Stack Developer,NTT Data,Madrid,Comunidad de Madrid,".NET, TypeScript, CI/CD, Python",5+ años,Remoto,22000 - 37000 EUR/año,2026-06-30,2026-07-05
+SEPE,https://example-sepe.es/oferta/464,BI Analyst,CaixaBank,Madrid,Comunidad de Madrid,"Snowflake, Excel, SQL, Databricks, Power BI",1-2 años,Híbrido,43000 - 49000 EUR/año,2026-03-17,2026-03-19
+EURES,https://example-eures.es/oferta/465,Ingeniero QA,Zara (Inditex),Madrid,Comunidad de Madrid,"Node.js, Angular, Docker, Azure",Sin experiencia,Presencial,54000 - 62000 EUR/año,2026-08-02,2026-08-05
+SEPE,https://example-sepe.es/oferta/466,Desarrollador Backend,Iberdrola,Barcelona,Cataluña,"Java, Python, SQL",1-2 años,Híbrido,23000 - 28000 EUR/año,2026-03-14,2026-03-14
+EURES,https://example-eures.es/oferta/467,Machine Learning Engineer,Telefónica,Valencia,Comunidad Valenciana,"dbt, Azure, Tableau, Spark, R",5+ años,Presencial,56000 - 66000 EUR/año,2026-07-06,2026-07-09
+SEPE,https://example-sepe.es/oferta/468,Full Stack Developer,Amadeus,Barcelona,Cataluña,"Git, Java, CI/CD, JavaScript, Kubernetes",3-5 años,Remoto,32000 - 47000 EUR/año,2026-08-16,2026-08-18
+SEPE,https://example-sepe.es/oferta/469,Ingeniero de Software,Accenture España,Barcelona,Cataluña,"CI/CD, Docker, Kubernetes, JavaScript, .NET",3-5 años,Híbrido,,2026-03-15,2026-03-18
+SEPE,https://example-sepe.es/oferta/470,Data Analyst,CaixaBank,Madrid,Comunidad de Madrid,"Looker, Airflow, Databricks",5+ años,Híbrido,62000 - 72000 EUR/año,2026-07-28,2026-07-28
+EURES,https://example-eures.es/oferta/471,Software Engineer,Naturgy,Barcelona,Cataluña,"Docker, TypeScript, Azure",Sin experiencia,Híbrido,,2026-05-19,2026-05-23
+EURES,https://example-eures.es/oferta/472,Científico de Datos,Wallapop,Madrid,Comunidad de Madrid,"Azure, R",Sin experiencia,Híbrido,48000 - 56000 EUR/año,2026-06-17,2026-06-21
+SEPE,https://example-sepe.es/oferta/473,Desarrollador Frontend,Typeform,Barcelona,Cataluña,"CI/CD, Python",3-5 años,Presencial,,2026-08-24,2026-08-29
+SEPE,https://example-sepe.es/oferta/474,Full Stack Developer,Telefónica,Madrid,Comunidad de Madrid,"CI/CD, Azure, .NET",3-5 años,Remoto,,2026-03-20,2026-03-24
+SEPE,https://example-sepe.es/oferta/475,Ingeniero QA,Everis,Valencia,Comunidad Valenciana,"TypeScript, AWS",1-2 años,Híbrido,,2026-05-26,2026-05-28
+EURES,https://example-eures.es/oferta/476,Data Scientist,Indra,Barcelona,Cataluña,"AWS, R, GCP, Airflow",1-2 años,Remoto,61000 - 75000 EUR/año,2026-04-21,2026-04-24
+EURES,https://example-eures.es/oferta/477,DevOps Engineer,Glovo,Madrid,Comunidad de Madrid,".NET, Git, AWS, SQL",1-2 años,Remoto,45000 - 59000 EUR/año,2026-08-08,2026-08-08
+SEPE,https://example-sepe.es/oferta/478,Full Stack Developer,Glovo,Malaga,Andalucía,"JavaScript, Azure, TypeScript, Spring Boot",Sin experiencia,Presencial,38000 - 45000 EUR/año,2026-05-08,2026-05-10
+EURES,https://example-eures.es/oferta/479,Data Scientist,Indra,Madrid,Comunidad de Madrid,"Azure, GCP, AWS, dbt, R",3-5 años,Híbrido,,2026-03-10,2026-03-11
+EURES,https://example-eures.es/oferta/480,Data Analyst,NTT Data,Barcelona,Cataluña,"dbt, Python, Looker, SQL, Airflow",1-2 años,Presencial,48000 - 59000 EUR/año,2026-08-02,2026-08-04
+EURES,https://example-eures.es/oferta/481,Machine Learning Engineer,Glovo,Barcelona,Cataluña,"GCP, R",Sin experiencia,Híbrido,,2026-07-27,2026-07-31
+SEPE,https://example-sepe.es/oferta/482,Full Stack Developer,Zara (Inditex),Malaga,Andalucía,".NET, TypeScript, JavaScript",5+ años,Híbrido,,2026-03-28,2026-03-29
+SEPE,https://example-sepe.es/oferta/483,Científico de Datos,Wallapop,Barcelona,Cataluña,"Airflow, GCP",3-5 años,Híbrido,39000 - 43000 EUR/año,2026-06-17,2026-06-20
+SEPE,https://example-sepe.es/oferta/484,Data Analyst,Naturgy,Barcelona,Cataluña,"Snowflake, dbt",3-5 años,Remoto,,2026-08-19,2026-08-20
+EURES,https://example-eures.es/oferta/485,Ingeniero de Datos,Zara (Inditex),Barcelona,Cataluña,"AWS, Python, Databricks, Spark, Snowflake",3-5 años,Remoto,,2026-03-24,2026-03-25
+SEPE,https://example-sepe.es/oferta/486,Frontend Developer,Typeform,Valencia,Comunidad Valenciana,"CI/CD, Docker",Sin experiencia,Híbrido,28000 - 33000 EUR/año,2026-06-14,2026-06-16
+EURES,https://example-eures.es/oferta/487,QA Engineer,Indra,Barcelona,Cataluña,"Git, SQL, Java, Node.js",5+ años,Presencial,62000 - 76000 EUR/año,2026-03-14,2026-03-19
+SEPE,https://example-sepe.es/oferta/488,Ingeniero de Software,Iberdrola,Madrid,Comunidad de Madrid,"Angular, TypeScript",5+ años,Híbrido,63000 - 67000 EUR/año,2026-07-11,2026-07-16
+EURES,https://example-eures.es/oferta/489,Científico de Datos,Indra,Madrid,Comunidad de Madrid,"Tableau, SQL, AWS, Airflow",1-2 años,Presencial,58000 - 65000 EUR/año,2026-04-16,2026-04-19
+EURES,https://example-eures.es/oferta/490,Backend Developer,Accenture España,Madrid,Comunidad de Madrid,"Node.js, AWS",1-2 años,Remoto,,2026-06-18,2026-06-22
+SEPE,https://example-sepe.es/oferta/491,Machine Learning Engineer,Naturgy,Madrid,Comunidad de Madrid,"dbt, Azure, R, Looker, SQL",5+ años,Híbrido,,2026-04-27,2026-05-02
+EURES,https://example-eures.es/oferta/492,Ingeniero de Datos,Naturgy,Barcelona,Cataluña,"Looker, Spark, Snowflake",3-5 años,Presencial,48000 - 52000 EUR/año,2026-08-21,2026-08-22
+SEPE,https://example-sepe.es/oferta/493,Desarrollador Frontend,BBVA,Malaga,Andalucía,"JavaScript, Java, Docker, CI/CD, Angular",Sin experiencia,Remoto,46000 - 59000 EUR/año,2026-08-25,2026-08-28
+SEPE,https://example-sepe.es/oferta/494,Ingeniero de Datos,Naturgy,Madrid,Comunidad de Madrid,"Databricks, Airflow, Excel, R, dbt",5+ años,Remoto,22000 - 30000 EUR/año,2026-08-29,2026-09-03
+EURES,https://example-eures.es/oferta/495,QA Engineer,BBVA,Madrid,Comunidad de Madrid,"Angular, React",3-5 años,Remoto,43000 - 57000 EUR/año,2026-04-13,2026-04-17
+SEPE,https://example-sepe.es/oferta/496,Ingeniero de Software,Cabify,Madrid,Comunidad de Madrid,"Python, JavaScript, Docker, React",3-5 años,Híbrido,,2026-06-01,2026-06-04
+EURES,https://example-eures.es/oferta/497,Analista BI,Telefónica,Madrid,Comunidad de Madrid,"GCP, Looker, R",1-2 años,Presencial,,2026-08-10,2026-08-13
+EURES,https://example-eures.es/oferta/498,Data Engineer,Amadeus,Barcelona,Cataluña,"AWS, SQL, Azure, Python, dbt",Sin experiencia,Híbrido,51000 - 66000 EUR/año,2026-05-31,2026-06-05
+EURES,https://example-eures.es/oferta/499,Data Scientist,Typeform,Madrid,Comunidad de Madrid,"Looker, Power BI, Snowflake",1-2 años,Híbrido,64000 - 70000 EUR/año,2026-07-09,2026-07-11
+SEPE,https://example-sepe.es/oferta/500,Analista BI,Accenture España,Madrid,Comunidad de Madrid,"Databricks, Airflow",Sin experiencia,Híbrido,65000 - 68000 EUR/año,2026-03-07,2026-03-09
+SEPE,https://example-sepe.es/oferta/501,Analista BI,Startup Local S.L.,Madrid,Comunidad de Madrid,"Azure, R, Spark, Excel, Looker",1-2 años,Presencial,63000 - 77000 EUR/año,2026-03-02,2026-03-04
+EURES,https://example-eures.es/oferta/502,Data Scientist,Glovo,Valencia,Comunidad Valenciana,"dbt, Python, Snowflake, SQL",5+ años,Presencial,47000 - 55000 EUR/año,2026-07-19,2026-07-23
+SEPE,https://example-sepe.es/oferta/503,Data Engineer,Naturgy,Malaga,Andalucía,"dbt, AWS, Spark, R, Snowflake",1-2 años,Híbrido,,2026-04-09,2026-04-09
+SEPE,https://example-sepe.es/oferta/504,Machine Learning Engineer,Accenture España,Malaga,Andalucía,"Azure, Databricks, AWS",1-2 años,Híbrido,49000 - 51000 EUR/año,2026-06-30,2026-07-02
+SEPE,https://example-sepe.es/oferta/505,QA Engineer,Typeform,Madrid,Comunidad de Madrid,"Git, Azure, TypeScript, CI/CD",Sin experiencia,Híbrido,,2026-08-23,2026-08-28
+EURES,https://example-eures.es/oferta/506,DevOps Engineer,Telefónica,Barcelona,Cataluña,"React, JavaScript, Azure, CI/CD",Sin experiencia,Remoto,58000 - 59000 EUR/año,2026-05-03,2026-05-07
+SEPE,https://example-sepe.es/oferta/507,DevOps Engineer,Seat,Barcelona,Cataluña,"SQL, React, AWS, Python",1-2 años,Híbrido,,2026-07-07,2026-07-07
+EURES,https://example-eures.es/oferta/508,Data Scientist,Seat,Madrid,Comunidad de Madrid,"Excel, Snowflake, Azure, R",Sin experiencia,Remoto,43000 - 48000 EUR/año,2026-06-24,2026-06-28
+SEPE,https://example-sepe.es/oferta/509,Ingeniero de Software,Accenture España,Malaga,Andalucía,"Java, CI/CD, Spring Boot, Python, Git",5+ años,Híbrido,47000 - 62000 EUR/año,2026-04-13,2026-04-18
+EURES,https://example-eures.es/oferta/510,Data Analyst,Glovo,Madrid,Comunidad de Madrid,"SQL, Looker, Python",5+ años,Remoto,35000 - 50000 EUR/año,2026-08-26,2026-08-27
+SEPE,https://example-sepe.es/oferta/511,Analista BI,Indra,Madrid,Comunidad de Madrid,"Azure, AWS, Python",5+ años,Remoto,50000 - 65000 EUR/año,2026-03-30,2026-03-31
+SEPE,https://example-sepe.es/oferta/512,BI Analyst,Startup Local S.L.,Madrid,Comunidad de Madrid,"Airflow, Python",3-5 años,Presencial,49000 - 62000 EUR/año,2026-03-27,2026-04-01
+SEPE,https://example-sepe.es/oferta/513,QA Engineer,Wallapop,Barcelona,Cataluña,"Docker, SQL, Java, Kubernetes, .NET",Sin experiencia,Híbrido,26000 - 34000 EUR/año,2026-06-17,2026-06-21
+SEPE,https://example-sepe.es/oferta/514,Full Stack Developer,Zara (Inditex),Barcelona,Cataluña,"Angular, React",1-2 años,Híbrido,36000 - 43000 EUR/año,2026-04-19,2026-04-22
+EURES,https://example-eures.es/oferta/515,Desarrollador Frontend,Wallapop,A Coruna,Galicia,"Angular, AWS, TypeScript, React, SQL",Sin experiencia,Híbrido,33000 - 39000 EUR/año,2026-03-23,2026-03-28
+EURES,https://example-eures.es/oferta/516,Desarrollador Backend,Iberdrola,Madrid,Comunidad de Madrid,"Java, Angular",5+ años,Presencial,33000 - 34000 EUR/año,2026-05-06,2026-05-08
+EURES,https://example-eures.es/oferta/517,Ingeniero de Datos,Zara (Inditex),Madrid,Comunidad de Madrid,"Spark, Airflow, dbt, Looker, Python",5+ años,Presencial,54000 - 57000 EUR/año,2026-07-21,2026-07-23
+EURES,https://example-eures.es/oferta/518,Analista de Datos,Accenture España,Valencia,Comunidad Valenciana,"GCP, SQL",1-2 años,Remoto,,2026-04-12,2026-04-17
+EURES,https://example-eures.es/oferta/519,QA Engineer,Glovo,Valencia,Comunidad Valenciana,"TypeScript, JavaScript, Azure, Angular, Node.js",5+ años,Híbrido,50000 - 63000 EUR/año,2026-04-05,2026-04-05
+EURES,https://example-eures.es/oferta/520,Ingeniero de Software,Amadeus,Barcelona,Cataluña,"SQL, CI/CD, Node.js, Spring Boot",5+ años,Híbrido,31000 - 44000 EUR/año,2026-06-01,2026-06-06
+SEPE,https://example-sepe.es/oferta/521,QA Engineer,Iberdrola,Malaga,Andalucía,"Java, Docker, JavaScript, Node.js",5+ años,Presencial,26000 - 28000 EUR/año,2026-03-03,2026-03-08
+SEPE,https://example-sepe.es/oferta/522,Software Engineer,Iberdrola,Madrid,Comunidad de Madrid,"Python, Azure, SQL",3-5 años,Presencial,48000 - 60000 EUR/año,2026-08-17,2026-08-21
+SEPE,https://example-sepe.es/oferta/523,Ingeniero QA,NTT Data,Malaga,Andalucía,"Node.js, Docker, Azure",1-2 años,Híbrido,61000 - 75000 EUR/año,2026-04-22,2026-04-26
+SEPE,https://example-sepe.es/oferta/524,Científico de Datos,Typeform,Madrid,Comunidad de Madrid,"Snowflake, Databricks, Looker, Power BI, GCP",3-5 años,Remoto,,2026-07-17,2026-07-19
+EURES,https://example-eures.es/oferta/525,Machine Learning Engineer,Accenture España,Madrid,Comunidad de Madrid,"Tableau, Looker, dbt, Spark",3-5 años,Remoto,,2026-06-17,2026-06-21
+SEPE,https://example-sepe.es/oferta/526,Ingeniero de Software,Naturgy,Madrid,Comunidad de Madrid,"AWS, CI/CD, SQL, Java, Docker",3-5 años,Remoto,59000 - 66000 EUR/año,2026-05-26,2026-05-27
+EURES,https://example-eures.es/oferta/527,Machine Learning Engineer,Amadeus,Valencia,Comunidad Valenciana,"SQL, Airflow, GCP",5+ años,Híbrido,45000 - 59000 EUR/año,2026-07-28,2026-07-29
+SEPE,https://example-sepe.es/oferta/528,BI Analyst,Startup Local S.L.,Madrid,Comunidad de Madrid,"Azure, Tableau, Databricks",5+ años,Remoto,47000 - 59000 EUR/año,2026-03-20,2026-03-22
+EURES,https://example-eures.es/oferta/529,DevOps Engineer,Mango,A Coruna,Galicia,"Angular, JavaScript, Kubernetes, Git, Docker",5+ años,Híbrido,,2026-08-30,2026-09-02
+EURES,https://example-eures.es/oferta/530,Machine Learning Engineer,CaixaBank,Valencia,Comunidad Valenciana,"Databricks, SQL, Excel, AWS",3-5 años,Híbrido,40000 - 41000 EUR/año,2026-03-29,2026-03-29
+SEPE,https://example-sepe.es/oferta/531,DevOps Engineer,Naturgy,Madrid,Comunidad de Madrid,"React, JavaScript",1-2 años,Presencial,,2026-07-29,2026-08-01
+SEPE,https://example-sepe.es/oferta/532,QA Engineer,Wallapop,Madrid,Comunidad de Madrid,"JavaScript, .NET, Java, Spring Boot",1-2 años,Presencial,50000 - 60000 EUR/año,2026-07-02,2026-07-06
+SEPE,https://example-sepe.es/oferta/533,DevOps Engineer,Iberdrola,Valencia,Comunidad Valenciana,"Azure, Python, Node.js",Sin experiencia,Remoto,46000 - 53000 EUR/año,2026-08-07,2026-08-12
+EURES,https://example-eures.es/oferta/534,Ingeniero de Software,Factorial,Valencia,Comunidad Valenciana,"Java, AWS, Azure",Sin experiencia,Remoto,29000 - 31000 EUR/año,2026-08-29,2026-08-31
+EURES,https://example-eures.es/oferta/535,Machine Learning Engineer,Startup Local S.L.,Valencia,Comunidad Valenciana,"SQL, R",5+ años,Presencial,39000 - 45000 EUR/año,2026-07-15,2026-07-16
+EURES,https://example-eures.es/oferta/536,Software Engineer,CaixaBank,Barcelona,Cataluña,"Java, Angular, Spring Boot, JavaScript, .NET",1-2 años,Híbrido,38000 - 40000 EUR/año,2026-03-07,2026-03-11
+EURES,https://example-eures.es/oferta/537,Analista de Datos,Telefónica,Madrid,Comunidad de Madrid,"Spark, AWS, R",3-5 años,Híbrido,42000 - 47000 EUR/año,2026-04-13,2026-04-13
+SEPE,https://example-sepe.es/oferta/538,BI Analyst,Typeform,Madrid,Comunidad de Madrid,"Spark, AWS, SQL, Python",5+ años,Presencial,59000 - 66000 EUR/año,2026-04-21,2026-04-22
+EURES,https://example-eures.es/oferta/539,DevOps Engineer,Glovo,Madrid,Comunidad de Madrid,"JavaScript, Docker, Java, Spring Boot, Azure",1-2 años,Híbrido,,2026-04-29,2026-04-29
+EURES,https://example-eures.es/oferta/540,QA Engineer,Indra,Barcelona,Cataluña,"React, Angular, Kubernetes",5+ años,Remoto,49000 - 63000 EUR/año,2026-04-13,2026-04-14
+SEPE,https://example-sepe.es/oferta/541,Backend Developer,Mango,Barcelona,Cataluña,"Python, Git",3-5 años,Presencial,65000 - 77000 EUR/año,2026-07-02,2026-07-04
+EURES,https://example-eures.es/oferta/542,Analista de Datos,Typeform,Valencia,Comunidad Valenciana,"SQL, AWS, Snowflake, Databricks",3-5 años,Remoto,39000 - 52000 EUR/año,2026-04-05,2026-04-10
+EURES,https://example-eures.es/oferta/543,DevOps Engineer,Indra,Barcelona,Cataluña,"Docker, Azure, Angular, .NET",5+ años,Presencial,43000 - 43000 EUR/año,2026-04-23,2026-04-26
+EURES,https://example-eures.es/oferta/544,BI Analyst,Accenture España,Barcelona,Cataluña,"dbt, AWS, GCP, SQL, R",5+ años,Remoto,64000 - 78000 EUR/año,2026-08-14,2026-08-14
+EURES,https://example-eures.es/oferta/545,Software Engineer,Cabify,Barcelona,Cataluña,"Git, Angular",3-5 años,Presencial,,2026-04-19,2026-04-22
+EURES,https://example-eures.es/oferta/546,Data Scientist,Mango,Valencia,Comunidad Valenciana,"Tableau, Azure, Airflow",5+ años,Presencial,60000 - 66000 EUR/año,2026-03-10,2026-03-12
+EURES,https://example-eures.es/oferta/547,DevOps Engineer,Startup Local S.L.,Barcelona,Cataluña,"Spring Boot, Azure, SQL",1-2 años,Remoto,58000 - 63000 EUR/año,2026-07-23,2026-07-28
+EURES,https://example-eures.es/oferta/548,Ingeniero de Datos,Everis,Madrid,Comunidad de Madrid,"Tableau, Looker, R, Python",Sin experiencia,Híbrido,38000 - 52000 EUR/año,2026-08-25,2026-08-30
+EURES,https://example-eures.es/oferta/549,Full Stack Developer,Cabify,Malaga,Andalucía,"TypeScript, Azure, Kubernetes, Docker",5+ años,Remoto,24000 - 31000 EUR/año,2026-07-05,2026-07-07
+SEPE,https://example-sepe.es/oferta/550,Full Stack Developer,BBVA,Madrid,Comunidad de Madrid,"Azure, Python, AWS",1-2 años,Presencial,,2026-03-07,2026-03-12
+SEPE,https://example-sepe.es/oferta/551,Analista de Datos,Glovo,Madrid,Comunidad de Madrid,"Python, Azure",Sin experiencia,Híbrido,62000 - 72000 EUR/año,2026-06-19,2026-06-19
+EURES,https://example-eures.es/oferta/552,Data Analyst,BBVA,A Coruna,Galicia,"GCP, dbt, Tableau, SQL",Sin experiencia,Presencial,28000 - 42000 EUR/año,2026-08-01,2026-08-05
+EURES,https://example-eures.es/oferta/553,Ingeniero de Software,CaixaBank,Madrid,Comunidad de Madrid,"Python, Git, Node.js",Sin experiencia,Remoto,62000 - 75000 EUR/año,2026-06-22,2026-06-22
+SEPE,https://example-sepe.es/oferta/554,BI Analyst,Everis,Madrid,Comunidad de Madrid,"SQL, Excel, dbt, AWS, Tableau",Sin experiencia,Híbrido,51000 - 63000 EUR/año,2026-08-01,2026-08-06
+EURES,https://example-eures.es/oferta/555,Científico de Datos,Startup Local S.L.,Barcelona,Cataluña,"SQL, Databricks, Python",1-2 años,Remoto,,2026-07-31,2026-08-05
+SEPE,https://example-sepe.es/oferta/556,DevOps Engineer,Startup Local S.L.,Madrid,Comunidad de Madrid,"Angular, TypeScript, JavaScript, Node.js, Java",1-2 años,Presencial,49000 - 60000 EUR/año,2026-03-16,2026-03-17
+EURES,https://example-eures.es/oferta/557,Desarrollador Frontend,Typeform,Madrid,Comunidad de Madrid,"SQL, Java, Kubernetes, AWS",Sin experiencia,Híbrido,,2026-08-16,2026-08-21
+SEPE,https://example-sepe.es/oferta/558,Desarrollador Backend,Naturgy,Madrid,Comunidad de Madrid,"JavaScript, Angular, TypeScript",5+ años,Híbrido,51000 - 61000 EUR/año,2026-08-18,2026-08-21
+SEPE,https://example-sepe.es/oferta/559,Data Analyst,Iberdrola,Madrid,Comunidad de Madrid,"Tableau, Python, R, Databricks, Snowflake",5+ años,Presencial,,2026-06-28,2026-07-02
+SEPE,https://example-sepe.es/oferta/560,Software Engineer,Mango,Madrid,Comunidad de Madrid,"Java, Python, Angular, CI/CD",3-5 años,Presencial,,2026-07-21,2026-07-21
+EURES,https://example-eures.es/oferta/561,Data Scientist,Indra,Madrid,Comunidad de Madrid,"Tableau, Spark, Snowflake",1-2 años,Híbrido,37000 - 42000 EUR/año,2026-04-14,2026-04-16
+SEPE,https://example-sepe.es/oferta/562,Data Engineer,Seat,Madrid,Comunidad de Madrid,"R, dbt, SQL, Airflow, Tableau",5+ años,Remoto,,2026-05-18,2026-05-21
+EURES,https://example-eures.es/oferta/563,Data Engineer,Startup Local S.L.,Madrid,Comunidad de Madrid,"Tableau, GCP, AWS",1-2 años,Remoto,49000 - 56000 EUR/año,2026-08-25,2026-08-27
+EURES,https://example-eures.es/oferta/564,Desarrollador Frontend,BBVA,Valencia,Comunidad Valenciana,"Python, Azure, Node.js",5+ años,Remoto,59000 - 74000 EUR/año,2026-05-11,2026-05-12
+SEPE,https://example-sepe.es/oferta/565,BI Analyst,Cabify,Madrid,Comunidad de Madrid,"Azure, GCP, Databricks, Power BI",5+ años,Remoto,52000 - 67000 EUR/año,2026-05-22,2026-05-27
+EURES,https://example-eures.es/oferta/566,Ingeniero de Datos,Amadeus,Madrid,Comunidad de Madrid,"Looker, Tableau, AWS, Databricks, Spark",Sin experiencia,Híbrido,45000 - 53000 EUR/año,2026-06-17,2026-06-20
+SEPE,https://example-sepe.es/oferta/567,Desarrollador Backend,Accenture España,Barcelona,Cataluña,"Git, Kubernetes",5+ años,Híbrido,51000 - 64000 EUR/año,2026-08-07,2026-08-09
+SEPE,https://example-sepe.es/oferta/568,Backend Developer,Glovo,Barcelona,Cataluña,"Docker, React, Azure, Python, Angular",Sin experiencia,Presencial,54000 - 56000 EUR/año,2026-03-22,2026-03-24
+EURES,https://example-eures.es/oferta/569,Machine Learning Engineer,Amadeus,Madrid,Comunidad de Madrid,"Airflow, Tableau, R",3-5 años,Presencial,65000 - 73000 EUR/año,2026-05-24,2026-05-26
+EURES,https://example-eures.es/oferta/570,Desarrollador Frontend,Glovo,Madrid,Comunidad de Madrid,"Node.js, .NET, AWS, CI/CD, Azure",1-2 años,Híbrido,31000 - 43000 EUR/año,2026-03-04,2026-03-07
+SEPE,https://example-sepe.es/oferta/571,Machine Learning Engineer,Zara (Inditex),Barcelona,Cataluña,"Snowflake, Looker, Azure, Airflow, SQL",Sin experiencia,Híbrido,48000 - 54000 EUR/año,2026-05-20,2026-05-21
+SEPE,https://example-sepe.es/oferta/572,Data Engineer,NTT Data,Barcelona,Cataluña,"Snowflake, Python, Azure, R",3-5 años,Híbrido,,2026-05-30,2026-06-01
+SEPE,https://example-sepe.es/oferta/573,Data Analyst,Mango,Barcelona,Cataluña,"Power BI, Airflow, Excel",5+ años,Presencial,58000 - 70000 EUR/año,2026-08-09,2026-08-13
+SEPE,https://example-sepe.es/oferta/574,Ingeniero de Software,Indra,Madrid,Comunidad de Madrid,"Git, Azure, React, Python",1-2 años,Presencial,33000 - 34000 EUR/año,2026-04-13,2026-04-13
+EURES,https://example-eures.es/oferta/575,BI Analyst,Iberdrola,Malaga,Andalucía,"Tableau, Databricks, Spark, R",5+ años,Híbrido,45000 - 45000 EUR/año,2026-07-13,2026-07-13
+EURES,https://example-eures.es/oferta/576,Data Engineer,Startup Local S.L.,A Coruna,Galicia,"Azure, Snowflake, SQL, AWS, Tableau",3-5 años,Remoto,64000 - 79000 EUR/año,2026-04-03,2026-04-04
+SEPE,https://example-sepe.es/oferta/577,Analista BI,Zara (Inditex),Barcelona,Cataluña,"Tableau, Python, Power BI, Azure",5+ años,Remoto,37000 - 47000 EUR/año,2026-03-17,2026-03-20
+SEPE,https://example-sepe.es/oferta/578,Data Scientist,NTT Data,Valencia,Comunidad Valenciana,"Airflow, Snowflake, Looker, Spark, AWS",1-2 años,Remoto,33000 - 46000 EUR/año,2026-08-04,2026-08-05
+EURES,https://example-eures.es/oferta/579,Data Analyst,Wallapop,Barcelona,Cataluña,"Databricks, Looker, Power BI",5+ años,Remoto,64000 - 66000 EUR/año,2026-05-10,2026-05-15
+EURES,https://example-eures.es/oferta/580,Analista de Datos,Zara (Inditex),A Coruna,Galicia,"GCP, dbt",Sin experiencia,Presencial,38000 - 44000 EUR/año,2026-05-23,2026-05-26
+SEPE,https://example-sepe.es/oferta/581,Full Stack Developer,Wallapop,Barcelona,Cataluña,"Node.js, Java, Git",5+ años,Presencial,30000 - 40000 EUR/año,2026-05-04,2026-05-04
+SEPE,https://example-sepe.es/oferta/582,Ingeniero de Datos,CaixaBank,Barcelona,Cataluña,"Power BI, Azure, Spark, Databricks, Snowflake",5+ años,Presencial,,2026-03-05,2026-03-09
+EURES,https://example-eures.es/oferta/583,Data Analyst,Zara (Inditex),Barcelona,Cataluña,"Power BI, Azure, Airflow, Databricks",Sin experiencia,Remoto,,2026-04-25,2026-04-30
+EURES,https://example-eures.es/oferta/584,Data Scientist,Indra,Barcelona,Cataluña,"Python, Excel, Databricks, dbt, AWS",5+ años,Presencial,37000 - 43000 EUR/año,2026-04-21,2026-04-22
+EURES,https://example-eures.es/oferta/585,Ingeniero de Datos,Iberdrola,Madrid,Comunidad de Madrid,"Tableau, SQL",3-5 años,Remoto,24000 - 37000 EUR/año,2026-08-18,2026-08-19
+SEPE,https://example-sepe.es/oferta/586,Machine Learning Engineer,Iberdrola,Barcelona,Cataluña,"AWS, SQL, Tableau, dbt, Looker",Sin experiencia,Híbrido,,2026-05-31,2026-06-02
+EURES,https://example-eures.es/oferta/587,Analista de Datos,Factorial,Barcelona,Cataluña,"R, Excel, Airflow, Python",1-2 años,Híbrido,60000 - 75000 EUR/año,2026-03-18,2026-03-19
+EURES,https://example-eures.es/oferta/588,BI Analyst,Iberdrola,Barcelona,Cataluña,"Airflow, Power BI, R",Sin experiencia,Remoto,64000 - 79000 EUR/año,2026-08-24,2026-08-26
+EURES,https://example-eures.es/oferta/589,Desarrollador Backend,Telefónica,Barcelona,Cataluña,"Docker, Java",1-2 años,Híbrido,49000 - 56000 EUR/año,2026-08-05,2026-08-05
+SEPE,https://example-sepe.es/oferta/590,Backend Developer,Iberdrola,Madrid,Comunidad de Madrid,"Spring Boot, Azure, Java, TypeScript, SQL",Sin experiencia,Remoto,43000 - 47000 EUR/año,2026-08-01,2026-08-04
+EURES,https://example-eures.es/oferta/591,Frontend Developer,Glovo,Barcelona,Cataluña,"Docker, .NET",1-2 años,Remoto,,2026-05-24,2026-05-26
+EURES,https://example-eures.es/oferta/592,Backend Developer,BBVA,Barcelona,Cataluña,"Java, Python, .NET, Docker, Git",1-2 años,Remoto,31000 - 37000 EUR/año,2026-04-19,2026-04-19
+EURES,https://example-eures.es/oferta/593,Analista de Datos,Naturgy,Madrid,Comunidad de Madrid,"Snowflake, Azure, Spark, Power BI, Tableau",3-5 años,Remoto,,2026-05-02,2026-05-05
+EURES,https://example-eures.es/oferta/594,Desarrollador Backend,Wallapop,A Coruna,Galicia,"CI/CD, Python, Angular, Spring Boot",Sin experiencia,Híbrido,49000 - 62000 EUR/año,2026-06-05,2026-06-06
+EURES,https://example-eures.es/oferta/595,Frontend Developer,Iberdrola,Malaga,Andalucía,"Angular, React, Spring Boot",1-2 años,Remoto,46000 - 61000 EUR/año,2026-06-27,2026-06-29
+SEPE,https://example-sepe.es/oferta/596,Desarrollador Backend,NTT Data,Madrid,Comunidad de Madrid,"Java, .NET",3-5 años,Híbrido,53000 - 65000 EUR/año,2026-07-07,2026-07-12
+EURES,https://example-eures.es/oferta/597,Ingeniero QA,Everis,Madrid,Comunidad de Madrid,".NET, Git",3-5 años,Remoto,58000 - 63000 EUR/año,2026-03-10,2026-03-10
+EURES,https://example-eures.es/oferta/598,DevOps Engineer,Cabify,Barcelona,Cataluña,"Python, Azure, Spring Boot, .NET",5+ años,Remoto,45000 - 45000 EUR/año,2026-05-03,2026-05-04
+EURES,https://example-eures.es/oferta/599,Data Engineer,Typeform,Madrid,Comunidad de Madrid,"SQL, dbt",1-2 años,Híbrido,46000 - 58000 EUR/año,2026-03-24,2026-03-29
+SEPE,https://example-sepe.es/oferta/600,Data Scientist,Amadeus,Malaga,Andalucía,"GCP, Databricks, R, AWS",3-5 años,Remoto,27000 - 30000 EUR/año,2026-07-29,2026-07-31
+SEPE,https://example-sepe.es/oferta/601,BI Analyst,Everis,A Coruna,Galicia,"Python, Power BI, Azure, Databricks",1-2 años,Presencial,48000 - 61000 EUR/año,2026-03-25,2026-03-25
+EURES,https://example-eures.es/oferta/602,Backend Developer,Telefónica,Madrid,Comunidad de Madrid,"CI/CD, JavaScript, Kubernetes",1-2 años,Presencial,35000 - 40000 EUR/año,2026-03-29,2026-04-01
+SEPE,https://example-sepe.es/oferta/603,Full Stack Developer,Indra,A Coruna,Galicia,"TypeScript, .NET, Azure, JavaScript, Python",1-2 años,Híbrido,39000 - 41000 EUR/año,2026-05-15,2026-05-15
+EURES,https://example-eures.es/oferta/604,Ingeniero de Software,Typeform,Barcelona,Cataluña,"Python, React",Sin experiencia,Híbrido,24000 - 27000 EUR/año,2026-03-02,2026-03-07
+SEPE,https://example-sepe.es/oferta/605,DevOps Engineer,Telefónica,A Coruna,Galicia,".NET, Angular, Git, Azure",3-5 años,Híbrido,45000 - 57000 EUR/año,2026-05-27,2026-05-29
+SEPE,https://example-sepe.es/oferta/606,BI Analyst,Wallapop,Madrid,Comunidad de Madrid,"Python, Excel, SQL",5+ años,Remoto,37000 - 48000 EUR/año,2026-07-14,2026-07-16
+SEPE,https://example-sepe.es/oferta/607,Científico de Datos,NTT Data,Madrid,Comunidad de Madrid,"R, Airflow",Sin experiencia,Híbrido,50000 - 57000 EUR/año,2026-03-12,2026-03-17
+EURES,https://example-eures.es/oferta/608,DevOps Engineer,Wallapop,A Coruna,Galicia,"Node.js, React",Sin experiencia,Híbrido,55000 - 56000 EUR/año,2026-08-03,2026-08-04
+EURES,https://example-eures.es/oferta/609,DevOps Engineer,BBVA,Madrid,Comunidad de Madrid,"CI/CD, Azure",Sin experiencia,Híbrido,,2026-07-17,2026-07-18
+EURES,https://example-eures.es/oferta/610,Científico de Datos,Factorial,Madrid,Comunidad de Madrid,"dbt, Spark, Tableau, Snowflake, Looker",5+ años,Presencial,64000 - 67000 EUR/año,2026-08-18,2026-08-21
+EURES,https://example-eures.es/oferta/611,Ingeniero QA,Glovo,Malaga,Andalucía,"Azure, Spring Boot",3-5 años,Presencial,46000 - 59000 EUR/año,2026-08-31,2026-09-05
+SEPE,https://example-sepe.es/oferta/612,Ingeniero de Software,Telefónica,Madrid,Comunidad de Madrid,"Spring Boot, SQL, Python, AWS",1-2 años,Híbrido,46000 - 46000 EUR/año,2026-06-03,2026-06-04
+SEPE,https://example-sepe.es/oferta/613,Desarrollador Frontend,Glovo,Madrid,Comunidad de Madrid,"Docker, Python, Spring Boot",5+ años,Remoto,42000 - 46000 EUR/año,2026-03-03,2026-03-07
+SEPE,https://example-sepe.es/oferta/614,Frontend Developer,Mango,Madrid,Comunidad de Madrid,"Python, AWS, Angular",5+ años,Híbrido,29000 - 37000 EUR/año,2026-05-19,2026-05-23
+SEPE,https://example-sepe.es/oferta/615,Desarrollador Frontend,Naturgy,Madrid,Comunidad de Madrid,"Spring Boot, .NET, SQL",1-2 años,Presencial,33000 - 48000 EUR/año,2026-04-27,2026-05-02
+EURES,https://example-eures.es/oferta/616,DevOps Engineer,Amadeus,Madrid,Comunidad de Madrid,"Node.js, Spring Boot, Python, Kubernetes",3-5 años,Remoto,34000 - 46000 EUR/año,2026-05-12,2026-05-14
+EURES,https://example-eures.es/oferta/617,Data Scientist,Mango,Malaga,Andalucía,"R, Power BI, Excel, Looker, Azure",1-2 años,Remoto,,2026-08-26,2026-08-29
+EURES,https://example-eures.es/oferta/618,Data Analyst,CaixaBank,Valencia,Comunidad Valenciana,"Snowflake, Looker, Excel, SQL",3-5 años,Híbrido,49000 - 54000 EUR/año,2026-08-21,2026-08-22
+EURES,https://example-eures.es/oferta/619,Analista de Datos,NTT Data,A Coruna,Galicia,"Excel, AWS, Power BI, R",5+ años,Híbrido,,2026-06-12,2026-06-13
+SEPE,https://example-sepe.es/oferta/620,BI Analyst,Accenture España,Barcelona,Cataluña,"dbt, Azure",Sin experiencia,Presencial,,2026-08-14,2026-08-17
