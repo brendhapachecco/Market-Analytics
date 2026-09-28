@@ -10,17 +10,6 @@ dados, carrega-os em um banco SQL e disponibiliza um dashboard
 interativo para comparar competências técnicas por cidade, cargo e
 modalidade de trabalho.
 
-> ⚠️ **Aviso importante sobre os dados incluídos neste repositório:**
-> os coletores (`src/collect_eures.py` e `src/collect_sepe.py`) foram
-> desenvolvidos para uso real, mas **não foram executados contra a
-> internet** durante a geração deste repositório (o ambiente de
-> desenvolvimento tinha acesso de rede restrito). Por isso, o arquivo em
-> `data/raw/sample_postings_raw.csv` é **sintético** (gerado por
-> `src/generate_sample_data.py`), com a mesma estrutura que a coleta
-> real produziria, apenas para que todo o pipeline (limpeza → banco SQL
-> → dashboard) possa ser demonstrado de ponta a ponta. Veja a seção
-> [Executando a coleta real](#executando-a-coleta-real) para substituir
-> pelos dados reais.
 
 ## Estrutura do repositório
 
